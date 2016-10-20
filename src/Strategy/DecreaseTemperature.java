@@ -2,7 +2,7 @@ package Strategy;
 
 import java.util.Scanner;
 
-public class DecreaseTemperature implements ITemperature {
+public class DecreaseTemperature extends Temperature {
     public double changeTemperature(double currentTemperature) {
         display();
 
@@ -11,9 +11,5 @@ public class DecreaseTemperature implements ITemperature {
 
         double newTemperature = (currentTemperature - temperature);
         return newTemperature;
-    }
-
-    public void display(){
-        System.out.println("How much would you like to decrease the temperature by? (°C)");
     }
 }

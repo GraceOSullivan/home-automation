@@ -1,9 +1,9 @@
 package Strategy;
 
 public class Context {
-    private ITemperature currentTemperature;
+    private Temperature currentTemperature;
 
-    public Context(ITemperature strategy){
+    public Context(Temperature strategy){
         this.currentTemperature = strategy;
     }
 

@@ -1,6 +1,8 @@
 package Strategy;
 
-public interface ITemperature {
-    double changeTemperature(double currentTemperature);
-    void display();
+public abstract class Temperature {
+    abstract double changeTemperature(double temperature);
+    void display(){
+        System.out.println("How much would you like to change the temperature by? (°C)");
+    }
 }

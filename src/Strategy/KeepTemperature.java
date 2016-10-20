@@ -1,7 +1,14 @@
 package Strategy;
 
-/**
- * Created by t00171696 on 20/10/2016.
- */
-public class KeepTemperature {
+public class KeepTemperature extends Temperature{
+    public double changeTemperature(double currentTemperature) {
+        display();
+
+        return currentTemperature;
+    }
+
+    @Override
+    void display() {
+        System.out.println("Temperature will remain the same");
+    }
 }
