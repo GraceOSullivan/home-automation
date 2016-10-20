@@ -1,21 +1,37 @@
 package Strategy;
 
+import java.util.Random;
+import java.text.DecimalFormat;
+
 public class Main {
     public static void main(String[] args) {
-        double temperature = 20.0;
+        double currentTemperature = calculateCurrentTemperature();
 
-        System.out.println("--- Current Temperature: " + temperature + "°C ---\n");
+        DecimalFormat decimal = new DecimalFormat("#.00");
+        System.out.println("--- Current Temperature: " + decimal.format(currentTemperature) + "°C ---\n");
+
 
         Context context = new Context(new IncreaseTemperature());
-        temperature = context.executeStrategy(temperature);
-        System.out.println("Increasing Temperature...");
-        System.out.println("Temperature successfully increased to: " + temperature + "°C\n");
+        currentTemperature = context.executeStrategy(currentTemperature);
 
-        System.out.println("--- Current Temperature: " + temperature + "°C ---\n");
+        System.out.println("Increasing Temperature...");
+        System.out.println("Temperature successfully increased to: " + currentTemperature + "°C\n");
+
+
+
+        System.out.println("--- Current Temperature: " + currentTemperature + "°C ---\n");
 
         context = new Context(new DecreaseTemperature());
-        temperature = context.executeStrategy(temperature);
+        currentTemperature = context.executeStrategy(currentTemperature);
         System.out.println("Decreasing Temperature...");
-        System.out.println("Temperature successfully decreased to: " + temperature + "°C");
+        System.out.println("Temperature successfully decreased to: " + currentTemperature + "°C");
+    }
+
+    private static double calculateCurrentTemperature(){
+        Random random = new Random();
+        double maxTemperature = 35.0;
+        double minTemperature = -10.0;
+        double temperature = minTemperature + (maxTemperature - minTemperature) * random.nextDouble();
+        return temperature;
     }
 }
