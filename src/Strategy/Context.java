@@ -1,13 +1,13 @@
 package Strategy;
 
 public class Context {
-    private Temperature currentTemperature;
+    private Temperature implementation;
 
-    public Context(Temperature strategy){
-        this.currentTemperature = strategy;
+    public Context(Temperature strategy) {
+        this.implementation = strategy;
     }
 
-    public double executeStrategy(double temperature){
-        return currentTemperature.changeTemperature(temperature);
+    public double executeStrategy(double temperature) {
+        return implementation.changeTemperature(temperature);
     }
 }

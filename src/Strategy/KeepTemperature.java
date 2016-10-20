@@ -1,9 +1,8 @@
 package Strategy;
 
-public class KeepTemperature extends Temperature{
+public class KeepTemperature extends Temperature {
     public double changeTemperature(double currentTemperature) {
         display();
-
         return currentTemperature;
     }
 

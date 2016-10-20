@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="404fe23d-27ce-44e8-905c-4c6cf5ba8f21" name="Default" comment="" />
+    <list default="true" id="404fe23d-27ce-44e8-905c-4c6cf5ba8f21" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Strategy/Context.java" afterPath="$PROJECT_DIR$/src/Strategy/Context.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Strategy/KeepTemperature.java" afterPath="$PROJECT_DIR$/src/Strategy/KeepTemperature.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Strategy/Main.java" afterPath="$PROJECT_DIR$/src/Strategy/Main.java" />
+    </list>
     <ignored path="HomeAutomation.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,21 +29,12 @@
       <file leaf-file-name="Temperature.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Strategy/Temperature.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="68">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
               <folding>
                 <element signature="e#132#133#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IncreaseTemperature.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Strategy/IncreaseTemperature.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -47,18 +42,18 @@
       <file leaf-file-name="DecreaseTemperature.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Strategy/DecreaseTemperature.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="KeepTemperature.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="KeepTemperature.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Strategy/KeepTemperature.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="34">
+              <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
               <folding>
                 <element signature="e#229#230#0" expanded="true" />
                 <element signature="e#299#300#0" expanded="true" />
@@ -70,23 +65,23 @@
       <file leaf-file-name="Context.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Strategy/Context.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+            <state relative-caret-position="51">
+              <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
               <folding>
-                <element signature="e#127#128#0" expanded="true" />
-                <element signature="e#177#178#0" expanded="true" />
-                <element signature="e#233#234#0" expanded="true" />
-                <element signature="e#305#306#0" expanded="true" />
+                <element signature="e#124#125#0" expanded="true" />
+                <element signature="e#170#171#0" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
+                <element signature="e#295#296#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Strategy/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+            <state relative-caret-position="102">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,13 +111,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Temperature.java" />
-        <option value="$PROJECT_DIR$/src/Strategy/Temperature.java" />
         <option value="$PROJECT_DIR$/src/Strategy/ITemperature.java" />
         <option value="$PROJECT_DIR$/src/Strategy/IncreaseTemperature.java" />
         <option value="$PROJECT_DIR$/src/Strategy/DecreaseTemperature.java" />
+        <option value="$PROJECT_DIR$/src/Strategy/Temperature.java" />
+        <option value="$PROJECT_DIR$/src/Strategy/KeepTemperature.java" />
         <option value="$PROJECT_DIR$/src/Strategy/Context.java" />
         <option value="$PROJECT_DIR$/src/Strategy/Main.java" />
-        <option value="$PROJECT_DIR$/src/Strategy/KeepTemperature.java" />
       </list>
     </option>
   </component>
@@ -855,16 +850,16 @@
       <option name="presentableId" value="Default" />
       <updated>1476370929645</updated>
       <workItem from="1476370931795" duration="2679000" />
-      <workItem from="1476972352477" duration="4184000" />
+      <workItem from="1476972352477" duration="6083000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6863000" />
+    <option name="totallyTimeSpent" value="8762000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -874,7 +869,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -926,6 +921,7 @@
           <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
           <folding>
             <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -951,10 +947,10 @@
         <state relative-caret-position="51">
           <caret line="3" column="16" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
           <folding>
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -970,62 +966,132 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Strategy/Temperature.java" />
-    <entry file="file://$PROJECT_DIR$/src/Strategy/Temperature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#132#133#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Strategy/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
-          <folding>
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#305#306#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Strategy/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Strategy/IncreaseTemperature.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Strategy/DecreaseTemperature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        <state relative-caret-position="187">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Strategy/KeepTemperature.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
           <folding>
             <element signature="e#229#230#0" expanded="true" />
             <element signature="e#299#300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Strategy/DecreaseTemperature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Strategy/Temperature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/Strategy.Context">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>Strategy.Context</OriginalElement>
+          <nodes>
+            <node x="0.0" y="147.0">Strategy.IncreaseTemperature</node>
+            <node x="821.0" y="124.0">Strategy.Context</node>
+            <node x="534.0" y="136.0">Strategy.KeepTemperature</node>
+            <node x="441.5" y="272.0">Strategy.Main</node>
+            <node x="267.0" y="147.0">Strategy.DecreaseTemperature</node>
+            <node x="395.5" y="0.0">Strategy.Temperature</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="Strategy.IncreaseTemperature" target="Strategy.Temperature">
+              <point x="0.0" y="-26.0" />
+              <point x="123.5" y="94.0" />
+              <point x="428.875" y="94.0" />
+              <point x="-100.125" y="37.0" />
+            </edge>
+            <edge source="Strategy.DecreaseTemperature" target="Strategy.Temperature">
+              <point x="0.0" y="-26.0" />
+              <point x="390.5" y="104.0" />
+              <point x="495.625" y="104.0" />
+              <point x="-33.375" y="37.0" />
+            </edge>
+            <edge source="Strategy.Context" target="Strategy.Temperature">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="Strategy.KeepTemperature" target="Strategy.Temperature">
+              <point x="0.0" y="-37.0" />
+              <point x="667.5" y="104.0" />
+              <point x="562.375" y="104.0" />
+              <point x="33.375" y="37.0" />
+            </edge>
+            <edge source="Strategy.Main" target="Strategy.Context">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="Strategy.Main" target="Strategy.KeepTemperature">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="Strategy.Main" target="Strategy.IncreaseTemperature">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+            <edge source="Strategy.Main" target="Strategy.DecreaseTemperature">
+              <point x="0.0" y="0.0" />
+              <point x="0.0" y="0.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="72.5" y="-8.5" />
+          <SelectedNodes>
+            <node>Strategy.Main</node>
+          </SelectedNodes>
+          <Categories>
+            <Category>Properties</Category>
+            <Category>Methods</Category>
+            <Category>Constructors</Category>
+            <Category>Fields</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Strategy/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+          <folding>
+            <element signature="e#124#125#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Strategy/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

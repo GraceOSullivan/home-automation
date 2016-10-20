@@ -16,27 +16,23 @@ public class Main {
         char decision = scanner.next().charAt(0);
 
         Context context;
-        if (decision == 'i') {
+        if (decision == 'i')
             context = new Context(new IncreaseTemperature());
-            currentTemperature = context.executeStrategy(currentTemperature);
-        }
-        else if (decision == 'd') {
-            context = new Context(new DecreaseTemperature());
-            currentTemperature = context.executeStrategy(currentTemperature);
-        }
-        else{
-            context = new Context(new KeepTemperature());
-            currentTemperature = context.executeStrategy(currentTemperature);
-        }
 
+        else if (decision == 'd')
+            context = new Context(new DecreaseTemperature());
+
+        else
+            context = new Context(new KeepTemperature());
+
+        currentTemperature = context.executeStrategy(currentTemperature);
         System.out.println(decimal.format(currentTemperature));
     }
 
     private static double calculateCurrentTemperature(){
         Random random = new Random();
-        double maxTemperature = 35.0;
-        double minTemperature = -10.0;
-        double temperature = minTemperature + (maxTemperature - minTemperature) * random.nextDouble();
-        return temperature;
+        double minTemperature = -10.0, maxTemperature = 35.0;
+        double randomTemperature = minTemperature + (maxTemperature - minTemperature) * random.nextDouble();
+        return randomTemperature;
     }
 }
