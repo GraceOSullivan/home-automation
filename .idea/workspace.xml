@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="404fe23d-27ce-44e8-905c-4c6cf5ba8f21" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/Strategy/ITemperature.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/Strategy/Context.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/Strategy/Context.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/Strategy/DecreaseTemperature.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/Strategy/DecreaseTemperature.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/Strategy/IncreaseTemperature.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/Strategy/IncreaseTemperature.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/Strategy/Main.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/Strategy/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Strategy/Context.java" afterPath="$PROJECT_DIR$/src/Strategy/Context.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Strategy/DecreaseTemperature.java" afterPath="$PROJECT_DIR$/src/Strategy/DecreaseTemperature.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Strategy/IncreaseTemperature.java" afterPath="$PROJECT_DIR$/src/Strategy/IncreaseTemperature.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Strategy/KeepTemperature.java" afterPath="$PROJECT_DIR$/src/Strategy/KeepTemperature.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Strategy/Main.java" afterPath="$PROJECT_DIR$/src/Strategy/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Strategy/Temperature.java" afterPath="$PROJECT_DIR$/src/Strategy/Temperature.java" />
-    </list>
+    <list default="true" id="404fe23d-27ce-44e8-905c-4c6cf5ba8f21" name="Default" comment="" />
     <ignored path="HomeAutomation.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -868,12 +855,12 @@
       <option name="presentableId" value="Default" />
       <updated>1476370929645</updated>
       <workItem from="1476370931795" duration="2679000" />
-      <workItem from="1476972352477" duration="4098000" />
+      <workItem from="1476972352477" duration="4184000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6777000" />
+    <option name="totallyTimeSpent" value="6863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
