@@ -1,10 +1,8 @@
-package Strategy;
-
 import java.util.Random;
 import java.text.DecimalFormat;
 import java.util.Scanner;
 
-public class Main {
+public class Thermostat {
     public static void main(String[] args) {
         double currentTemperature = calculateCurrentTemperature();
 
