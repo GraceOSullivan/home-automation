@@ -3,11 +3,9 @@ import java.text.DecimalFormat;
 
 public class Thermostat {
     private double temperature;
-    private String temperatureFormatted;
 
     public Thermostat() {
         temperature = determineTemperature();
-        temperatureFormatted = formatTemperature(temperature);
     }
 
     private double determineTemperature(){
