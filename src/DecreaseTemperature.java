@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class DecreaseTemperature extends Temperature {
     public double changeTemperature(double currentTemperature) {
-        temperatureQueryDisplay();
+        displayTemperatureQuery();
 
         Scanner scanner = new Scanner(System.in);
         double temperature = scanner.nextDouble();

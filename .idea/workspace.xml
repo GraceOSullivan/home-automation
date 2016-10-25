@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="404fe23d-27ce-44e8-905c-4c6cf5ba8f21" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/thermostat/Context.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/thermostat/DecreaseTemperature.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/thermostat/IncreaseTemperature.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/thermostat/KeepTemperature.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/thermostat/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/thermostat/Temperature.class" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/Strategy/Context.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/Strategy/DecreaseTemperature.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/Strategy/IncreaseTemperature.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/Strategy/KeepTemperature.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/Strategy/Main.class" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/Strategy/Temperature.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Strategy/Context.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Strategy/DecreaseTemperature.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Strategy/IncreaseTemperature.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Strategy/KeepTemperature.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Strategy/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Strategy/Temperature.java" afterPath="" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/Strategy/Context.java" afterPath="$PROJECT_DIR$/src/Context.java" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/Strategy/DecreaseTemperature.java" afterPath="$PROJECT_DIR$/src/DecreaseTemperature.java" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/src/Strategy/IncreaseTemperature.java" afterPath="$PROJECT_DIR$/src/IncreaseTemperature.java" />
@@ -42,11 +42,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Temperature.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Temperature.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Temperature.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+            <state relative-caret-position="34">
+              <caret line="2" column="32" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="32" />
               <folding>
                 <element signature="e#129#130#0" expanded="true" />
                 <element signature="e#225#226#0" expanded="true" />
@@ -103,11 +103,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Thermostat.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Thermostat.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Thermostat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="51">
+              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -136,7 +136,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Temperature.java" />
         <option value="$PROJECT_DIR$/src/Strategy/ITemperature.java" />
         <option value="$PROJECT_DIR$/src/Strategy/IncreaseTemperature.java" />
         <option value="$PROJECT_DIR$/src/Strategy/DecreaseTemperature.java" />
@@ -150,6 +149,7 @@
         <option value="$PROJECT_DIR$/src/thermostat/Temperature.java" />
         <option value="$PROJECT_DIR$/src/thermostat/Thermostat.java" />
         <option value="$PROJECT_DIR$/src/Thermostat.java" />
+        <option value="$PROJECT_DIR$/src/Temperature.java" />
       </list>
     </option>
   </component>
@@ -879,12 +879,12 @@
       <updated>1476370929645</updated>
       <workItem from="1476370931795" duration="2679000" />
       <workItem from="1476972352477" duration="6083000" />
-      <workItem from="1477414966054" duration="565000" />
+      <workItem from="1477414966054" duration="643000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9327000" />
+    <option name="totallyTimeSpent" value="9405000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1157,23 +1157,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Temperature.java">
+    <entry file="file://$PROJECT_DIR$/src/Thermostat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+        <state relative-caret-position="51">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="e#129#130#0" expanded="true" />
-            <element signature="e#225#226#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thermostat.java">
+    <entry file="file://$PROJECT_DIR$/src/Temperature.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        <state relative-caret-position="34">
+          <caret line="2" column="32" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#129#130#0" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,11 +1,11 @@
 public class KeepTemperature extends Temperature {
     public double changeTemperature(double currentTemperature) {
-        temperatureQueryDisplay();
+        displayTemperatureQuery();
         return currentTemperature;
     }
 
     @Override
-    void temperatureQueryDisplay() {
+    void displayTemperatureQuery() {
         System.out.println("Temperature will remain the same");
     }
 }
