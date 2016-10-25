@@ -1,36 +1,37 @@
 import java.util.Random;
 import java.text.DecimalFormat;
-import java.util.Scanner;
 
 public class Thermostat {
-    public static void main(String[] args) {
-        double currentTemperature = calculateCurrentTemperature();
+    private double temperature;
+    private String temperatureFormatted;
 
-        DecimalFormat decimal = new DecimalFormat("#.00");
-        System.out.println("--- Current Temperature: " + decimal.format(currentTemperature) + "°C ---");
-        System.out.println("Would you like to increase (i) or decrease (d) the temperature?");
-
-        Scanner scanner = new Scanner(System.in);
-        char decision = scanner.next().charAt(0);
-
-        Context context;
-        if (decision == 'i')
-            context = new Context(new IncreaseTemperature());
-
-        else if (decision == 'd')
-            context = new Context(new DecreaseTemperature());
-
-        else
-            context = new Context(new KeepTemperature());
-
-        currentTemperature = context.executeStrategy(currentTemperature);
-        System.out.println(decimal.format(currentTemperature));
+    public Thermostat() {
+        temperature = determineTemperature();
+        temperatureFormatted = formatTemperature(temperature);
     }
 
-    private static double calculateCurrentTemperature(){
+    private double determineTemperature(){
         Random random = new Random();
         double minTemperature = -10.0, maxTemperature = 35.0;
         double randomTemperature = minTemperature + (maxTemperature - minTemperature) * random.nextDouble();
         return randomTemperature;
     }
+
+    public double getTemperature() {
+        return temperature;
+    }
+
+    public String getFormattedTemperature() {
+        return formatTemperature(temperature);
+    }
+
+    public void setTemperature(double temperature) {
+        this.temperature = temperature;
+    }
+
+    private String formatTemperature(double temperature) {
+        DecimalFormat decimal = new DecimalFormat("#.00");
+        return decimal.format(temperature);
+    }
+
 }

@@ -7,7 +7,7 @@ public class IncreaseTemperature extends Temperature {
         Scanner scanner = new Scanner(System.in);
         double temperature = scanner.nextDouble();
 
-        System.out.print("Increasing Temperature...");
+        System.out.println("Increasing Temperature...");
         double newTemperature = (currentTemperature + temperature);
         return newTemperature;
     }
