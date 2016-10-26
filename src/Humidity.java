@@ -1,16 +1,10 @@
 import java.util.Random;
 
-class Humidity {
+class Humidity extends GenerateRandomDouble {
     private double humidity;
 
     public Humidity() {
-        humidity = determineHumidity();
-    }
-
-    private double determineHumidity(){
-        Random random = new Random();
-        double minHumidity = 0.0, maxHumidity = 100.0;
-        return minHumidity + (maxHumidity - minHumidity) * random.nextDouble();
+        humidity = generateRandomDouble(0.0, 100.0);
     }
 
     public double getHumidity() {

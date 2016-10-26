@@ -1,19 +1,13 @@
 import java.util.Random;
 import java.text.DecimalFormat;
 
-class Thermostat {
+class Thermostat extends GenerateRandomDouble{
     private double temperature;
     private Humidity humidity;
 
     public Thermostat() {
-        temperature = determineTemperature();
+        temperature = generateRandomDouble(-50.0, 50.0);
         humidity = new Humidity();
-    }
-
-    private double determineTemperature(){
-        Random random = new Random();
-        double minTemperature = -10.0, maxTemperature = 35.0;
-        return minTemperature + (maxTemperature - minTemperature) * random.nextDouble();
     }
 
     public double getTemperature() {
