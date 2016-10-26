@@ -1,3 +1,4 @@
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 class Main {
@@ -24,7 +25,13 @@ class Main {
         else
             context = new Context(new KeepTemperature());
 
-        thermostat.setTemperature(context.executeStrategy(thermostat.getTemperature()));
+        try {
+            thermostat.setTemperature(context.executeStrategy(thermostat.getTemperature()));
+        }
+        catch (InputMismatchException ex) {
+            context = new Context(new KeepTemperature());
+            thermostat.setTemperature(context.executeStrategy(thermostat.getTemperature()));
+        }
 
         thermostat.displayCurrentTemperature();
     }
