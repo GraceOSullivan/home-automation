@@ -3,9 +3,11 @@ import java.text.DecimalFormat;
 
 class Thermostat {
     private double temperature;
+    private Humidity humidity;
 
     public Thermostat() {
         temperature = determineTemperature();
+        humidity = new Humidity();
     }
 
     private double determineTemperature(){
@@ -22,13 +24,16 @@ class Thermostat {
         this.temperature = temperature;
     }
 
-    private String formatTemperature(double temperature) {
+    private String formatToTwoDecimalPlaces(double number) {
         DecimalFormat decimal = new DecimalFormat("#.00");
-        return decimal.format(temperature);
+        return decimal.format(number);
     }
 
     public void displayCurrentTemperature(){
-        System.out.println("--- Current Temperature: " + formatTemperature(temperature) + "°C ---");
+        System.out.println("--- Current Temperature: " + formatToTwoDecimalPlaces(temperature) + "°C ---");
     }
 
+    public void displayCurrentHumidity(){
+        System.out.println("--- Current Humidity: " + formatToTwoDecimalPlaces(humidity.getHumidity()) + "% ---");
+    }
 }

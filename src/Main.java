@@ -5,6 +5,8 @@ class Main {
         Thermostat thermostat = new Thermostat();
 
         thermostat.displayCurrentTemperature();
+        thermostat.displayCurrentHumidity();
+
 
         System.out.println("Would you like to increase (i) or decrease (d) the temperature?");
 
@@ -22,6 +24,8 @@ class Main {
         thermostat.setTemperature(context.executeStrategy(thermostat.getTemperature()));
 
         thermostat.displayCurrentTemperature();
+
+
     }
 
 }
