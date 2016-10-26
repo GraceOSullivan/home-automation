@@ -1,4 +1,4 @@
-public class KeepTemperature extends Temperature {
+class KeepTemperature extends Temperature {
     public double changeTemperature(double currentTemperature) {
         displayTemperatureQuery();
 

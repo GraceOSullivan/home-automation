@@ -1,5 +1,5 @@
-public class Context {
-    private Temperature implementation;
+class Context {
+    private final Temperature implementation;
 
     public Context(Temperature strategy) {
         this.implementation = strategy;

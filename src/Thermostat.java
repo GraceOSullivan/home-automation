@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.text.DecimalFormat;
 
-public class Thermostat {
+class Thermostat {
     private double temperature;
 
     public Thermostat() {
@@ -11,8 +11,7 @@ public class Thermostat {
     private double determineTemperature(){
         Random random = new Random();
         double minTemperature = -10.0, maxTemperature = 35.0;
-        double randomTemperature = minTemperature + (maxTemperature - minTemperature) * random.nextDouble();
-        return randomTemperature;
+        return minTemperature + (maxTemperature - minTemperature) * random.nextDouble();
     }
 
     public double getTemperature() {
