@@ -5,6 +5,7 @@ public class DecreaseTemperature extends Temperature {
         double temperature = scanner.nextDouble();
 
         displayChangingTemperature();
+
         return currentTemperature - temperature;
     }
 }

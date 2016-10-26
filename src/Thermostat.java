@@ -19,10 +19,6 @@ public class Thermostat {
         return temperature;
     }
 
-    public String getFormattedTemperature() {
-        return formatTemperature(temperature);
-    }
-
     public void setTemperature(double temperature) {
         this.temperature = temperature;
     }
@@ -30,6 +26,10 @@ public class Thermostat {
     private String formatTemperature(double temperature) {
         DecimalFormat decimal = new DecimalFormat("#.00");
         return decimal.format(temperature);
+    }
+
+    public void displayCurrentTemperature(){
+        System.out.println("--- Current Temperature: " + formatTemperature(temperature) + "°C ---");
     }
 
 }

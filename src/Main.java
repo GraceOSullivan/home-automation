@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Thermostat thermostat = new Thermostat();
 
-        displayCurrentTemperature(thermostat.getFormattedTemperature());
+        thermostat.displayCurrentTemperature();
 
         System.out.println("Would you like to increase (i) or decrease (d) the temperature?");
 
@@ -21,10 +21,7 @@ public class Main {
 
         thermostat.setTemperature(context.executeStrategy(thermostat.getTemperature()));
 
-        displayCurrentTemperature(thermostat.getFormattedTemperature());
+        thermostat.displayCurrentTemperature();
     }
 
-    private static void displayCurrentTemperature(String formattedTemperature){
-        System.out.println("--- Current Temperature: " + formattedTemperature + "°C ---");
-    }
 }

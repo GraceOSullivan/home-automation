@@ -1,6 +1,7 @@
 public class KeepTemperature extends Temperature {
     public double changeTemperature(double currentTemperature) {
         displayTemperatureQuery();
+
         return currentTemperature;
     }
 
