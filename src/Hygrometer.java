@@ -1,7 +1,7 @@
-class Humidity extends GenerateRandomDouble {
+class Hygrometer extends GenerateRandomDouble {
     private final double humidity;
 
-    public Humidity() {
+    public Hygrometer() {
         humidity = generateRandomDouble(0.0, 100.0);
     }
 

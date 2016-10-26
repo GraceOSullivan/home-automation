@@ -2,11 +2,11 @@ import java.text.DecimalFormat;
 
 class Thermostat extends GenerateRandomDouble{
     private double temperature;
-    private final Humidity humidity;
+    private final Hygrometer hygrometer;
 
     public Thermostat() {
-        temperature = generateRandomDouble(-50.0, 50.0);
-        humidity = new Humidity();
+        temperature = generateRandomDouble(-10.0, 30.0);
+        hygrometer = new Hygrometer();
     }
 
     public double getTemperature() {
@@ -18,7 +18,7 @@ class Thermostat extends GenerateRandomDouble{
     }
 
     public double getHumidity() {
-        return humidity.getHumidity();
+        return hygrometer.getHumidity();
     }
 
     private String formatToTwoDecimalPlaces(double number) {
@@ -31,6 +31,6 @@ class Thermostat extends GenerateRandomDouble{
     }
 
     public void displayCurrentHumidity(){
-        System.out.println("Humidity: " + formatToTwoDecimalPlaces(humidity.getHumidity()) + "%");
+        System.out.println("Humidity: " + formatToTwoDecimalPlaces(hygrometer.getHumidity()) + "%");
     }
 }
