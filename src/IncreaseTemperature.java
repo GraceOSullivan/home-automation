@@ -3,6 +3,7 @@ class IncreaseTemperature extends Temperature {
         displayTemperatureQuery();
 
         double temperature = scanner.nextDouble();
+        scanner.close();
 
         displayChangingTemperature();
 
