@@ -1,6 +1,6 @@
 import java.text.DecimalFormat;
 
-class Thermostat extends GenerateRandomDouble {
+class Thermostat extends Double {
     private double temperature;
     private final Hygrometer hygrometer;
 
@@ -16,11 +16,6 @@ class Thermostat extends GenerateRandomDouble {
 
     public void setTemperature(double temperature) {
         this.temperature = temperature;
-    }
-
-    private String formatToTwoDecimalPlaces(double number) {
-        DecimalFormat decimal = new DecimalFormat("#.00");
-        return decimal.format(number);
     }
 
     public void displayCurrentTemperature(){

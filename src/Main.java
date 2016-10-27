@@ -8,11 +8,11 @@ class Main {
 
         thermostat.displayCurrentTemperature();
         hygrometer.displayCurrentHumidity();
+
         System.out.println("\nWould you like to increase (i) or decrease (d) the temperature? (Any other key to keep it the same)");
 
         Scanner scanner = new Scanner(System.in);
         char decision = scanner.next().charAt(0);
-
         Context context = determineContext(decision);
 
         try {

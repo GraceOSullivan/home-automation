@@ -1,6 +1,6 @@
 import java.text.DecimalFormat;
 
-class Hygrometer extends GenerateRandomDouble {
+class Hygrometer extends Double {
     private final double humidity;
 
     public Hygrometer() {
@@ -11,10 +11,6 @@ class Hygrometer extends GenerateRandomDouble {
         return humidity;
     }
 
-    private String formatToTwoDecimalPlaces(double number) {
-        DecimalFormat decimal = new DecimalFormat("#.00");
-        return decimal.format(number);
-    }
 
     public void displayCurrentHumidity(){
         System.out.println("Humidity: " + formatToTwoDecimalPlaces(getHumidity()) + "%");
