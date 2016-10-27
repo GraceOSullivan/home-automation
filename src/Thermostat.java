@@ -13,9 +13,6 @@ class Thermostat extends GenerateRandomDouble {
         return temperature;
     }
 
-    public double getHumidity() {
-        return hygrometer.getHumidity();
-    }
 
     public void setTemperature(double temperature) {
         this.temperature = temperature;
@@ -52,9 +49,9 @@ class Thermostat extends GenerateRandomDouble {
         final double TOO_HUMID = 60.0;
         final double TOO_ARID = 20.0;
 
-        if (getHumidity() >= TOO_HUMID)
+        if (hygrometer.getHumidity() >= TOO_HUMID)
             System.out.println("-> It seems a bit humid, we recommend you turn up the ventilation");
-        else if (getHumidity() <= TOO_ARID)
+        else if (hygrometer.getHumidity() <= TOO_ARID)
             System.out.println("-> It seems a bit arid, we recommend you turn down the ventilation");
         else
             System.out.println("-> The humidity seems fine, we recommend you keep the ventilation levels the same");
