@@ -1,5 +1,3 @@
-import java.text.DecimalFormat;
-
 class Hygrometer extends Double {
     private final double humidity;
 

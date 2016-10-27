@@ -1,5 +1,3 @@
-import java.text.DecimalFormat;
-
 class Thermostat extends Double {
     private double temperature;
 

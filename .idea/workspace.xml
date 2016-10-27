@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="404fe23d-27ce-44e8-905c-4c6cf5ba8f21" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/DecreaseTemperature.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/DecreaseTemperature.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/IncreaseTemperature.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/IncreaseTemperature.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DecreaseTemperature.java" afterPath="$PROJECT_DIR$/src/DecreaseTemperature.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Hygrometer.java" afterPath="$PROJECT_DIR$/src/Hygrometer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/IncreaseTemperature.java" afterPath="$PROJECT_DIR$/src/IncreaseTemperature.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Temperature.java" afterPath="$PROJECT_DIR$/src/Temperature.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Thermostat.java" afterPath="$PROJECT_DIR$/src/Thermostat.java" />
     </list>
     <ignored path="HomeAutomation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,11 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Temperature.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Temperature.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Temperature.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -41,8 +41,8 @@
       <file leaf-file-name="IncreaseTemperature.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IncreaseTemperature.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            <state relative-caret-position="102">
+              <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
               <folding />
             </state>
           </provider>
@@ -52,7 +52,7 @@
         <entry file="file://$PROJECT_DIR$/src/DecreaseTemperature.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -64,109 +64,6 @@
             <state relative-caret-position="68">
               <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JAVA/Context" pinned="false" current-in-tab="false">
-        <entry file="uml://JAVA/Context">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>Context</OriginalElement>
-              <nodes>
-                <node x="482.0" y="80.0">Context</node>
-                <node x="259.11111111111114" y="0.0">Temperature</node>
-                <node x="695.0" y="80.0">Thermostat</node>
-                <node x="0.0" y="80.0">KeepTemperature</node>
-                <node x="424.0" y="170.0">Main</node>
-                <node x="650.8611111111111" y="0.0">Double</node>
-                <node x="148.0" y="80.0">DecreaseTemperature</node>
-                <node x="577.0" y="80.0">Hygrometer</node>
-                <node x="317.0" y="80.0">IncreaseTemperature</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="Main" target="IncreaseTemperature">
-                  <point x="-5.083333333333314" y="-15.0" />
-                  <point x="449.4166666666667" y="130.0" />
-                  <point x="389.5" y="130.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="Thermostat" target="Double">
-                  <point x="0.0" y="-15.0" />
-                  <point x="742.5" y="60.0" />
-                  <point x="704.8611111111111" y="60.0" />
-                  <point x="18.0" y="15.0" />
-                </edge>
-                <edge source="Main" target="KeepTemperature">
-                  <point x="-25.416666666666686" y="-15.0" />
-                  <point x="429.0833333333333" y="150.0" />
-                  <point x="64.0" y="150.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="Context" target="Temperature">
-                  <point x="0.0" y="-15.0" />
-                  <point x="519.5" y="50.0" />
-                  <point x="348.36111111111114" y="50.0" />
-                  <point x="38.25" y="15.0" />
-                </edge>
-                <edge source="Hygrometer" target="Double">
-                  <point x="0.0" y="-15.0" />
-                  <point x="626.0" y="60.0" />
-                  <point x="668.8611111111111" y="60.0" />
-                  <point x="-18.0" y="15.0" />
-                </edge>
-                <edge source="KeepTemperature" target="Temperature">
-                  <point x="0.0" y="-15.0" />
-                  <point x="64.0" y="50.0" />
-                  <point x="271.86111111111114" y="50.0" />
-                  <point x="-38.25" y="15.0" />
-                </edge>
-                <edge source="Main" target="Hygrometer">
-                  <point x="15.25" y="-15.0" />
-                  <point x="469.75" y="140.0" />
-                  <point x="626.0" y="140.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="DecreaseTemperature" target="Temperature">
-                  <point x="0.0" y="-15.0" />
-                  <point x="222.5" y="60.0" />
-                  <point x="297.36111111111114" y="60.0" />
-                  <point x="-12.75" y="15.0" />
-                </edge>
-                <edge source="Main" target="Context">
-                  <point x="5.083333333333314" y="-15.0" />
-                  <point x="459.5833333333333" y="130.0" />
-                  <point x="519.5" y="130.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="IncreaseTemperature" target="Temperature">
-                  <point x="0.0" y="-15.0" />
-                  <point x="389.5" y="60.0" />
-                  <point x="322.86111111111114" y="60.0" />
-                  <point x="12.75" y="15.0" />
-                </edge>
-                <edge source="Main" target="Thermostat">
-                  <point x="25.41666666666663" y="-15.0" />
-                  <point x="479.91666666666663" y="150.0" />
-                  <point x="742.5" y="150.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="Main" target="DecreaseTemperature">
-                  <point x="-15.25" y="-15.0" />
-                  <point x="439.25" y="140.0" />
-                  <point x="222.5" y="140.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="1.0" x="-171.5" y="-81.5" />
-              <SelectedNodes>
-                <node>Context</node>
-              </SelectedNodes>
-              <Categories />
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -184,26 +81,21 @@
       <file leaf-file-name="Thermostat.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Thermostat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-              <folding>
-                <element signature="e#124#125#0" expanded="true" />
-                <element signature="e#187#188#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hygrometer.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Hygrometer.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Hygrometer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="51">
+              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
               <folding>
-                <element signature="e#127#128#0" expanded="true" />
-                <element signature="e#186#187#0" expanded="true" />
-                <element signature="e#221#222#0" expanded="true" />
-                <element signature="e#252#253#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#219#220#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -229,6 +121,114 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JAVA/Context" pinned="false" current-in-tab="false">
+        <entry file="uml://JAVA/Context">
+          <provider selected="true" editor-type-id="UmlEditorProvider">
+            <state>
+              <ID>JAVA</ID>
+              <OriginalElement>Context</OriginalElement>
+              <nodes>
+                <node x="821.0" y="180.0">Context</node>
+                <node x="448.3333333333333" y="0.0">Temperature</node>
+                <node x="1302.0" y="169.0">Thermostat</node>
+                <node x="0.0" y="192.0">KeepTemperature</node>
+                <node x="724.5" y="349.0">Main</node>
+                <node x="1125.25" y="22.5">Double</node>
+                <node x="287.0" y="203.0">DecreaseTemperature</node>
+                <node x="1092.0" y="169.0">Hygrometer</node>
+                <node x="554.0" y="203.0">IncreaseTemperature</node>
+              </nodes>
+              <notes />
+              <edges>
+                <edge source="Main" target="IncreaseTemperature">
+                  <point x="-14.583333333333371" y="-37.0" />
+                  <point x="797.4166666666666" y="309.0" />
+                  <point x="677.5" y="309.0" />
+                  <point x="0.0" y="26.0" />
+                </edge>
+                <edge source="Thermostat" target="Double">
+                  <point x="0.0" y="-60.0" />
+                  <point x="1395.5" y="149.0" />
+                  <point x="1374.25" y="149.0" />
+                  <point x="83.0" y="37.0" />
+                </edge>
+                <edge source="Main" target="KeepTemperature">
+                  <point x="-72.91666666666674" y="-37.0" />
+                  <point x="739.0833333333333" y="329.0" />
+                  <point x="133.5" y="329.0" />
+                  <point x="0.0" y="37.0" />
+                </edge>
+                <edge source="Context" target="Temperature">
+                  <point x="0.0" y="-49.0" />
+                  <point x="946.5" y="139.0" />
+                  <point x="624.2083333333333" y="139.0" />
+                  <point x="75.375" y="59.5" />
+                </edge>
+                <edge source="Hygrometer" target="Double">
+                  <point x="0.0" y="-60.0" />
+                  <point x="1187.0" y="149.0" />
+                  <point x="1208.25" y="149.0" />
+                  <point x="-83.0" y="37.0" />
+                </edge>
+                <edge source="KeepTemperature" target="Temperature">
+                  <point x="0.0" y="-37.0" />
+                  <point x="133.5" y="139.0" />
+                  <point x="473.4583333333333" y="139.0" />
+                  <point x="-75.375" y="59.5" />
+                </edge>
+                <edge source="Main" target="Hygrometer">
+                  <point x="43.75" y="-37.0" />
+                  <point x="855.75" y="319.0" />
+                  <point x="1187.0" y="319.0" />
+                  <point x="0.0" y="60.0" />
+                </edge>
+                <edge source="DecreaseTemperature" target="Temperature">
+                  <point x="0.0" y="-26.0" />
+                  <point x="410.5" y="149.0" />
+                  <point x="523.7083333333333" y="149.0" />
+                  <point x="-25.125" y="59.5" />
+                </edge>
+                <edge source="Main" target="Context">
+                  <point x="14.583333333333371" y="-37.0" />
+                  <point x="826.5833333333334" y="309.0" />
+                  <point x="946.5" y="309.0" />
+                  <point x="0.0" y="49.0" />
+                </edge>
+                <edge source="IncreaseTemperature" target="Temperature">
+                  <point x="0.0" y="-26.0" />
+                  <point x="677.5" y="149.0" />
+                  <point x="573.9583333333333" y="149.0" />
+                  <point x="25.125" y="59.5" />
+                </edge>
+                <edge source="Main" target="Thermostat">
+                  <point x="72.91666666666663" y="-37.0" />
+                  <point x="884.9166666666666" y="329.0" />
+                  <point x="1395.5" y="329.0" />
+                  <point x="0.0" y="60.0" />
+                </edge>
+                <edge source="Main" target="DecreaseTemperature">
+                  <point x="-43.75" y="-37.0" />
+                  <point x="768.25" y="319.0" />
+                  <point x="410.5" y="319.0" />
+                  <point x="0.0" y="26.0" />
+                </edge>
+              </edges>
+              <settings layout="Hierarchic Group" zoom="0.9871481028151775" x="233.1246125232486" y="153.04432734035956" />
+              <SelectedNodes>
+                <node>Hygrometer</node>
+              </SelectedNodes>
+              <Categories>
+                <Category>Constructors</Category>
+                <Category>Methods</Category>
+                <Category>Properties</Category>
+                <Category>Fields</Category>
+              </Categories>
+              <SCOPE>All</SCOPE>
+              <VISIBILITY>private</VISIBILITY>
             </state>
           </provider>
         </entry>
@@ -268,15 +268,15 @@
         <option value="$PROJECT_DIR$/src/thermostat/Thermostat.java" />
         <option value="$PROJECT_DIR$/src/Humidity.java" />
         <option value="$PROJECT_DIR$/src/KeepTemperature.java" />
-        <option value="$PROJECT_DIR$/src/Temperature.java" />
         <option value="$PROJECT_DIR$/src/Context.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/GenerateRandomDouble.java" />
-        <option value="$PROJECT_DIR$/src/Hygrometer.java" />
         <option value="$PROJECT_DIR$/src/Double.java" />
-        <option value="$PROJECT_DIR$/src/Thermostat.java" />
         <option value="$PROJECT_DIR$/src/IncreaseTemperature.java" />
+        <option value="$PROJECT_DIR$/src/Temperature.java" />
         <option value="$PROJECT_DIR$/src/DecreaseTemperature.java" />
+        <option value="$PROJECT_DIR$/src/Thermostat.java" />
+        <option value="$PROJECT_DIR$/src/Hygrometer.java" />
       </list>
     </option>
   </component>
@@ -1011,12 +1011,12 @@
       <workItem from="1477486072153" duration="717000" />
       <workItem from="1477567283744" duration="1993000" />
       <workItem from="1477573339188" duration="2188000" />
-      <workItem from="1477576786274" duration="180000" />
+      <workItem from="1477576786274" duration="935000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18280000" />
+    <option name="totallyTimeSpent" value="19035000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1030,12 +1030,14 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32628062" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32628062" sideWeight="0.49573562" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32628062" sideWeight="0.49573562" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1401919" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850778" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1045,9 +1047,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850778" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1097,10 +1097,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-          <folding>
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1109,10 +1106,8 @@
         <state relative-caret-position="136">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1181,10 +1176,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1242,10 +1234,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1303,10 +1292,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-          <folding>
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1356,10 +1342,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1399,10 +1382,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1485,36 +1465,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Hygrometer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#127#128#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
-            <element signature="e#252#253#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thermostat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-          <folding>
-            <element signature="e#124#125#0" expanded="true" />
-            <element signature="e#187#188#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1535,96 +1491,101 @@
           <ID>JAVA</ID>
           <OriginalElement>Context</OriginalElement>
           <nodes>
-            <node x="482.0" y="80.0">Context</node>
-            <node x="259.11111111111114" y="0.0">Temperature</node>
-            <node x="695.0" y="80.0">Thermostat</node>
-            <node x="0.0" y="80.0">KeepTemperature</node>
-            <node x="424.0" y="170.0">Main</node>
-            <node x="650.8611111111111" y="0.0">Double</node>
-            <node x="148.0" y="80.0">DecreaseTemperature</node>
-            <node x="577.0" y="80.0">Hygrometer</node>
-            <node x="317.0" y="80.0">IncreaseTemperature</node>
+            <node x="821.0" y="180.0">Context</node>
+            <node x="448.3333333333333" y="0.0">Temperature</node>
+            <node x="1302.0" y="169.0">Thermostat</node>
+            <node x="0.0" y="192.0">KeepTemperature</node>
+            <node x="724.5" y="349.0">Main</node>
+            <node x="1125.25" y="22.5">Double</node>
+            <node x="287.0" y="203.0">DecreaseTemperature</node>
+            <node x="1092.0" y="169.0">Hygrometer</node>
+            <node x="554.0" y="203.0">IncreaseTemperature</node>
           </nodes>
           <notes />
           <edges>
             <edge source="Main" target="IncreaseTemperature">
-              <point x="-5.083333333333314" y="-15.0" />
-              <point x="449.4166666666667" y="130.0" />
-              <point x="389.5" y="130.0" />
-              <point x="0.0" y="15.0" />
+              <point x="-14.583333333333371" y="-37.0" />
+              <point x="797.4166666666666" y="309.0" />
+              <point x="677.5" y="309.0" />
+              <point x="0.0" y="26.0" />
             </edge>
             <edge source="Thermostat" target="Double">
-              <point x="0.0" y="-15.0" />
-              <point x="742.5" y="60.0" />
-              <point x="704.8611111111111" y="60.0" />
-              <point x="18.0" y="15.0" />
+              <point x="0.0" y="-60.0" />
+              <point x="1395.5" y="149.0" />
+              <point x="1374.25" y="149.0" />
+              <point x="83.0" y="37.0" />
             </edge>
             <edge source="Main" target="KeepTemperature">
-              <point x="-25.416666666666686" y="-15.0" />
-              <point x="429.0833333333333" y="150.0" />
-              <point x="64.0" y="150.0" />
-              <point x="0.0" y="15.0" />
+              <point x="-72.91666666666674" y="-37.0" />
+              <point x="739.0833333333333" y="329.0" />
+              <point x="133.5" y="329.0" />
+              <point x="0.0" y="37.0" />
             </edge>
             <edge source="Context" target="Temperature">
-              <point x="0.0" y="-15.0" />
-              <point x="519.5" y="50.0" />
-              <point x="348.36111111111114" y="50.0" />
-              <point x="38.25" y="15.0" />
+              <point x="0.0" y="-49.0" />
+              <point x="946.5" y="139.0" />
+              <point x="624.2083333333333" y="139.0" />
+              <point x="75.375" y="59.5" />
             </edge>
             <edge source="Hygrometer" target="Double">
-              <point x="0.0" y="-15.0" />
-              <point x="626.0" y="60.0" />
-              <point x="668.8611111111111" y="60.0" />
-              <point x="-18.0" y="15.0" />
+              <point x="0.0" y="-60.0" />
+              <point x="1187.0" y="149.0" />
+              <point x="1208.25" y="149.0" />
+              <point x="-83.0" y="37.0" />
             </edge>
             <edge source="KeepTemperature" target="Temperature">
-              <point x="0.0" y="-15.0" />
-              <point x="64.0" y="50.0" />
-              <point x="271.86111111111114" y="50.0" />
-              <point x="-38.25" y="15.0" />
+              <point x="0.0" y="-37.0" />
+              <point x="133.5" y="139.0" />
+              <point x="473.4583333333333" y="139.0" />
+              <point x="-75.375" y="59.5" />
             </edge>
             <edge source="Main" target="Hygrometer">
-              <point x="15.25" y="-15.0" />
-              <point x="469.75" y="140.0" />
-              <point x="626.0" y="140.0" />
-              <point x="0.0" y="15.0" />
+              <point x="43.75" y="-37.0" />
+              <point x="855.75" y="319.0" />
+              <point x="1187.0" y="319.0" />
+              <point x="0.0" y="60.0" />
             </edge>
             <edge source="DecreaseTemperature" target="Temperature">
-              <point x="0.0" y="-15.0" />
-              <point x="222.5" y="60.0" />
-              <point x="297.36111111111114" y="60.0" />
-              <point x="-12.75" y="15.0" />
+              <point x="0.0" y="-26.0" />
+              <point x="410.5" y="149.0" />
+              <point x="523.7083333333333" y="149.0" />
+              <point x="-25.125" y="59.5" />
             </edge>
             <edge source="Main" target="Context">
-              <point x="5.083333333333314" y="-15.0" />
-              <point x="459.5833333333333" y="130.0" />
-              <point x="519.5" y="130.0" />
-              <point x="0.0" y="15.0" />
+              <point x="14.583333333333371" y="-37.0" />
+              <point x="826.5833333333334" y="309.0" />
+              <point x="946.5" y="309.0" />
+              <point x="0.0" y="49.0" />
             </edge>
             <edge source="IncreaseTemperature" target="Temperature">
-              <point x="0.0" y="-15.0" />
-              <point x="389.5" y="60.0" />
-              <point x="322.86111111111114" y="60.0" />
-              <point x="12.75" y="15.0" />
+              <point x="0.0" y="-26.0" />
+              <point x="677.5" y="149.0" />
+              <point x="573.9583333333333" y="149.0" />
+              <point x="25.125" y="59.5" />
             </edge>
             <edge source="Main" target="Thermostat">
-              <point x="25.41666666666663" y="-15.0" />
-              <point x="479.91666666666663" y="150.0" />
-              <point x="742.5" y="150.0" />
-              <point x="0.0" y="15.0" />
+              <point x="72.91666666666663" y="-37.0" />
+              <point x="884.9166666666666" y="329.0" />
+              <point x="1395.5" y="329.0" />
+              <point x="0.0" y="60.0" />
             </edge>
             <edge source="Main" target="DecreaseTemperature">
-              <point x="-15.25" y="-15.0" />
-              <point x="439.25" y="140.0" />
-              <point x="222.5" y="140.0" />
-              <point x="0.0" y="15.0" />
+              <point x="-43.75" y="-37.0" />
+              <point x="768.25" y="319.0" />
+              <point x="410.5" y="319.0" />
+              <point x="0.0" y="26.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-171.5" y="-81.5" />
+          <settings layout="Hierarchic Group" zoom="0.9871481028151775" x="233.1246125232486" y="153.04432734035956" />
           <SelectedNodes>
-            <node>Context</node>
+            <node>Hygrometer</node>
           </SelectedNodes>
-          <Categories />
+          <Categories>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Fields</Category>
+          </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
         </state>
@@ -1641,24 +1602,43 @@
     <entry file="file://$PROJECT_DIR$/src/DecreaseTemperature.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IncreaseTemperature.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="102">
+          <caret line="6" column="55" selection-start-line="6" selection-start-column="55" selection-end-line="6" selection-end-column="55" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Temperature.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thermostat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Hygrometer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding>
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#219#220#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

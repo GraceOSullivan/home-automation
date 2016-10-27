@@ -1,7 +1,4 @@
-import java.util.Scanner;
-
 abstract class Temperature {
-    final Scanner scanner = new Scanner(System.in);
 
     abstract double changeTemperature(double temperature);
 
