@@ -28,11 +28,6 @@ class Thermostat extends GenerateRandomDouble {
         checkTemperatureOK();
     }
 
-    public void displayCurrentHumidity(){
-        System.out.println("Humidity: " + formatToTwoDecimalPlaces(hygrometer.getHumidity()) + "%");
-        checkHumidityOK();
-    }
-
     private void checkTemperatureOK() {
         final double TOO_HOT = 30.0;
         final double TO0_COLD = 0.0;
@@ -45,15 +40,5 @@ class Thermostat extends GenerateRandomDouble {
             System.out.println("-> The temperature seems fine, we recommend you keep it the same");
     }
 
-    private void checkHumidityOK() {
-        final double TOO_HUMID = 60.0;
-        final double TOO_ARID = 20.0;
 
-        if (hygrometer.getHumidity() >= TOO_HUMID)
-            System.out.println("-> It seems a bit humid, we recommend you turn up the ventilation");
-        else if (hygrometer.getHumidity() <= TOO_ARID)
-            System.out.println("-> It seems a bit arid, we recommend you turn down the ventilation");
-        else
-            System.out.println("-> The humidity seems fine, we recommend you keep the ventilation levels the same");
-    }
 }
