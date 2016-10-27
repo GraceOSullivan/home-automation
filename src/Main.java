@@ -7,8 +7,6 @@ class Main {
 
         thermostat.displayCurrentTemperature();
         thermostat.displayCurrentHumidity();
-        checkTemperatureOK(thermostat.getTemperature());
-        checkHumidityOK(thermostat.getHumidity());
         System.out.println("\nWould you like to increase (i) or decrease (d) the temperature?");
 
         Context context;
@@ -31,30 +29,5 @@ class Main {
 
         thermostat.displayCurrentTemperature();
     }
-
-    private static void checkTemperatureOK(double temperature) {
-        final double TOO_HOT = 30.0;
-        final double TO0_COLD = 0.0;
-
-        if (temperature >= TOO_HOT)
-            System.out.println("-> It seems a bit hot, we recommend you decrease (d) the temperature");
-        else if (temperature <= TO0_COLD)
-            System.out.println("-> It seems a bit cold, we recommend you increase (i) the temperature");
-        else
-            System.out.println("-> The temperature seems fine, we recommend you keep it the same");
-    }
-
-    private static void checkHumidityOK(double humidity) {
-        final double TOO_HUMID = 60.0;
-        final double TOO_ARID = 20.0;
-
-        if (humidity >= TOO_HUMID)
-            System.out.println("-> It seems a bit humid, we recommend you turn up the ventilation");
-        else if (humidity <= TOO_ARID)
-            System.out.println("-> It seems a bit arid, we recommend you turn down the ventilation");
-        else
-            System.out.println("-> The humidity seems fine, we recommend you keep the ventilation levels the same");
-    }
-
 
 }
