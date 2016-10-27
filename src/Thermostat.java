@@ -2,11 +2,9 @@ import java.text.DecimalFormat;
 
 class Thermostat extends Double {
     private double temperature;
-    private final Hygrometer hygrometer;
 
     public Thermostat() {
         temperature = generateRandomDouble(-10.0, 30.0);
-        hygrometer = new Hygrometer();
     }
 
     public double getTemperature() {
