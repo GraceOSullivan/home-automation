@@ -7,27 +7,31 @@ class Main {
 
         thermostat.displayCurrentTemperature();
         thermostat.displayCurrentHumidity();
-        System.out.println("\nWould you like to increase (i) or decrease (d) the temperature?");
+        System.out.println("\nWould you like to increase (i) or decrease (d) the temperature? (Any other key to keep it the same)");
 
-        Context context;
         Scanner scanner = new Scanner(System.in);
         char decision = scanner.next().charAt(0);
-        if (decision == 'i')
-            context = new Context(new IncreaseTemperature());
-        else if (decision == 'd')
-            context = new Context(new DecreaseTemperature());
-        else
-            context = new Context(new KeepTemperature());
+
+        Context context = determineContext(decision);
 
         try {
             thermostat.setTemperature(context.executeStrategy(thermostat.getTemperature()));
-        }
-        catch (InputMismatchException ex) {
+        } catch (InputMismatchException ex) {
             context = new Context(new KeepTemperature());
             thermostat.setTemperature(context.executeStrategy(thermostat.getTemperature()));
         }
 
         thermostat.displayCurrentTemperature();
     }
+
+    private static Context determineContext(char decision) {
+        if (decision == 'i')
+            return new Context(new IncreaseTemperature());
+        else if (decision == 'd')
+            return new Context(new DecreaseTemperature());
+        else
+            return new Context(new KeepTemperature());
+    }
+
 
 }
