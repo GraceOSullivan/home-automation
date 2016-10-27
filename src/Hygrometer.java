@@ -1,4 +1,4 @@
-class Hygrometer extends Double {
+class Hygrometer extends Number {
     private final double humidity;
 
     public Hygrometer() {

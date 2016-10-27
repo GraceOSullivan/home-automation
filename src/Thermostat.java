@@ -1,4 +1,4 @@
-class Thermostat extends Double {
+class Thermostat extends Number {
     private double temperature;
 
     public Thermostat() {

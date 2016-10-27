@@ -33,6 +33,4 @@ class Main {
         else
             return new Context(new KeepTemperature());
     }
-
-
 }
