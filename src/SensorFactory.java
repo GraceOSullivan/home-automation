@@ -8,14 +8,8 @@ public class SensorFactory implements SecurityProductFactory {
             return new ContactSensor();
         else if (productType.equalsIgnoreCase("DOOR"))
             return new DoorSensor();
-        else if (productType.equalsIgnoreCase("GAS"))
-            return new GasSensor();
         else if (productType.equalsIgnoreCase("GLASS"))
             return new GlassSensor();
-        else if (productType.equalsIgnoreCase("MAGNETIC"))
-            return new MagneticSensor();
-        else if (productType.equalsIgnoreCase("PIR"))
-            return new PIRSensor();
         else if (productType.equalsIgnoreCase("SMOKE"))
             return new SmokeSensor();
         else if (productType.equalsIgnoreCase("VIBRATION"))

@@ -1,4 +1,4 @@
-class Main {
+class AppDriver {
     public static void main(String[] args) {
         Thermostat thermostat = new Thermostat();
 
@@ -6,15 +6,14 @@ class Main {
         thermostat.regulateTemperatureIfNeeded();
         thermostat.displayCurrentTemperature();
 
-        SecurityProductFactory securityProductFactory = new SensorFactory();
+        SecurityProductFactory securityProductFactory;
+
+        securityProductFactory = new SensorFactory();
         securityProductFactory.createProduct("BEAM").turnOn();
         securityProductFactory.createProduct("CEILING").turnOn();
         securityProductFactory.createProduct("CONTACT").turnOn();
         securityProductFactory.createProduct("DOOR").turnOn();
-        securityProductFactory.createProduct("GAS").turnOn();
         securityProductFactory.createProduct("GLASS").turnOn();
-        securityProductFactory.createProduct("MAGNETIC").turnOn();
-        securityProductFactory.createProduct("PIR").turnOn();
         securityProductFactory.createProduct("SMOKE").turnOn();
         securityProductFactory.createProduct("VIBRATION").turnOn();
 
