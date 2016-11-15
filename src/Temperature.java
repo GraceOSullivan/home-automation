@@ -2,11 +2,11 @@ abstract class Temperature {
 
     abstract double changeTemperature(double temperature);
 
-    void displayTemperatureQuery(){
-        System.out.println("How much would you like to change the temperature by? (°C)");
+    void displayRegulatingTemperature() {
+        System.out.println("Regulating Temperature...");
     }
 
-    void displayChangingTemperature() {
-        System.out.println("Changing Temperature...");
+    void displayKeepingTemperatureSame(){
+        System.out.println("Keeping the temperature the same...");
     }
 }

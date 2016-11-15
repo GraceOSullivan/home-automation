@@ -16,20 +16,18 @@ class Thermostat extends Number {
 
     public void displayCurrentTemperature(){
         System.out.println("Temperature: " + formatToTwoDecimalPlaces(temperature) + "°C");
-        checkTemperatureOK();
     }
 
-    private void checkTemperatureOK() {
-        final double TOO_HOT = 30.0;
-        final double TO0_COLD = 0.0;
+    public void regulateTemperatureIfNeeded() {
+        final double TOO_HOT = 23.0;
+        final double TO0_COLD = 7.0;
 
-        if (temperature >= TOO_HOT)
-            System.out.println("-> It seems a bit hot, we recommend you decrease (d) the temperature");
-        else if (temperature <= TO0_COLD)
-            System.out.println("-> It seems a bit cold, we recommend you increase (i) the temperature");
+        Context context;
+        if (temperature >= TOO_HOT || temperature <= TO0_COLD)
+            context = new Context(new RegulateTemperature());
         else
-            System.out.println("-> The temperature seems fine, we recommend you keep it the same");
+            context = new Context(new KeepTemperature());
+
+        setTemperature(context.executeStrategy(getTemperature()));
     }
-
-
 }
