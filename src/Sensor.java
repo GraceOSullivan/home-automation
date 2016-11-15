@@ -1,4 +1,7 @@
-public class Sensor {
+interface Sensor {
+
+    void turnOn();
+    /*
     private String type;
     Sensor sensor;
 
@@ -9,4 +12,5 @@ public class Sensor {
     public Sensor(String type) {
         this.type = type;
     }
+    */
 }

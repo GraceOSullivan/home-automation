@@ -1,6 +1,7 @@
-public class GlassSensor extends Sensor  {
+public class GlassSensor implements Sensor  {
 
-    public GlassSensor(){
-        sensor = new Sensor("Glass");
+    @Override
+    public void turnOn() {
+        System.out.println("Turning the glass sensors on...");
     }
 }

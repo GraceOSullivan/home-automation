@@ -6,16 +6,17 @@ class Main {
         thermostat.regulateTemperatureIfNeeded();
         thermostat.displayCurrentTemperature();
 
-        Sensor beamSensor = new BeamSensor();
-        Sensor ceilingSensor = new CeilingSensor();
-        Sensor contactSensor = new ContactSensor();
-        Sensor doorSensor = new DoorSensor();
-        Sensor gasSensor = new GasSensor();
-        Sensor glassSensor = new GlassSensor();
-        Sensor magneticSensor = new MagneticSensor();
-        Sensor pirSensor = new PIRSensor();
-        Sensor smokeSensor = new SmokeSensor();
-        Sensor vibrationSensor = new VibrationSensor();
+        SensorFactory sensorFactory = new SensorFactory();
+        sensorFactory.getSensor("BEAM").turnOn();
+        sensorFactory.getSensor("CEILING").turnOn();
+        sensorFactory.getSensor("CONTACT").turnOn();
+        sensorFactory.getSensor("DOOR").turnOn();
+        sensorFactory.getSensor("GAS").turnOn();
+        sensorFactory.getSensor("GLASS").turnOn();
+        sensorFactory.getSensor("MAGNETIC").turnOn();
+        sensorFactory.getSensor("PIR").turnOn();
+        sensorFactory.getSensor("SMOKE").turnOn();
+        sensorFactory.getSensor("VIBRATION").turnOn();
 
         //Hygrometer hygrometer = new Hygrometer();
         //hygrometer.displayCurrentHumidity();
