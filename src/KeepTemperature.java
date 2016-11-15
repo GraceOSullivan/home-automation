@@ -1,5 +1,5 @@
 class KeepTemperature extends Temperature {
-    public double changeTemperature(double currentTemperature) {
+    public double regulateTemperature(double currentTemperature) {
         displayKeepingTemperatureSame();
 
         return currentTemperature;

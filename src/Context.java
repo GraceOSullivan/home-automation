@@ -6,6 +6,6 @@ class Context {
     }
 
     public double executeStrategy(double temperature) {
-        return implementation.changeTemperature(temperature);
+        return implementation.regulateTemperature(temperature);
     }
 }

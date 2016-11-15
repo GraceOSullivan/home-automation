@@ -5,13 +5,13 @@ class Hygrometer extends Number {
         humidity = generateRandomDouble(0.0, 100.0);
     }
 
-    public double getHumidity() {
+    private double getHumidity() {
         return humidity;
     }
 
 
     public void displayCurrentHumidity(){
-        System.out.println("Humidity: " + formatToTwoDecimalPlaces(getHumidity()) + "%");
+        System.out.println("Humidity: " + formatToTwoDecimalPlaces(humidity) + "%");
         checkHumidityOK();
     }
 

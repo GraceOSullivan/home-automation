@@ -5,16 +5,11 @@ class Thermostat extends Number {
         temperature = generateRandomDouble(-10.0, 30.0);
     }
 
-    public double getTemperature() {
-        return temperature;
-    }
-
-
-    public void setTemperature(double temperature) {
+    private void setTemperature(double temperature) {
         this.temperature = temperature;
     }
 
-    public void displayCurrentTemperature(){
+    public void displayCurrentTemperature() {
         System.out.println("Temperature: " + formatToTwoDecimalPlaces(temperature) + "°C");
     }
 
@@ -28,6 +23,6 @@ class Thermostat extends Number {
         else
             context = new Context(new KeepTemperature());
 
-        setTemperature(context.executeStrategy(getTemperature()));
+        setTemperature(context.executeStrategy(temperature));
     }
 }
