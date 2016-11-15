@@ -2,7 +2,7 @@ public class ContactSensor extends Sensor  {
 
     @Override
     public void turnOn() {
-        setType("contact");
+        securityProductType.setType("contact");
         displayTurningOnQuery();
     }
 }

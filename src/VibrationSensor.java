@@ -2,7 +2,7 @@ public class VibrationSensor extends Sensor  {
 
     @Override
     public void turnOn() {
-        setType("vibration");
+        securityProductType.setType("vibration");
         displayTurningOnQuery();
     }
 }

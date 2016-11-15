@@ -2,7 +2,7 @@ public class SmokeSensor extends Sensor  {
 
     @Override
     public void turnOn() {
-        setType("smoke");
+        securityProductType.setType("smoke");
         displayTurningOnQuery();
     }
 }

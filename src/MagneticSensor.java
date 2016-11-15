@@ -2,7 +2,7 @@ public class MagneticSensor extends Sensor  {
 
     @Override
     public void turnOn() {
-        setType("magnetic");
+        securityProductType.setType("magnetic");
         displayTurningOnQuery();
     }
 }
