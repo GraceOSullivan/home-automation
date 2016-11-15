@@ -8,7 +8,8 @@ class AppDriver {
 
         SecurityProductFactory securityProductFactory;
 
-        SecurityProductFactory.ProductType productType = null;
+        ProductType productType = null;
+
         securityProductFactory = new SensorFactory();
         securityProductFactory.createProduct(productType.BEAM).turnOn();
         securityProductFactory.createProduct(productType.CEILING).turnOn();

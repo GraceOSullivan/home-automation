@@ -1,6 +1,6 @@
 public class CameraFactory implements SecurityProductFactory {
     public SecurityProduct createProduct(ProductType productType) {
-        switch (productType){
+        switch (productType) {
             case BOX:
                 return new BoxCamera();
             case DOME:

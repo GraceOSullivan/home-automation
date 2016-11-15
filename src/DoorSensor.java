@@ -2,7 +2,7 @@ public class DoorSensor extends Sensor {
 
     @Override
     public void turnOn() {
-        securityProductType.setType("door");
+        productType = ProductType.DOOR;
         displayTurningOnQuery();
     }
 }

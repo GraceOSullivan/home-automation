@@ -1,7 +1,6 @@
 abstract class Camera implements SecurityProduct {
-    SecurityProductType securityProductType = new SecurityProductType();
-
+    public ProductType productType;
     public void displayTurningOnQuery() {
-        System.out.println("Turning the " + securityProductType.getType() + " cameras on...");
+        System.out.println("Turning the " + productType.toString() + " cameras on...");
     }
 }

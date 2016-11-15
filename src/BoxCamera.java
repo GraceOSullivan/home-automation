@@ -1,7 +1,7 @@
 public class BoxCamera extends Camera {
     @Override
     public void turnOn() {
-        securityProductType.setType("box");
+        productType = ProductType.BOX;
         displayTurningOnQuery();
     }
 }

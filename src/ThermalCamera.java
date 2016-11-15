@@ -1,7 +1,7 @@
 public class ThermalCamera extends Camera {
     @Override
     public void turnOn() {
-        securityProductType.setType("thermal");
+        productType = ProductType.THERMAL;
         displayTurningOnQuery();
     }
 }
