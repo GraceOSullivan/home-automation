@@ -14,8 +14,8 @@ class Thermostat extends Number {
     }
 
     public void regulateTemperatureIfNeeded() {
-        final double TOO_HOT = 23.0;
-        final double TO0_COLD = 7.0;
+        final double TOO_HOT = 20.0;
+        final double TO0_COLD = 10.0;
 
         Context context;
         if (temperature >= TOO_HOT || temperature <= TO0_COLD)

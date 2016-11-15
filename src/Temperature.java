@@ -1,6 +1,6 @@
 interface Temperature {
 
-    abstract double regulateTemperature(double temperature);
+    double regulateTemperature(double temperature);
 
     default void displayRegulatingTemperature() {
         System.out.println("Regulating Temperature...");
