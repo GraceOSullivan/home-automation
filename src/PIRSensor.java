@@ -1,7 +1,8 @@
-public class PIRSensor implements Sensor  {
+public class PIRSensor extends Sensor  {
 
     @Override
     public void turnOn() {
-        System.out.println("Turning the PIR sensors on...");
+        setType("pir");
+        System.out.println("Turning the " + getType() + " sensors on...");
     }
 }

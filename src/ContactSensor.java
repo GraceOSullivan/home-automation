@@ -1,7 +1,8 @@
-public class ContactSensor implements Sensor  {
+public class ContactSensor extends Sensor  {
 
     @Override
     public void turnOn() {
-        System.out.println("Turning the contact sensors on...");
+        setType("contact");
+        System.out.println("Turning the " + getType() + " sensors on...");
     }
 }

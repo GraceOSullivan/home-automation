@@ -1,16 +1,13 @@
-interface Sensor {
+abstract class Sensor {
+    String type;
 
-    void turnOn();
-    /*
-    private String type;
-    Sensor sensor;
+    abstract void turnOn();
 
-    public Sensor() {
-        this.type = "";
-    }
-
-    public Sensor(String type) {
+    void setType(String type) {
         this.type = type;
     }
-    */
+
+    String getType(){
+        return this.type;
+    }
 }

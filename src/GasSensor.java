@@ -1,7 +1,8 @@
-public class GasSensor implements Sensor  {
+public class GasSensor extends Sensor  {
 
     @Override
     public void turnOn() {
-        System.out.println("Turning the gas sensors on...");
+        setType("gas");
+        System.out.println("Turning the " + getType() + " sensors on...");
     }
 }

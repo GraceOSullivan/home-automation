@@ -1,7 +1,8 @@
-public class VibrationSensor implements Sensor  {
+public class VibrationSensor extends Sensor  {
 
     @Override
     public void turnOn() {
-        System.out.println("Turning the vibration sensors on...");
+        setType("vibration");
+        System.out.println("Turning the " + getType() + " sensors on...");
     }
 }

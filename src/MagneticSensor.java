@@ -1,7 +1,8 @@
-public class MagneticSensor implements Sensor  {
+public class MagneticSensor extends Sensor  {
 
     @Override
     public void turnOn() {
-        System.out.println("Turning the gas sensors on...");
+        setType("magnetic");
+        System.out.println("Turning the " + getType() + " sensors on...");
     }
 }

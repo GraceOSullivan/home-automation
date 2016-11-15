@@ -1,7 +1,8 @@
-public class CeilingSensor implements Sensor  {
+public class CeilingSensor extends Sensor  {
 
     @Override
     public void turnOn() {
-        System.out.println("Turning the ceiling sensors on...");
+        setType("ceiling");
+        System.out.println("Turning the " + getType() + " sensors on...");
     }
 }

@@ -1,7 +1,8 @@
-public class DoorSensor implements Sensor  {
+public class DoorSensor extends Sensor {
 
     @Override
     public void turnOn() {
-        System.out.println("Turning the door sensors on...");
+        setType("door");
+        System.out.println("Turning the " + getType() + " sensors on...");
     }
 }

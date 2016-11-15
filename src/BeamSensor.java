@@ -1,12 +1,10 @@
-public class BeamSensor implements Sensor {
+public class BeamSensor extends Sensor {
 
-    /*
-    public BeamSensor(){
-        sensor = new Sensor("Beam");
-    }
-*/
     @Override
     public void turnOn() {
-        System.out.println("Turning the beam sensors on...");
+        setType("beam");
+        System.out.println("Turning the " + getType() + " sensors on...");
     }
+
+
 }

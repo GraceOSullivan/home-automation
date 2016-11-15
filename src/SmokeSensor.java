@@ -1,7 +1,8 @@
-public class SmokeSensor implements Sensor  {
+public class SmokeSensor extends Sensor  {
 
     @Override
     public void turnOn() {
-        System.out.println("Turning the smoke sensors on...");
+        setType("smoke");
+        System.out.println("Turning the " + getType() + " sensors on...");
     }
 }
