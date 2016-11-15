@@ -1,4 +1,4 @@
-class RegulateTemperature extends Temperature {
+class RegulateTemperature implements Temperature {
     public double regulateTemperature(double currentTemperature) {
 
         final double PERFECT_TEMPERATURE = 18.0;

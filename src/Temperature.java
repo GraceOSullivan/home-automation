@@ -1,12 +1,12 @@
-abstract class Temperature {
+interface Temperature {
 
     abstract double regulateTemperature(double temperature);
 
-    void displayRegulatingTemperature() {
+    default void displayRegulatingTemperature() {
         System.out.println("Regulating Temperature...");
     }
 
-    void displayKeepingTemperatureSame(){
+    default void displayKeepingTemperatureSame(){
         System.out.println("Keeping the temperature the same...");
     }
 }

@@ -1,4 +1,4 @@
-class KeepTemperature extends Temperature {
+class KeepTemperature implements Temperature {
     public double regulateTemperature(double currentTemperature) {
         displayKeepingTemperatureSame();
 
