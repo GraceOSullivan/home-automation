@@ -1,3 +1,7 @@
 interface SecurityProductFactory {
-    SecurityProduct createProduct(String productType);
+    SecurityProduct createProduct(ProductType productType);
+    enum ProductType {
+        BOX, DOME, IP, THERMAL,
+        BEAM, CEILING, CONTACT, DOOR, GLASS, SMOKE, VIBRATION
+    }
 }

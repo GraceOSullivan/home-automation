@@ -8,20 +8,21 @@ class AppDriver {
 
         SecurityProductFactory securityProductFactory;
 
+        SecurityProductFactory.ProductType productType = null;
         securityProductFactory = new SensorFactory();
-        securityProductFactory.createProduct("BEAM").turnOn();
-        securityProductFactory.createProduct("CEILING").turnOn();
-        securityProductFactory.createProduct("CONTACT").turnOn();
-        securityProductFactory.createProduct("DOOR").turnOn();
-        securityProductFactory.createProduct("GLASS").turnOn();
-        securityProductFactory.createProduct("SMOKE").turnOn();
-        securityProductFactory.createProduct("VIBRATION").turnOn();
+        securityProductFactory.createProduct(productType.BEAM).turnOn();
+        securityProductFactory.createProduct(productType.CEILING).turnOn();
+        securityProductFactory.createProduct(productType.CONTACT).turnOn();
+        securityProductFactory.createProduct(productType.DOOR).turnOn();
+        securityProductFactory.createProduct(productType.GLASS).turnOn();
+        securityProductFactory.createProduct(productType.SMOKE).turnOn();
+        securityProductFactory.createProduct(productType.VIBRATION).turnOn();
 
         securityProductFactory = new CameraFactory();
-        securityProductFactory.createProduct("BOX").turnOn();
-        securityProductFactory.createProduct("DOME").turnOn();
-        securityProductFactory.createProduct("IP").turnOn();
-        securityProductFactory.createProduct("THERMAL").turnOn();
+        securityProductFactory.createProduct(productType.BOX).turnOn();
+        securityProductFactory.createProduct(productType.DOME).turnOn();
+        securityProductFactory.createProduct(productType.IP).turnOn();
+        securityProductFactory.createProduct(productType.THERMAL).turnOn();
 
 
         //Hygrometer hygrometer = new Hygrometer();
