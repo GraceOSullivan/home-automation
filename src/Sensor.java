@@ -1,17 +1,15 @@
-abstract class Sensor {
+abstract class Sensor implements SecurityProduct{
     String type;
 
-    abstract void turnOn();
-
-    void setType(String type) {
+    public void setType(String type) {
         this.type = type;
     }
 
-    String getType(){
+    public String getType(){
         return this.type;
     }
 
-    void displayTurningOnQuery(){
-        System.out.println("Turning the " + getType() + " sensors on...");
+    public void displayTurningOnQuery() {
+        System.out.println("Turning the " + getType() + " cameras on...");
     }
 }

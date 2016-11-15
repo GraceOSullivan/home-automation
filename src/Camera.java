@@ -1,17 +1,14 @@
-abstract class Camera {
+abstract class Camera implements SecurityProduct {
     String type;
 
-    abstract void turnOn();
-
-    void setType(String type) {
+    public void setType(String type) {
         this.type = type;
     }
 
-    String getType(){
+    public String getType(){
         return this.type;
     }
-
-    void displayTurningOnQuery(){
+    public void displayTurningOnQuery() {
         System.out.println("Turning the " + getType() + " cameras on...");
     }
 }

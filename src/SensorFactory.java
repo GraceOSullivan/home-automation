@@ -1,24 +1,24 @@
-public class SensorFactory {
-    public Sensor getSensor(String sensorType) {
-        if (sensorType.equalsIgnoreCase("BEAM"))
+public class SensorFactory implements SecurityProductFactory {
+    public SecurityProduct createProduct(String productType) {
+        if (productType.equalsIgnoreCase("BEAM"))
             return new BeamSensor();
-        else if (sensorType.equalsIgnoreCase("CEILING"))
+        else if (productType.equalsIgnoreCase("CEILING"))
             return new CeilingSensor();
-        else if (sensorType.equalsIgnoreCase("CONTACT"))
+        else if (productType.equalsIgnoreCase("CONTACT"))
             return new ContactSensor();
-        else if (sensorType.equalsIgnoreCase("DOOR"))
+        else if (productType.equalsIgnoreCase("DOOR"))
             return new DoorSensor();
-        else if (sensorType.equalsIgnoreCase("GAS"))
+        else if (productType.equalsIgnoreCase("GAS"))
             return new GasSensor();
-        else if (sensorType.equalsIgnoreCase("GLASS"))
+        else if (productType.equalsIgnoreCase("GLASS"))
             return new GlassSensor();
-        else if (sensorType.equalsIgnoreCase("MAGNETIC"))
+        else if (productType.equalsIgnoreCase("MAGNETIC"))
             return new MagneticSensor();
-        else if (sensorType.equalsIgnoreCase("PIR"))
+        else if (productType.equalsIgnoreCase("PIR"))
             return new PIRSensor();
-        else if (sensorType.equalsIgnoreCase("SMOKE"))
+        else if (productType.equalsIgnoreCase("SMOKE"))
             return new SmokeSensor();
-        else if (sensorType.equalsIgnoreCase("VIBRATION"))
+        else if (productType.equalsIgnoreCase("VIBRATION"))
             return new VibrationSensor();
         else
             return null;

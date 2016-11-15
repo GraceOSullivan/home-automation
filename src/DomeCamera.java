@@ -1,6 +1,6 @@
 public class DomeCamera extends Camera {
     @Override
-    void turnOn() {
+    public void turnOn() {
         setType("dome");
         displayTurningOnQuery();
     }

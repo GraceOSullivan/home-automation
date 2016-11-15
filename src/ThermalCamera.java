@@ -1,6 +1,6 @@
 public class ThermalCamera extends Camera {
     @Override
-    void turnOn() {
+    public void turnOn() {
         setType("thermal");
         displayTurningOnQuery();
     }
