@@ -1,4 +1,4 @@
-abstract class Sensor {
+abstract class Camera {
     String type;
 
     abstract void turnOn();
@@ -12,6 +12,6 @@ abstract class Sensor {
     }
 
     void displayTurningOnQuery(){
-        System.out.println("Turning the " + getType() + " sensors on...");
+        System.out.println("Turning the " + getType() + " cameras on...");
     }
 }
