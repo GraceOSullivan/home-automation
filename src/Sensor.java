@@ -1,6 +1,6 @@
 abstract class Sensor implements SecurityProduct{
-    public ProductType productType;
+    public SecurityProductType securityProductType;
     public void displayTurningOnQuery() {
-        System.out.println("Turning the " + productType.toString() + " sensors on...");
+        System.out.println("Turning the " + securityProductType.toString() + " sensors on...");
     }
 }

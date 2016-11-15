@@ -8,22 +8,20 @@ class AppDriver {
 
         SecurityProductFactory securityProductFactory;
 
-        ProductType productType = null;
-
         securityProductFactory = new SensorFactory();
-        securityProductFactory.createProduct(productType.BEAM).turnOn();
-        securityProductFactory.createProduct(productType.CEILING).turnOn();
-        securityProductFactory.createProduct(productType.CONTACT).turnOn();
-        securityProductFactory.createProduct(productType.DOOR).turnOn();
-        securityProductFactory.createProduct(productType.GLASS).turnOn();
-        securityProductFactory.createProduct(productType.SMOKE).turnOn();
-        securityProductFactory.createProduct(productType.VIBRATION).turnOn();
+        securityProductFactory.createProduct(SecurityProductType.BEAM).turnOn();
+        securityProductFactory.createProduct(SecurityProductType.CEILING).turnOn();
+        securityProductFactory.createProduct(SecurityProductType.CONTACT).turnOn();
+        securityProductFactory.createProduct(SecurityProductType.DOOR).turnOn();
+        securityProductFactory.createProduct(SecurityProductType.GLASS).turnOn();
+        securityProductFactory.createProduct(SecurityProductType.SMOKE).turnOn();
+        securityProductFactory.createProduct(SecurityProductType.VIBRATION).turnOn();
 
         securityProductFactory = new CameraFactory();
-        securityProductFactory.createProduct(productType.BOX).turnOn();
-        securityProductFactory.createProduct(productType.DOME).turnOn();
-        securityProductFactory.createProduct(productType.IP).turnOn();
-        securityProductFactory.createProduct(productType.THERMAL).turnOn();
+        securityProductFactory.createProduct(SecurityProductType.BOX).turnOn();
+        securityProductFactory.createProduct(SecurityProductType.DOME).turnOn();
+        securityProductFactory.createProduct(SecurityProductType.IP).turnOn();
+        securityProductFactory.createProduct(SecurityProductType.THERMAL).turnOn();
 
 
         //Hygrometer hygrometer = new Hygrometer();

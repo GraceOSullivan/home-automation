@@ -1,6 +1,6 @@
 public class SensorFactory implements SecurityProductFactory {
-    public SecurityProduct createProduct(ProductType productType) {
-        switch (productType) {
+    public SecurityProduct createProduct(SecurityProductType securityProductType) {
+        switch (securityProductType) {
             case BEAM:
                 return new BeamSensor();
             case CEILING:

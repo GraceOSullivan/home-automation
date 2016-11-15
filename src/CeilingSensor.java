@@ -1,7 +1,7 @@
 public class CeilingSensor extends Sensor  {
     @Override
     public void turnOn() {
-        productType = ProductType.CEILING;
+        securityProductType = SecurityProductType.CEILING;
         displayTurningOnQuery();
     }
 }
