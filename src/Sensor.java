@@ -1,7 +1,8 @@
 public class Sensor {
-    String type;
+    private String type;
+    Sensor sensor;
 
-    public Sensor(){
+    public Sensor() {
         this.type = "";
     }
 
