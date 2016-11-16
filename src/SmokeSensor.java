@@ -1,8 +1,6 @@
 public class SmokeSensor extends Sensor  {
 
-    @Override
-    public void turnOn() {
+    public SmokeSensor() {
         setSecurityProductType(SecurityProductType.SMOKE);
-        displayTurningOnQuery();
     }
 }

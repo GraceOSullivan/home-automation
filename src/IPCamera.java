@@ -1,7 +1,6 @@
 public class IPCamera extends Camera {
-    @Override
-    public void turnOn() {
+
+    public IPCamera() {
         setSecurityProductType(SecurityProductType.IP);
-        displayTurningOnQuery();
     }
 }

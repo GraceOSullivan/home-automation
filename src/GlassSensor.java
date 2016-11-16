@@ -1,8 +1,6 @@
 public class GlassSensor extends Sensor  {
 
-    @Override
-    public void turnOn() {
+    public GlassSensor() {
         setSecurityProductType(SecurityProductType.GLASS);
-        displayTurningOnQuery();
     }
 }

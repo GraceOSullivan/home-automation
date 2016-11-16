@@ -1,8 +1,6 @@
 public class BeamSensor extends Sensor {
 
-    @Override
-    public void turnOn() {
+    public BeamSensor() {
         setSecurityProductType(SecurityProductType.BEAM);
-        displayTurningOnQuery();
     }
 }
