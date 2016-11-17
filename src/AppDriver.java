@@ -2,10 +2,9 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-class AppDriver {
+class AppDriver extends Number {
     public static void main(String[] args) {
         Thermostat thermostat = new Thermostat();
-
         thermostat.displayCurrentTemperature();
         thermostat.regulateTemperatureIfNeeded();
         thermostat.displayCurrentTemperature();
@@ -30,16 +29,24 @@ class AppDriver {
         SecurityProduct [] securityProductArray = new SecurityProduct [] {securityProductBeam, securityProductCeiling,
                 securityProductContact,securityProductDoor, securityProductGlass, securityProductSmoke,
                 securityProductVibration, securityProductBox, securityProductDome, securityProductIP, securityProductThermal};
-        List<SecurityProduct> securityProductList = new ArrayList<SecurityProduct>();
+        List<SecurityProduct> securityProductList = new ArrayList<>();
         securityProductList.addAll(Arrays.asList(securityProductArray));
 
+        securityProductFactory = new AlarmFactory();
+        SecurityProduct securityProductUniversal = securityProductFactory.getProduct(SecurityProductType.UNIVERSAL);
+
         for (SecurityProduct securityProduct : securityProductList) {
-            System.out.println(securityProduct.toString());
+            if (securityProduct != null) {
+                determineIfProductWasTriggered(securityProduct);
+            }
         }
-        
+
         //Hygrometer hygrometer = new Hygrometer();
         //hygrometer.displayCurrentHumidity();
 
     }
 
+    private static boolean determineIfProductWasTriggered(SecurityProduct securityProduct) {
+
+    }
 }
