@@ -1,5 +1,5 @@
 class SensorFacade extends SecurityProductFacade {
-    public SensorFacade() {
+    SensorFacade() {
         SecurityProductFactory securityProductFactory = new SensorFactory();
         SecurityProduct securityProductBeam = securityProductFactory.createProduct(SecurityProductType.BEAM);
         SecurityProduct securityProductCeiling = securityProductFactory.createProduct(SecurityProductType.CEILING);
@@ -9,9 +9,7 @@ class SensorFacade extends SecurityProductFacade {
         SecurityProduct securityProductSmoke = securityProductFactory.createProduct(SecurityProductType.SMOKE);
         SecurityProduct securityProductVibration = securityProductFactory.createProduct(SecurityProductType.VIBRATION);
 
-        SecurityProduct [] securityProductsArray = new SecurityProduct []
-                {securityProductBeam, securityProductCeiling, securityProductContact, securityProductDoor,
-                        securityProductGlass, securityProductSmoke, securityProductVibration};
-        populateSecurityProductsList(securityProductsArray);
+        populateSecurityProductsList(securityProductBeam, securityProductCeiling, securityProductContact,
+                securityProductDoor, securityProductGlass, securityProductSmoke, securityProductVibration);
     }
 }

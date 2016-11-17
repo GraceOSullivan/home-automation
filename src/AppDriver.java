@@ -17,7 +17,6 @@ class AppDriver extends Number {
         facade = new AlarmFacade();
         //facade.turnOn();
 
-        
         /*
         for (SecurityProduct securityProduct : securityProductList) {
             if (securityProduct != null) {

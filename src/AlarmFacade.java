@@ -1,8 +1,8 @@
-public class AlarmFacade extends SecurityProductFacade {
-    public AlarmFacade() {
+class AlarmFacade extends SecurityProductFacade {
+    AlarmFacade() {
         SecurityProductFactory securityProductFactory = new AlarmFactory();
         SecurityProduct securityProductUniversal = securityProductFactory.createProduct(SecurityProductType.UNIVERSAL);
-        SecurityProduct [] securityProductsArray = new SecurityProduct [] {securityProductUniversal};
-        populateSecurityProductsList(securityProductsArray);
+
+        populateSecurityProductsList(securityProductUniversal);
     }
 }

@@ -13,7 +13,7 @@ abstract class SecurityProductFacade {
         securityProductList.forEach(SecurityProduct::turnOff);
     }
 
-    void populateSecurityProductsList(SecurityProduct [] securityProductsArray) {
-        securityProductList.addAll(Arrays.asList(securityProductsArray));
+    void populateSecurityProductsList(SecurityProduct... securityProducts) {
+        securityProductList.addAll(Arrays.asList(securityProducts));
     }
 }
