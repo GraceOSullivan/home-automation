@@ -20,4 +20,8 @@ abstract class SecurityProduct {
     SecurityProductType getSecurityProductType() {
         return this.securityProductType;
     }
+
+    public String toString() {
+        return this.securityProductType.toString();
+    }
 }

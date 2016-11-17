@@ -1,3 +1,3 @@
 interface SecurityProductFactory {
-    SecurityProduct createProduct(SecurityProductType securityProductType);
+    SecurityProduct getProduct(SecurityProductType securityProductType);
 }
