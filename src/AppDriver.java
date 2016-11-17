@@ -5,13 +5,16 @@ class AppDriver extends Number {
         thermostat.regulateTemperatureIfNeeded();
         thermostat.displayCurrentTemperature();
 
+        System.out.println("SENSORS");
         SensorFacade sensorFacade = new SensorFacade();
-        sensorFacade.turnOnSensors();
-        sensorFacade.turnOffSensors();
+        sensorFacade.turnOn();
+        sensorFacade.turnOff();
 
+        System.out.println("CAMERAS");
         CameraFacade cameraFacade = new CameraFacade();
-        cameraFacade.turnOnCameras();
-        cameraFacade.turnOffCameras();
+        cameraFacade.turnOn();
+        cameraFacade.turnOff();
+
 /*
 
         securityProductFactory = new AlarmFactory();

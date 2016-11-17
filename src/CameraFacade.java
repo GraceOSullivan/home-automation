@@ -1,10 +1,7 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.List;
 
-class CameraFacade {
-    private List<SecurityProduct> securityProductList;
-
+class CameraFacade extends SecurityProductFacade{
     public CameraFacade() {
         SecurityProductFactory securityProductFactory = new CameraFactory();
         SecurityProduct securityProductBox = securityProductFactory.createProduct(SecurityProductType.BOX);
@@ -12,21 +9,13 @@ class CameraFacade {
         SecurityProduct securityProductIP = securityProductFactory.createProduct(SecurityProductType.IP);
         SecurityProduct securityProductThermal = securityProductFactory.createProduct(SecurityProductType.THERMAL);
 
-        SecurityProduct [] securityProductArray = new SecurityProduct []
+        SecurityProduct [] securityProductsArray = new SecurityProduct []
                 {securityProductBox, securityProductDome, securityProductIP, securityProductThermal};
-        addCamerasToList(securityProductArray);
+        populateSecurityProductsList(securityProductsArray);
     }
 
-    private void addCamerasToList(SecurityProduct [] securityProductArray) {
-        securityProductList = new ArrayList<>();
+    @Override
+    public void populateSecurityProductsList(SecurityProduct[] securityProductArray) {
         securityProductList.addAll(Arrays.asList(securityProductArray));
-    }
-
-    public void turnOnCameras() {
-        securityProductList.forEach(SecurityProduct::turnOn);
-    }
-
-    public void turnOffCameras() {
-        securityProductList.forEach(SecurityProduct::turnOff);
     }
 }
