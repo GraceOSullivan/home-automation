@@ -7,7 +7,7 @@ abstract class SecurityProduct {
         this.wasTriggered = wasTriggered;
     }
 
-    boolean getWasTriggered() {
+    boolean wasTriggered() {
         return this.wasTriggered;
     }
 

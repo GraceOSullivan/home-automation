@@ -37,16 +37,19 @@ class AppDriver extends Number {
 
         for (SecurityProduct securityProduct : securityProductList) {
             if (securityProduct != null) {
-                determineIfProductWasTriggered(securityProduct);
+                checkIfProductWasTriggered(securityProduct);
+                if (securityProduct.wasTriggered()) {
+                    System.out.println(securityProduct.getSecurityProductType() + " security product was triggered...");
+                    securityProductUniversal.turnOn();
+                }
             }
         }
-
-        //Hygrometer hygrometer = new Hygrometer();
-        //hygrometer.displayCurrentHumidity();
-
     }
 
-    private static boolean determineIfProductWasTriggered(SecurityProduct securityProduct) {
-
+    private static void checkIfProductWasTriggered(SecurityProduct securityProduct) {
+        int randomNumber = generateRandomInt(1, 50);
+        if (randomNumber == 25) {
+            securityProduct.setWasTriggered(true);
+        }
     }
 }

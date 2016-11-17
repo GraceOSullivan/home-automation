@@ -11,4 +11,8 @@ abstract class Number {
         DecimalFormat decimal = new DecimalFormat("#.00");
         return decimal.format(number);
     }
+
+    static int generateRandomInt(int min, int max) {
+        return min + (int)(Math.random() * ((max - min) + 1));
+    }
 }

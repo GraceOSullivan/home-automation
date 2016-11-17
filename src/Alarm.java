@@ -1,6 +1,15 @@
 abstract class Alarm extends SecurityProduct {
     public void turnOn() {
-        System.out.println("Turning the " + getSecurityProductType().toString() + " alarms on...");
+        int i= 0;
+        try {
+            do {
+                System.out.println("INTRUDER ALERT...");
+                Thread.sleep(1000);
+                i++;
+            } while (i < 5);
+        } catch (InterruptedException ex) {
+            ex.printStackTrace();
+        }
     }
 
     public void turnOff() {
