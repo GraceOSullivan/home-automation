@@ -1,7 +1,3 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
-
 class AppDriver extends Number {
     public static void main(String[] args) {
         Thermostat thermostat = new Thermostat();
@@ -12,19 +8,11 @@ class AppDriver extends Number {
         SensorFacade sensorFacade = new SensorFacade();
         sensorFacade.turnOnSensors();
         sensorFacade.turnOffSensors();
+
+        CameraFacade cameraFacade = new CameraFacade();
+        cameraFacade.turnOnCameras();
+        cameraFacade.turnOffCameras();
 /*
-        securityProductFactory = new CameraFactory();
-        SecurityProduct securityProductBox = securityProductFactory.getProduct(SecurityProductType.BOX);
-        SecurityProduct securityProductDome = securityProductFactory.getProduct(SecurityProductType.DOME);
-        SecurityProduct securityProductIP = securityProductFactory.getProduct(SecurityProductType.IP);
-        SecurityProduct securityProductThermal = securityProductFactory.getProduct(SecurityProductType.THERMAL);
-
-        SecurityProduct [] securityProductArray = new SecurityProduct [] {securityProductBeam, securityProductCeiling,
-                securityProductContact,securityProductDoor, securityProductGlass, securityProductSmoke,
-                securityProductVibration, securityProductBox, securityProductDome, securityProductIP, securityProductThermal};
-
-        List<SecurityProduct> securityProductList = new ArrayList<>();
-        securityProductList.addAll(Arrays.asList(securityProductArray));
 
         securityProductFactory = new AlarmFactory();
         SecurityProduct securityProductUniversal = securityProductFactory.getProduct(SecurityProductType.UNIVERSAL);

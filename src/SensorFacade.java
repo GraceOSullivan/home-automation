@@ -2,27 +2,20 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class SensorFacade {
-    private SecurityProductFactory securityProductFactory;
-    private SecurityProduct securityProductBeam;
-    private SecurityProduct securityProductCeiling;
-    private SecurityProduct securityProductContact;
-    private SecurityProduct securityProductDoor;
-    private SecurityProduct securityProductGlass;
-    private SecurityProduct securityProductSmoke;
-    private SecurityProduct securityProductVibration;
-    List<SecurityProduct> securityProductList;
+class SensorFacade {
+    private List<SecurityProduct> securityProductList;
 
 
     public SensorFacade() {
-        securityProductFactory = new SensorFactory();
-        securityProductBeam = securityProductFactory.getProduct(SecurityProductType.BEAM);
-        securityProductCeiling = securityProductFactory.getProduct(SecurityProductType.CEILING);
-        securityProductContact = securityProductFactory.getProduct(SecurityProductType.CONTACT);
-        securityProductDoor = securityProductFactory.getProduct(SecurityProductType.DOOR);
-        securityProductGlass = securityProductFactory.getProduct(SecurityProductType.GLASS);
-        securityProductSmoke = securityProductFactory.getProduct(SecurityProductType.SMOKE);
-        securityProductVibration = securityProductFactory.getProduct(SecurityProductType.VIBRATION);
+        SecurityProductFactory securityProductFactory = new SensorFactory();
+        SecurityProduct securityProductBeam = securityProductFactory.getProduct(SecurityProductType.BEAM);
+        SecurityProduct securityProductCeiling = securityProductFactory.getProduct(SecurityProductType.CEILING);
+        SecurityProduct securityProductContact = securityProductFactory.getProduct(SecurityProductType.CONTACT);
+        SecurityProduct securityProductDoor = securityProductFactory.getProduct(SecurityProductType.DOOR);
+        SecurityProduct securityProductGlass = securityProductFactory.getProduct(SecurityProductType.GLASS);
+        SecurityProduct securityProductSmoke = securityProductFactory.getProduct(SecurityProductType.SMOKE);
+        SecurityProduct securityProductVibration = securityProductFactory.getProduct(SecurityProductType.VIBRATION);
+
         SecurityProduct [] securityProductArray = new SecurityProduct []
                 {securityProductBeam, securityProductCeiling, securityProductContact, securityProductDoor,
                         securityProductGlass, securityProductSmoke, securityProductVibration};
@@ -35,14 +28,10 @@ public class SensorFacade {
     }
 
     public void turnOnSensors() {
-        for (SecurityProduct securityProduct : securityProductList) {
-            securityProduct.turnOn();
-        }
+        securityProductList.forEach(SecurityProduct::turnOn);
     }
 
     public void turnOffSensors() {
-        for (SecurityProduct securityProduct : securityProductList) {
-            securityProduct.turnOff();
-        }
+        securityProductList.forEach(SecurityProduct::turnOff);
     }
 }
