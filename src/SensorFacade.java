@@ -8,13 +8,13 @@ class SensorFacade {
 
     public SensorFacade() {
         SecurityProductFactory securityProductFactory = new SensorFactory();
-        SecurityProduct securityProductBeam = securityProductFactory.getProduct(SecurityProductType.BEAM);
-        SecurityProduct securityProductCeiling = securityProductFactory.getProduct(SecurityProductType.CEILING);
-        SecurityProduct securityProductContact = securityProductFactory.getProduct(SecurityProductType.CONTACT);
-        SecurityProduct securityProductDoor = securityProductFactory.getProduct(SecurityProductType.DOOR);
-        SecurityProduct securityProductGlass = securityProductFactory.getProduct(SecurityProductType.GLASS);
-        SecurityProduct securityProductSmoke = securityProductFactory.getProduct(SecurityProductType.SMOKE);
-        SecurityProduct securityProductVibration = securityProductFactory.getProduct(SecurityProductType.VIBRATION);
+        SecurityProduct securityProductBeam = securityProductFactory.createProduct(SecurityProductType.BEAM);
+        SecurityProduct securityProductCeiling = securityProductFactory.createProduct(SecurityProductType.CEILING);
+        SecurityProduct securityProductContact = securityProductFactory.createProduct(SecurityProductType.CONTACT);
+        SecurityProduct securityProductDoor = securityProductFactory.createProduct(SecurityProductType.DOOR);
+        SecurityProduct securityProductGlass = securityProductFactory.createProduct(SecurityProductType.GLASS);
+        SecurityProduct securityProductSmoke = securityProductFactory.createProduct(SecurityProductType.SMOKE);
+        SecurityProduct securityProductVibration = securityProductFactory.createProduct(SecurityProductType.VIBRATION);
 
         SecurityProduct [] securityProductArray = new SecurityProduct []
                 {securityProductBeam, securityProductCeiling, securityProductContact, securityProductDoor,

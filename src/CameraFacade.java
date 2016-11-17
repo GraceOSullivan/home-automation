@@ -7,10 +7,10 @@ class CameraFacade {
 
     public CameraFacade() {
         SecurityProductFactory securityProductFactory = new CameraFactory();
-        SecurityProduct securityProductBox = securityProductFactory.getProduct(SecurityProductType.BOX);
-        SecurityProduct securityProductDome = securityProductFactory.getProduct(SecurityProductType.DOME);
-        SecurityProduct securityProductIP = securityProductFactory.getProduct(SecurityProductType.IP);
-        SecurityProduct securityProductThermal = securityProductFactory.getProduct(SecurityProductType.THERMAL);
+        SecurityProduct securityProductBox = securityProductFactory.createProduct(SecurityProductType.BOX);
+        SecurityProduct securityProductDome = securityProductFactory.createProduct(SecurityProductType.DOME);
+        SecurityProduct securityProductIP = securityProductFactory.createProduct(SecurityProductType.IP);
+        SecurityProduct securityProductThermal = securityProductFactory.createProduct(SecurityProductType.THERMAL);
 
         SecurityProduct [] securityProductArray = new SecurityProduct []
                 {securityProductBox, securityProductDome, securityProductIP, securityProductThermal};

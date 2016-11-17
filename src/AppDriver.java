@@ -15,7 +15,7 @@ class AppDriver extends Number {
 /*
 
         securityProductFactory = new AlarmFactory();
-        SecurityProduct securityProductUniversal = securityProductFactory.getProduct(SecurityProductType.UNIVERSAL);
+        SecurityProduct securityProductUniversal = securityProductFactory.createProduct(SecurityProductType.UNIVERSAL);
 
         for (SecurityProduct securityProduct : securityProductList) {
             if (securityProduct != null) {
