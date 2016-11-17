@@ -1,4 +1,4 @@
-public class VibrationSensor extends Sensor  {
+class VibrationSensor extends Sensor  {
 
     public VibrationSensor() {
         setSecurityProductType(SecurityProductType.VIBRATION);

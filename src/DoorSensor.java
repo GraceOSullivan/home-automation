@@ -1,4 +1,4 @@
-public class DoorSensor extends Sensor {
+class DoorSensor extends Sensor {
 
     public DoorSensor() {
         setSecurityProductType(SecurityProductType.DOOR);

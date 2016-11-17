@@ -1,4 +1,4 @@
-public class BeamSensor extends Sensor {
+class BeamSensor extends Sensor {
 
     public BeamSensor() {
         setSecurityProductType(SecurityProductType.BEAM);

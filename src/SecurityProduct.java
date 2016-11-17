@@ -1,11 +1,23 @@
 abstract class SecurityProduct {
     abstract void turnOn();
-    abstract void displayTurningOnQuery();
+    abstract void turnOff();
+    private boolean wasTriggered = false;
 
-    public SecurityProductType securityProductType;
+    void setWasTriggered(boolean wasTriggered) {
+        this.wasTriggered = wasTriggered;
+    }
 
-    SecurityProductType setSecurityProductType(SecurityProductType securityProductType) {
+    boolean getWasTriggered() {
+        return this.wasTriggered;
+    }
+
+    private SecurityProductType securityProductType;
+
+    void setSecurityProductType(SecurityProductType securityProductType) {
         this.securityProductType = securityProductType;
-        return securityProductType;
+    }
+
+    SecurityProductType getSecurityProductType() {
+        return this.securityProductType;
     }
 }

@@ -1,4 +1,4 @@
-public class IPCamera extends Camera {
+class IPCamera extends Camera {
 
     public IPCamera() {
         setSecurityProductType(SecurityProductType.IP);

@@ -1,9 +1,9 @@
-abstract class Sensor extends SecurityProduct{
-    public void displayTurningOnQuery() {
-        System.out.println("Turning the " + securityProductType.toString() + " sensors on...");
+abstract class Sensor extends SecurityProduct {
+    public void turnOn() {
+        System.out.println("Turning the " + getSecurityProductType().toString() + " sensors on...");
     }
 
-    public void turnOn() {
-        displayTurningOnQuery();
+    public void turnOff() {
+        System.out.println("Turning the " + getSecurityProductType().toString() + " sensors off...");
     }
 }

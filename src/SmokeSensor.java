@@ -1,4 +1,4 @@
-public class SmokeSensor extends Sensor  {
+class SmokeSensor extends Sensor  {
 
     public SmokeSensor() {
         setSecurityProductType(SecurityProductType.SMOKE);

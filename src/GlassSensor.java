@@ -1,4 +1,4 @@
-public class GlassSensor extends Sensor  {
+class GlassSensor extends Sensor  {
 
     public GlassSensor() {
         setSecurityProductType(SecurityProductType.GLASS);

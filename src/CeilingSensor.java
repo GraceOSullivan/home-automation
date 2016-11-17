@@ -1,4 +1,4 @@
-public class CeilingSensor extends Sensor  {
+class CeilingSensor extends Sensor  {
 
     public CeilingSensor() {
         setSecurityProductType(SecurityProductType.CEILING);

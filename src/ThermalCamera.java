@@ -1,4 +1,4 @@
-public class ThermalCamera extends Camera {
+class ThermalCamera extends Camera {
 
     public  ThermalCamera() {
         setSecurityProductType(SecurityProductType.THERMAL);
