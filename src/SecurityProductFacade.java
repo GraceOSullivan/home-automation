@@ -1,8 +1,9 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 abstract class SecurityProductFacade {
-    List<SecurityProduct> securityProductList = new ArrayList<>();
+    private final List<SecurityProduct> securityProductList = new ArrayList<>();
 
     void turnOn() {
         securityProductList.forEach(SecurityProduct::turnOn);
@@ -12,5 +13,7 @@ abstract class SecurityProductFacade {
         securityProductList.forEach(SecurityProduct::turnOff);
     }
 
-    abstract void populateSecurityProductsList(SecurityProduct [] securityProductsArray);
+    void populateSecurityProductsList(SecurityProduct [] securityProductsArray) {
+        securityProductList.addAll(Arrays.asList(securityProductsArray));
+    }
 }

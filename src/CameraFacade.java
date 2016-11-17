@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-
 class CameraFacade extends SecurityProductFacade{
     public CameraFacade() {
         SecurityProductFactory securityProductFactory = new CameraFactory();
@@ -12,10 +9,5 @@ class CameraFacade extends SecurityProductFacade{
         SecurityProduct [] securityProductsArray = new SecurityProduct []
                 {securityProductBox, securityProductDome, securityProductIP, securityProductThermal};
         populateSecurityProductsList(securityProductsArray);
-    }
-
-    @Override
-    public void populateSecurityProductsList(SecurityProduct[] securityProductArray) {
-        securityProductList.addAll(Arrays.asList(securityProductArray));
     }
 }
