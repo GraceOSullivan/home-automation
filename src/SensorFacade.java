@@ -1,4 +1,4 @@
-class SensorFacade extends SecurityProductFacade{
+class SensorFacade extends SecurityProductFacade {
     public SensorFacade() {
         SecurityProductFactory securityProductFactory = new SensorFactory();
         SecurityProduct securityProductBeam = securityProductFactory.createProduct(SecurityProductType.BEAM);

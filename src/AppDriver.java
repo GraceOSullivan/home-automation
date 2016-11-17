@@ -5,19 +5,20 @@ class AppDriver extends Number {
         thermostat.regulateTemperatureIfNeeded();
         thermostat.displayCurrentTemperature();
 
-        SensorFacade sensorFacade = new SensorFacade();
-        sensorFacade.turnOn();
-        sensorFacade.turnOff();
+        SecurityProductFacade facade;
+        facade = new SensorFacade();
+        facade.turnOn();
+        facade.turnOff();
 
-        CameraFacade cameraFacade = new CameraFacade();
-        cameraFacade.turnOn();
-        cameraFacade.turnOff();
+        facade = new CameraFacade();
+        facade.turnOn();
+        facade.turnOff();
 
-/*
+        facade = new AlarmFacade();
+        //facade.turnOn();
 
-        securityProductFactory = new AlarmFactory();
-        SecurityProduct securityProductUniversal = securityProductFactory.createProduct(SecurityProductType.UNIVERSAL);
-
+        
+        /*
         for (SecurityProduct securityProduct : securityProductList) {
             if (securityProduct != null) {
                 checkIfProductWasTriggered(securityProduct);

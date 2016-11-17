@@ -1,6 +1,6 @@
 abstract class Alarm extends SecurityProduct {
     public void turnOn() {
-        int i= 0;
+        int i = 0;
         try {
             do {
                 System.out.println("INTRUDER ALERT...");
