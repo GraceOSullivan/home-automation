@@ -9,6 +9,10 @@ class AppDriver extends Number {
         securityFacade.turnOnSensorsAndCameras();
         securityFacade.turnOffSensorsAndCameras();
 
+        for (SecurityProduct securityProduct : securityFacade.getSecurityProductsList()) {
+            System.out.println(securityProduct.toString());
+        }
+
         //facade = new AlarmFacade();
         //facade.turnOn();
 
