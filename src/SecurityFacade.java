@@ -1,23 +1,14 @@
 public class SecurityFacade {
-    SecurityProductFacade facade;
-
-    void turnOnSensors() {
-        facade = new SensorFacade();
-        facade.turnOn();
+    SecurityProductFacade sensorFacade = new SensorFacade();
+    SecurityProductFacade cameraFacade = new CameraFacade();
+    
+    void turnOnSensorsAndCameras() {
+        sensorFacade.turnOn();
+        cameraFacade.turnOn();
     }
 
-    void turnOffSensors() {
-        facade = new SensorFacade();
-        facade.turnOff();
-    }
-
-    void turnOnCameras() {
-        facade = new CameraFacade();
-        facade.turnOn();
-    }
-
-    void turnOffCameras() {
-        facade = new CameraFacade();
-        facade.turnOff();
+    void turnOffSensorsAndCameras() {
+        sensorFacade.turnOff();
+        cameraFacade.turnOff();
     }
 }

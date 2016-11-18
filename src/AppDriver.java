@@ -6,10 +6,8 @@ class AppDriver extends Number {
         thermostat.displayCurrentTemperature();
 
         SecurityFacade securityFacade = new SecurityFacade();
-        securityFacade.turnOnSensors();
-        securityFacade.turnOffSensors();
-        securityFacade.turnOnCameras();
-        securityFacade.turnOffCameras();
+        securityFacade.turnOnSensorsAndCameras();
+        securityFacade.turnOffSensorsAndCameras();
 
         //facade = new AlarmFacade();
         //facade.turnOn();
