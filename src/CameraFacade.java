@@ -1,12 +1,13 @@
-class CameraFacade extends SecurityProductFacade{
+class CameraFacade extends SecurityProductFacade {
     CameraFacade() {
-        setSecurityProductFactory(new CameraFactory());
-        SecurityProductFactory cameraFactory = getSecurityProductFactory();
+        setSecurityProductFactoryType(new CameraFactory());
+        SecurityProductFactory cameraFactory = getSecurityProductFactoryType();
+
         SecurityProduct securityProductBox = cameraFactory.createProduct(SecurityProductType.BOX);
         SecurityProduct securityProductDome = cameraFactory.createProduct(SecurityProductType.DOME);
         SecurityProduct securityProductIP = cameraFactory.createProduct(SecurityProductType.IP);
         SecurityProduct securityProductThermal = cameraFactory.createProduct(SecurityProductType.THERMAL);
 
-        populateSecurityProductsList(securityProductBox, securityProductDome, securityProductIP, securityProductThermal);
+        populateIndividualSecurityProductsList(securityProductBox, securityProductDome, securityProductIP, securityProductThermal);
     }
 }

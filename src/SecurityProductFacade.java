@@ -6,11 +6,11 @@ abstract class SecurityProductFacade {
     private List<SecurityProduct> securityProductsList;
     private SecurityProductFactory securityProductFactory;
 
-    SecurityProductFactory getSecurityProductFactory() {
+    SecurityProductFactory getSecurityProductFactoryType() {
         return this.securityProductFactory;
     }
 
-    void setSecurityProductFactory(SecurityProductFactory securityProductFactory) {
+    void setSecurityProductFactoryType(SecurityProductFactory securityProductFactory) {
         this.securityProductFactory = securityProductFactory;
     }
 
@@ -22,8 +22,12 @@ abstract class SecurityProductFacade {
         securityProductsList.forEach(SecurityProduct::turnOff);
     }
 
-    void populateSecurityProductsList(SecurityProduct... securityProducts) {
+    void populateIndividualSecurityProductsList(SecurityProduct... securityProducts) {
         securityProductsList = new ArrayList<>();
         securityProductsList.addAll(Arrays.asList(securityProducts));
+    }
+
+    List<SecurityProduct> getIndividualSecurityProductsList() {
+        return this.securityProductsList;
     }
 }
