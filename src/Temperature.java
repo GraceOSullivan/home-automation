@@ -1,5 +1,4 @@
 interface Temperature {
-
     double regulateTemperature(double temperature);
 
     default void displayRegulatingTemperature() {

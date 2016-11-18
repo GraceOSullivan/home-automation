@@ -1,11 +1,11 @@
 class Context {
-    private final Temperature implementation;
+    private final Temperature temperature;
 
     public Context(Temperature strategy) {
-        this.implementation = strategy;
+        this.temperature = strategy;
     }
 
     public double executeStrategy(double temperature) {
-        return implementation.regulateTemperature(temperature);
+        return this.temperature.regulateTemperature(temperature);
     }
 }
