@@ -3,17 +3,27 @@ import java.util.Arrays;
 import java.util.List;
 
 abstract class SecurityProductFacade {
-    private final List<SecurityProduct> securityProductList = new ArrayList<>();
+    private List<SecurityProduct> securityProductsList;
+    private SecurityProductFactory securityProductFactory;
+
+    SecurityProductFactory getSecurityProductFactory() {
+        return this.securityProductFactory;
+    }
+
+    void setSecurityProductFactory(SecurityProductFactory securityProductFactory) {
+        this.securityProductFactory = securityProductFactory;
+    }
 
     void turnOn() {
-        securityProductList.forEach(SecurityProduct::turnOn);
+        securityProductsList.forEach(SecurityProduct::turnOn);
     }
 
     void turnOff() {
-        securityProductList.forEach(SecurityProduct::turnOff);
+        securityProductsList.forEach(SecurityProduct::turnOff);
     }
 
     void populateSecurityProductsList(SecurityProduct... securityProducts) {
-        securityProductList.addAll(Arrays.asList(securityProducts));
+        securityProductsList = new ArrayList<>();
+        securityProductsList.addAll(Arrays.asList(securityProducts));
     }
 }

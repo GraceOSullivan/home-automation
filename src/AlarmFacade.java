@@ -1,7 +1,8 @@
 class AlarmFacade extends SecurityProductFacade {
     AlarmFacade() {
-        SecurityProductFactory securityProductFactory = new AlarmFactory();
-        SecurityProduct securityProductUniversal = securityProductFactory.createProduct(SecurityProductType.UNIVERSAL);
+        setSecurityProductFactory(new AlarmFactory());
+        SecurityProductFactory alarmFactory = getSecurityProductFactory();
+        SecurityProduct securityProductUniversal = alarmFactory.createProduct(SecurityProductType.UNIVERSAL);
 
         populateSecurityProductsList(securityProductUniversal);
     }
