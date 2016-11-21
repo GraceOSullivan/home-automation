@@ -1,4 +1,7 @@
-class Alarm extends SecurityProduct {
+import java.util.Observable;
+import java.util.Observer;
+
+class Alarm extends SecurityProduct implements Observer {
     Alarm(SecurityProductType securityProductType) {
         setSecurityProductType(securityProductType);
     }
@@ -18,5 +21,11 @@ class Alarm extends SecurityProduct {
 
     public void turnOff() {
         System.out.println("Turning the " + getSecurityProductType().toString() + " alarms off...");
+    }
+
+    @Override
+    public void update(Observable o, Object arg) {
+        System.out.println(o.toString() + " security product triggered...");
+        turnOn();
     }
 }

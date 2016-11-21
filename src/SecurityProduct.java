@@ -1,9 +1,13 @@
-abstract class SecurityProduct {
+import java.util.Observable;
+
+abstract class SecurityProduct extends Observable {
     abstract void turnOn();
     abstract void turnOff();
     private boolean wasTriggered = false;
 
     void setWasTriggered(boolean wasTriggered) {
+        setChanged();
+        notifyObservers();
         this.wasTriggered = wasTriggered;
     }
 

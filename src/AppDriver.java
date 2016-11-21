@@ -8,17 +8,17 @@ class AppDriver extends Number {
         SecurityFacade securityFacade = new SecurityFacade();
         securityFacade.turnOnSensorsAndCameras();
 
+        System.out.println("=== Checking for intruders ===");
+
+        Alarm alarm = new Alarm(SecurityProductType.UNIVERSAL);
+
         // for-each loop in a functional manner
         securityFacade.getSecurityProductsList().stream().filter(securityProduct -> securityProduct != null).forEach(securityProduct -> {
+            securityProduct.addObserver(alarm);
             checkIfProductWasTriggered(securityProduct);
-            if (securityProduct.wasTriggered()) {
-                System.out.println(securityProduct.getSecurityProductType() + " security product was triggered...");
-                securityProduct.setWasTriggered(true);
-                securityFacade.turnOnAlarms();
-            }
         });
 
-        securityFacade.turnOffSensorsAndCameras();
+        // securityFacade.turnOffSensorsAndCameras();
     }
 
     private static void checkIfProductWasTriggered(SecurityProduct securityProduct) {
