@@ -6,16 +6,16 @@ class Alarm extends SecurityProduct implements Observer {
         setSecurityProductType(securityProductType);
     }
 
-    public void turnOn() {
-        int i = 0;
+    void turnOn() {
+        int soundAlarmCounter = 0;
         try {
             do {
                 System.out.println("INTRUDER ALERT...");
                 Thread.sleep(1000);
-                i++;
-            } while (i < 5);
+                soundAlarmCounter++;
+            } while (soundAlarmCounter < 5);
         } catch (InterruptedException ex) {
-            ex.printStackTrace();
+            System.out.println("Fatal error: Thread interrupted.");
         }
     }
 

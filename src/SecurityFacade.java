@@ -17,6 +17,6 @@ class SecurityFacade {
     List<SecurityProduct> getSecurityProductsList() {
         List<SecurityProduct> securityProductsList = sensorFacade.getSecurityProductsList();
         securityProductsList.addAll(cameraFacade.getSecurityProductsList());
-        return  securityProductsList;
+        return securityProductsList;
     }
 }
