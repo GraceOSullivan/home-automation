@@ -2,8 +2,52 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="404fe23d-27ce-44e8-905c-4c6cf5ba8f21" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/BeamSensor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/BoxCamera.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/CeilingSensor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/ContactSensor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/DomeCamera.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/DoorSensor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/GlassSensor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/IPCamera.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/SmokeSensor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/ThermalCamera.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/UniversalAlarm.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/VibrationSensor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/BeamSensor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/BoxCamera.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/CeilingSensor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ContactSensor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/DomeCamera.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/DoorSensor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GlassSensor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/IPCamera.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/SmokeSensor.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/ThermalCamera.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/UniversalAlarm.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/VibrationSensor.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/Alarm.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/Alarm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/AlarmFacade.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/AlarmFacade.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/AlarmFactory.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/AlarmFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/AppDriver.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/AppDriver.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/Camera.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/Camera.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/CameraFacade.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/CameraFacade.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/CameraFactory.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/CameraFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/SecurityProductFacade.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/SecurityProductFacade.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/Sensor.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/Sensor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/SensorFacade.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/SensorFacade.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/SensorFactory.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/SensorFactory.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppDriver.java" afterPath="$PROJECT_DIR$/src/AppDriver.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Alarm.java" afterPath="$PROJECT_DIR$/src/Alarm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AlarmFacade.java" afterPath="$PROJECT_DIR$/src/AlarmFacade.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AlarmFactory.java" afterPath="$PROJECT_DIR$/src/AlarmFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Camera.java" afterPath="$PROJECT_DIR$/src/Camera.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CameraFacade.java" afterPath="$PROJECT_DIR$/src/CameraFacade.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CameraFactory.java" afterPath="$PROJECT_DIR$/src/CameraFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SecurityProductFacade.java" afterPath="$PROJECT_DIR$/src/SecurityProductFacade.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sensor.java" afterPath="$PROJECT_DIR$/src/Sensor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SensorFacade.java" afterPath="$PROJECT_DIR$/src/SensorFacade.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SensorFactory.java" afterPath="$PROJECT_DIR$/src/SensorFactory.java" />
     </list>
     <ignored path="HomeAutomation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,21 +72,24 @@
       <file leaf-file-name="Sensor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sensor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-              <folding />
+            <state relative-caret-position="68">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+              <folding>
+                <element signature="e#91#92#0" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BeamSensor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/BeamSensor.java">
+      <file leaf-file-name="Camera.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Camera.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="36" />
+            <state relative-caret-position="68">
+              <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
               <folding>
-                <element signature="e#59#60#0" expanded="true" />
-                <element signature="e#123#124#0" expanded="true" />
+                <element signature="e#91#92#0" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -51,81 +98,41 @@
       <file leaf-file-name="AppDriver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
+            <state relative-caret-position="357">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecurityProductType.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/SecurityProductType.java">
+      <file leaf-file-name="AlarmFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/AlarmFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+            <state relative-caret-position="136">
+              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecurityProductFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SecurityProductFactory.java">
+      <file leaf-file-name="Alarm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Alarm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecurityFacade.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SecurityFacade.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="51">
+              <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
               <folding>
-                <element signature="e#574#575#0" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
+                <element signature="e#89#90#0" expanded="true" />
+                <element signature="e#148#149#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoorSensor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DoorSensor.java">
+      <file leaf-file-name="CameraFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CameraFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GlassSensor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GlassSensor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SmokeSensor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SmokeSensor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="VibrationSensor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/VibrationSensor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
+            <state relative-caret-position="170">
+              <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -189,9 +196,15 @@
         <option value="$PROJECT_DIR$/src/SmokeSensor.java" />
         <option value="$PROJECT_DIR$/src/VibrationSensor.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/Sensor.java" />
         <option value="$PROJECT_DIR$/src/SecurityFacade.java" />
         <option value="$PROJECT_DIR$/src/AppDriver.java" />
+        <option value="$PROJECT_DIR$/src/Sensor.java" />
+        <option value="$PROJECT_DIR$/src/SensorFactory.java" />
+        <option value="$PROJECT_DIR$/src/SecurityProductFacade.java" />
+        <option value="$PROJECT_DIR$/src/Camera.java" />
+        <option value="$PROJECT_DIR$/src/CameraFactory.java" />
+        <option value="$PROJECT_DIR$/src/Alarm.java" />
+        <option value="$PROJECT_DIR$/src/AlarmFactory.java" />
       </list>
     </option>
   </component>
@@ -986,19 +999,20 @@
       <workItem from="1477576786274" duration="5466000" />
       <workItem from="1479216426471" duration="6749000" />
       <workItem from="1479718942727" duration="617000" />
-      <workItem from="1479720214866" duration="293000" />
+      <workItem from="1479720214866" duration="2533000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31225000" />
+    <option name="totallyTimeSpent" value="33465000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32628062" sideWeight="0.5042644" order="7" side_tool="true" content_ui="tabs" />
@@ -1009,7 +1023,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13965885" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection Results" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32739422" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32739422" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1021,7 +1035,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1052,44 +1065,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/DecreaseTemperature.java" />
-    <entry file="file://$PROJECT_DIR$/src/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/KeepTemperature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thermostat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="e#91#92#0" expanded="true" />
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/Temperature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/RegulateTemperature.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1381,16 +1356,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DecreaseTemperature.java" />
-    <entry file="file://$PROJECT_DIR$/src/Number.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="58" selection-start-line="10" selection-start-column="58" selection-end-line="10" selection-end-column="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Temperature.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1436,21 +1401,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/CeilingSensor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="42" selection-start-line="0" selection-start-column="42" selection-end-line="0" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ContactSensor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
-          <folding>
-            <element signature="e#118#119#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1459,14 +1414,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/DoorSensor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="33" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -1489,34 +1436,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sensor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/BeamSensor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="8" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="36" />
-          <folding>
-            <element signature="e#59#60#0" expanded="true" />
-            <element signature="e#123#124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AlarmFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SecurityFacade.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1528,19 +1448,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecurityProductFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/Number.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="53" selection-start-line="15" selection-start-column="53" selection-end-line="15" selection-end-column="53" />
-          <folding />
+        <state relative-caret-position="238">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#449#450#0" expanded="true" />
+            <element signature="e#518#519#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1549,6 +1465,119 @@
         <state relative-caret-position="0">
           <caret line="0" column="12" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/BeamSensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="55" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DoorSensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CeilingSensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="37" selection-start-line="0" selection-start-column="37" selection-end-line="0" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecurityProductFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SensorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="63" selection-start-line="16" selection-start-column="63" selection-end-line="16" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecurityProductFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SensorFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Alarm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          <folding>
+            <element signature="e#89#90#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CameraFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AlarmFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#91#92#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Camera.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#91#92#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

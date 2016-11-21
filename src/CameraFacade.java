@@ -1,7 +1,7 @@
 class CameraFacade extends SecurityProductFacade {
     CameraFacade() {
         setSecurityProductFactoryType(new CameraFactory());
-        SecurityProductFactory cameraFactory = getSecurityProductFactoryType();
+        SecurityProductFactory cameraFactory = getSecurityProductFactory();
 
         SecurityProduct securityProductBox = cameraFactory.createProduct(SecurityProductType.BOX);
         SecurityProduct securityProductDome = cameraFactory.createProduct(SecurityProductType.DOME);

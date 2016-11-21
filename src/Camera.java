@@ -1,4 +1,8 @@
-abstract class Camera extends SecurityProduct {
+class Camera extends SecurityProduct {
+    Camera(SecurityProductType securityProductType) {
+        setSecurityProductType(securityProductType);
+    }
+
     public void turnOn() {
         System.out.println("Turning the " + getSecurityProductType().toString() + " cameras on...");
     }

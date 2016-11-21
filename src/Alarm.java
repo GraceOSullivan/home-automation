@@ -1,4 +1,8 @@
-abstract class Alarm extends SecurityProduct {
+class Alarm extends SecurityProduct {
+    Alarm(SecurityProductType securityProductType) {
+        setSecurityProductType(securityProductType);
+    }
+
     public void turnOn() {
         int i = 0;
         try {

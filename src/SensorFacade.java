@@ -1,7 +1,7 @@
 class SensorFacade extends SecurityProductFacade {
     SensorFacade() {
         setSecurityProductFactoryType(new SensorFactory());
-        SecurityProductFactory sensorFactory = getSecurityProductFactoryType();
+        SecurityProductFactory sensorFactory = getSecurityProductFactory();
 
         SecurityProduct securityProductBeam = sensorFactory.createProduct(SecurityProductType.BEAM);
         SecurityProduct securityProductCeiling = sensorFactory.createProduct(SecurityProductType.CEILING);

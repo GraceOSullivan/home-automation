@@ -6,7 +6,7 @@ abstract class SecurityProductFacade {
     private List<SecurityProduct> securityProductsList;
     private SecurityProductFactory securityProductFactory;
 
-    SecurityProductFactory getSecurityProductFactoryType() {
+    SecurityProductFactory getSecurityProductFactory() {
         return this.securityProductFactory;
     }
 
