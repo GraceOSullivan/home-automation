@@ -7,31 +7,24 @@ class AppDriver extends Number {
 
         SecurityFacade securityFacade = new SecurityFacade();
         securityFacade.turnOnSensorsAndCameras();
-        securityFacade.turnOffSensorsAndCameras();
 
         for (SecurityProduct securityProduct : securityFacade.getSecurityProductsList()) {
-            System.out.println(securityProduct.toString());
-        }
-
-        //facade = new AlarmFacade();
-        //facade.turnOn();
-
-        /*
-        for (SecurityProduct securityProduct : securityProductList) {
             if (securityProduct != null) {
                 checkIfProductWasTriggered(securityProduct);
                 if (securityProduct.wasTriggered()) {
                     System.out.println(securityProduct.getSecurityProductType() + " security product was triggered...");
-                    securityProductUniversal.turnOn();
+                    securityProduct.setWasTriggered(true);
+                    securityFacade.turnOnAlarms();
                 }
             }
         }
-        */
+
+        securityFacade.turnOffSensorsAndCameras();
     }
 
     private static void checkIfProductWasTriggered(SecurityProduct securityProduct) {
-        int randomNumber = generateRandomInt(1, 50);
-        if (randomNumber == 25) {
+        int randomNumber = generateRandomInt(1, 25);
+        if (randomNumber == 13) {
             securityProduct.setWasTriggered(true);
         }
     }

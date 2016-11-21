@@ -3,6 +3,7 @@ import java.util.List;
 class SecurityFacade {
     private final SecurityProductFacade sensorFacade = new SensorFacade();
     private final SecurityProductFacade cameraFacade = new CameraFacade();
+    private final SecurityProductFacade alarmFacade = new AlarmFacade();
 
     void turnOnSensorsAndCameras() {
         sensorFacade.turnOn();
@@ -12,6 +13,14 @@ class SecurityFacade {
     void turnOffSensorsAndCameras() {
         sensorFacade.turnOff();
         cameraFacade.turnOff();
+    }
+
+    void turnOnAlarms() {
+        alarmFacade.turnOn();
+    }
+
+    void turnOffAlarms() {
+        alarmFacade.turnOff();
     }
 
     List<SecurityProduct> getSecurityProductsList() {
