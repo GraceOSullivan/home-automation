@@ -1,4 +1,9 @@
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 class AppDriver extends Number {
+
+
     public static void main(String[] args) {
         Thermostat thermostat = new Thermostat();
         thermostat.displayCurrentTemperature();
@@ -18,6 +23,11 @@ class AppDriver extends Number {
             checkIfProductWasTriggered(securityProduct);
         });
 
+        Email email = new Email("this is a bad email address @mail.com", "Hi everyone, here is the contents of the email.");
+        System.out.println(email.toString());
+
+        email = new Email("daniel@mail.com", "Hi everyone, here is the contents of the email.");
+        System.out.println(email.toString());
         // securityFacade.turnOffSensorsAndCameras();
     }
 
