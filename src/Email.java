@@ -1,4 +1,4 @@
-public class Email implements IEmail {
+class Email implements IEmail {
     private String destinationEmailAddress;
     private String contents;
 
@@ -14,7 +14,7 @@ public class Email implements IEmail {
         return this.contents;
     }
 
-    public String getDestinationEmailAddress() {
+    String getDestinationEmailAddress() {
         return this.destinationEmailAddress;
     }
 

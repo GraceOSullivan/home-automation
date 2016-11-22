@@ -1,6 +1,6 @@
-public class FormalEmailDecorator extends EmailDecorator {
+class FormalEmailDecorator extends EmailDecorator {
 
-    public FormalEmailDecorator(IEmail basicEmail) {
+    FormalEmailDecorator(IEmail basicEmail) {
         setEmail(basicEmail);
     }
 

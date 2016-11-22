@@ -1,10 +1,15 @@
+import javax.crypto.BadPaddingException;
 import javax.crypto.Cipher;
+import javax.crypto.IllegalBlockSizeException;
+import javax.crypto.NoSuchPaddingException;
 import javax.crypto.spec.SecretKeySpec;
+import java.security.InvalidKeyException;
 import java.security.Key;
+import java.security.NoSuchAlgorithmException;
 
-public class SecureEmailDecorator extends EmailDecorator {
+class SecureEmailDecorator extends EmailDecorator {
 
-    public SecureEmailDecorator(IEmail email) {
+    SecureEmailDecorator(IEmail email) {
         setEmail(email);
     }
 
@@ -30,8 +35,9 @@ public class SecureEmailDecorator extends EmailDecorator {
             //cipher.init(Cipher.DECRYPT_MODE, aesKey);
             //String decrypted = new String(cipher.doFinal(encrypted));
             //System.err.println(decrypted);
-        } catch(Exception e) {
-            e.printStackTrace();
+        } catch (NoSuchAlgorithmException | NoSuchPaddingException | InvalidKeyException | IllegalBlockSizeException |
+                BadPaddingException ex) {
+            ex.printStackTrace();
         }
 
         return new String(encrypted);

@@ -1,5 +1,5 @@
-public class ColleagueEmailDecorator extends EmailDecorator {
-    public ColleagueEmailDecorator(IEmail basicEmail) {
+class ColleagueEmailDecorator extends EmailDecorator {
+    ColleagueEmailDecorator(IEmail basicEmail) {
         setEmail(basicEmail);
     }
 
