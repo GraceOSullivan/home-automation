@@ -1,4 +1,5 @@
 class ColleagueEmailDecorator extends EmailDecorator {
+
     ColleagueEmailDecorator(IEmail basicEmail) {
         setEmail(basicEmail);
     }
@@ -6,16 +7,6 @@ class ColleagueEmailDecorator extends EmailDecorator {
     @Override
     public String getDetails() {
         return addFriendlinessToEmail(getEmail().getDetails());
-    }
-
-    @Override
-    public String getContents() {
-        return null;
-    }
-
-    @Override
-    public void setContents(String contents) {
-
     }
 
     private String addFriendlinessToEmail(String contents) {

@@ -18,15 +18,6 @@ class SecureEmailDecorator extends EmailDecorator {
         return encrypt(getEmail().getDetails());
     }
 
-    @Override
-    public String getContents() {
-        return null;
-    }
-
-    @Override
-    public void setContents(String contents) {
-
-    }
 
     private String encrypt(String contents) {
         byte[] encrypted = null;

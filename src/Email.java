@@ -22,16 +22,6 @@ class Email implements IEmail {
                 "\nContents: " + contents;
     }
 
-    @Override
-    public String getContents() {
-        return contents;
-    }
-
-    @Override
-    public void setContents(String contents) {
-        this.contents = contents;
-    }
-
     static class EmailBuilder {
         private String from;
         private String to;
