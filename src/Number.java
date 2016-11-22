@@ -8,8 +8,7 @@ abstract class Number {
     }
 
     String formatToTwoDecimalPlaces(double number) {
-        DecimalFormat decimal = new DecimalFormat("#.00");
-        return decimal.format(number);
+        return new DecimalFormat("#.00").format(number);
     }
 
     static int generateRandomInt(int min, int max) {

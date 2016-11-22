@@ -27,7 +27,7 @@ abstract class SecurityProductFacade {
         securityProductsList.addAll(Arrays.asList(securityProducts));
     }
 
-    List<SecurityProduct> getSecurityProductsList() {
+    List<SecurityProduct> getIndividualSecurityProductsList() {
         return this.securityProductsList;
     }
 }

@@ -1,4 +1,6 @@
 import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
 
 class SecurityFacade {
     private final SecurityProductFacade sensorFacade = new SensorFacade();
@@ -15,8 +17,9 @@ class SecurityFacade {
     }
 
     List<SecurityProduct> getSecurityProductsList() {
-        List<SecurityProduct> securityProductsList = sensorFacade.getSecurityProductsList();
-        securityProductsList.addAll(cameraFacade.getSecurityProductsList());
-        return securityProductsList;
+        List<SecurityProduct> sensorList = sensorFacade.getIndividualSecurityProductsList();
+        List<SecurityProduct> cameraList = cameraFacade.getIndividualSecurityProductsList();
+
+        return Stream.concat(sensorList.stream(), cameraList.stream()).collect(Collectors.toList());
     }
 }
