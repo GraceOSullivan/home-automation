@@ -1,29 +1,24 @@
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
-public class Email {
-    private static final Pattern VALID_EMAIL_ADDRESS_REGEX = Pattern.compile("^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$", Pattern.CASE_INSENSITIVE);
-    private String emailAddress;
+public class Email implements IEmail {
+    private String destinationEmailAddress;
     private String contents;
 
-    Email(String emailAddress, String contents) {
-        boolean validEmailAddress = validate(emailAddress);
+    Email(String destinationEmailAddress, String contents) {
+        boolean validEmailAddress = validate(destinationEmailAddress);
         if (validEmailAddress){
-            this.emailAddress = emailAddress;
+            this.destinationEmailAddress = destinationEmailAddress;
         }
         this.contents = contents;
     }
-
-    private static boolean validate(String emailStr) {
-        Matcher matcher = VALID_EMAIL_ADDRESS_REGEX .matcher(emailStr);
-        return matcher.find();
+    @Override
+    public String getContents() {
+        return this.contents;
     }
 
-    public String getEmailAddress() {
-        return this.emailAddress;
+    public String getDestinationEmailAddress() {
+        return this.destinationEmailAddress;
     }
 
     public String toString() {
-        return "Email: " + emailAddress + "\nContents: " + contents;
+        return "Destination email:\n" + destinationEmailAddress + "\nContents:\n" + contents;
     }
 }

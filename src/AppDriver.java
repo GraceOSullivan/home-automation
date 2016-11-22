@@ -1,8 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 class AppDriver extends Number {
 
 
@@ -25,22 +20,20 @@ class AppDriver extends Number {
             checkIfProductWasTriggered(securityProduct);
         });
 
-        Email invalidEmail = new Email("this is a bad email address @mail.com", "I'm invalid.");
-        Email validEmail = new Email("daniel@mail.com", "I'm valid.");
+        securityFacade.turnOffSensorsAndCameras();
 
-        List<Email> emails = new ArrayList<>();
-        emails.add(invalidEmail);
-        emails.add(validEmail);
+        EmailSender sender = new EmailSender();
+        Email email = new Email("dan@mail.com", "I have a new number as follows: 086-1234567.");
 
-        for(Email email : emails) {
-            if (email.getEmailAddress() == null) {
-                System.out.println("Invalid email address");
-            } else {
-                System.out.println("Valid email address:");
-                System.out.println(email.toString());
-            }
-        }
-        // securityFacade.turnOffSensorsAndCameras();
+        System.out.println("Sending formal email to " + email.getDestinationEmailAddress());
+        sender.sendAsFormalEmail(email);
+        System.out.println("Sending secure email to " + email.getDestinationEmailAddress());
+        sender.sendAsSecureEmail(email);
+        System.out.println("Sending friendly email to " + email.getDestinationEmailAddress());
+        sender.sendAsFriendlyEmail(email);
+
+
+
     }
 
     private static void checkIfProductWasTriggered(SecurityProduct securityProduct) {
