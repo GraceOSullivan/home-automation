@@ -19,6 +19,10 @@ public class Email {
         return matcher.find();
     }
 
+    public String getEmailAddress() {
+        return this.emailAddress;
+    }
+
     public String toString() {
         return "Email: " + emailAddress + "\nContents: " + contents;
     }
