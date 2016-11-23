@@ -5,11 +5,7 @@ class ColleagueEmailDecorator extends EmailDecorator {
     }
 
     @Override
-    public String getDetails() {
-        return addFriendlinessToEmail(getEmail().getDetails());
-    }
-
-    private String addFriendlinessToEmail(String contents) {
+    public String customiseEmail(String contents) {
         return  "What's up bro?\n" + contents + "\nYours best mate,\nDan.";
     }
 

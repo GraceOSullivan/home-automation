@@ -5,11 +5,7 @@ class FormalEmailDecorator extends EmailDecorator {
     }
 
     @Override
-    public String getDetails() {
-        return getEmail().getDetails();
-    }
-
-    private String addFormalityToEmailContents(String contents) {
+    String customiseEmail(String contents) {
         return  "Dear Sir/Madam,\n" + contents + "\nYours Sincerely,\nDaniel.";
     }
 

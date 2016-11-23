@@ -13,13 +13,7 @@ class SecureEmailDecorator extends EmailDecorator {
         setEmail(email);
     }
 
-    @Override
-    public String getDetails() {
-        return encrypt(getEmail().getDetails());
-    }
-
-
-    private String encrypt(String contents) {
+    public String customiseEmail(String contents) {
         byte[] encrypted = null;
         try {
             String key = "Bar12345Bar12345"; // 128 bit key
@@ -28,7 +22,7 @@ class SecureEmailDecorator extends EmailDecorator {
             Key aesKey = new SecretKeySpec(key.getBytes(), "AES");
             Cipher cipher = Cipher.getInstance("AES");
 
-            // encrypt the text
+            // customiseEmail the text
             cipher.init(Cipher.ENCRYPT_MODE, aesKey);
             encrypted = cipher.doFinal(contents.getBytes());
 
@@ -44,3 +38,5 @@ class SecureEmailDecorator extends EmailDecorator {
         return new String(encrypted);
     }
 }
+
+

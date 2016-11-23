@@ -2,6 +2,7 @@ class AppDriver extends Number {
 
 
     public static void main(String[] args) {
+        /*
         Thermostat thermostat = new Thermostat();
         thermostat.displayCurrentTemperature();
         thermostat.regulateTemperatureIfNeeded();
@@ -21,24 +22,23 @@ class AppDriver extends Number {
         });
 
         securityFacade.turnOffSensorsAndCameras();
-
+*/
         EmailSender sender = new EmailSender();
 
         Email myemail = new Email.EmailBuilder()
                 .from("dan@mail.com")
                 .to("you")
                 .subject("Notification")
-                .contents("\"I have a new number as follows: 086-1234567.")
+                .contents("I have a new number as follows: 086-1234567.")
                 .build();
 
-        System.out.println("Sending formal email...");
+
         sender.sendAsFormalEmail(myemail);
-        /*
-        System.out.println("Sending secure email to " + email.getDestinationEmailAddress());
-        sender.sendAsSecureEmail(email);
-        System.out.println("Sending friendly email to " + email.getDestinationEmailAddress());
-        sender.sendAsFriendlyEmail(email);
-*/
+
+        sender.sendAsFriendlyEmail(myemail);
+
+        sender.sendAsSecureEmail(myemail);
+
 
 
     }
