@@ -14,12 +14,14 @@ abstract class EmailDecorator implements IEmail {
         return getEmail().getDetails();
     }
 
+    @Override
     public String getContents() {
-        return customiseEmail(getEmail().getContents());
+        return getEmail().getContents();
     }
 
-    public void setContents(String contents) {
-        getEmail().setContents(customiseEmail(getEmail().getContents()));
+    @Override
+    public String getCustomisedDetails(String customisedContents) {
+        return getEmail().getCustomisedDetails(customiseEmail(getContents()));
     }
 
     abstract String customiseEmail(String contents);

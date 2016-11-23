@@ -4,22 +4,19 @@ class EmailSender {
     void sendAsFormalEmail(IEmail email) {
         System.out.println("Sending formal email...");
         emailDecorator = new FormalEmailDecorator(email);
-        emailDecorator.setContents(emailDecorator.getContents());
-        System.out.println(emailDecorator.getDetails());
+        System.out.println(emailDecorator.getCustomisedDetails(emailDecorator.getContents()));
     }
 
     void sendAsSecureEmail(IEmail email) {
-        System.out.println("Sending email to a colleague...");
+        System.out.println("Sending secure email(encrypted)...");
         emailDecorator = new SecureEmailDecorator(email);
-        emailDecorator.setContents(emailDecorator.getContents());
-        System.out.println(emailDecorator.getDetails());
+        System.out.println(emailDecorator.getCustomisedDetails(emailDecorator.getContents()));
     }
 
     void sendAsFriendlyEmail(IEmail email) {
-        System.out.println("Sending secure email(encrypted)...");
+        System.out.println("Sending email to a colleague...");
         emailDecorator = new ColleagueEmailDecorator(email);
-        emailDecorator.setContents(emailDecorator.getContents());
-        System.out.println(emailDecorator.getDetails());
+        System.out.println( emailDecorator.getCustomisedDetails(emailDecorator.getContents()));
     }
 
 }

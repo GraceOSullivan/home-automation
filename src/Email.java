@@ -23,15 +23,17 @@ class Email implements IEmail {
     }
 
     @Override
-    public String getContents() {
-        return contents;
+    public String getCustomisedDetails(String customisedContents) {
+        return "From: " + from +
+                "\nTo: " + to +
+                "\nSubject: " + subject +
+                "\nContents: " + customisedContents;
     }
 
     @Override
-    public void setContents(String contents) {
-        this.contents = contents;
+    public String getContents() {
+        return contents;
     }
-
 
     static class EmailBuilder {
         private String from;

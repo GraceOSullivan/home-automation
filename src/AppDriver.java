@@ -25,7 +25,7 @@ class AppDriver extends Number {
 */
         EmailSender sender = new EmailSender();
 
-        Email myemail = new Email.EmailBuilder()
+        Email myEmail = new Email.EmailBuilder()
                 .from("dan@mail.com")
                 .to("you")
                 .subject("Notification")
@@ -33,11 +33,11 @@ class AppDriver extends Number {
                 .build();
 
 
-        sender.sendAsFormalEmail(myemail);
+        sender.sendAsFormalEmail(myEmail);
 
-        sender.sendAsFriendlyEmail(myemail);
+        sender.sendAsFriendlyEmail(myEmail);
 
-        sender.sendAsSecureEmail(myemail);
+        sender.sendAsSecureEmail(myEmail);
 
 
 

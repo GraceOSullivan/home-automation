@@ -3,6 +3,6 @@ import java.util.regex.Pattern;
 
 interface IEmail {
     String getDetails();
+    String getCustomisedDetails(String customisedContents);
     String getContents();
-    void setContents(String contents);
 }

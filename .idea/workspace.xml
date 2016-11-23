@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="404fe23d-27ce-44e8-905c-4c6cf5ba8f21" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/AppDriver.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/AppDriver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/Email.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/Email.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/EmailSender.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/EmailSender.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/FormalEmailDecorator.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/FormalEmailDecorator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/SecureEmailDecorator.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/SecureEmailDecorator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppDriver.java" afterPath="$PROJECT_DIR$/src/AppDriver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ColleagueEmailDecorator.java" afterPath="$PROJECT_DIR$/src/ColleagueEmailDecorator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Email.java" afterPath="$PROJECT_DIR$/src/Email.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EmailDecorator.java" afterPath="$PROJECT_DIR$/src/EmailDecorator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EmailSender.java" afterPath="$PROJECT_DIR$/src/EmailSender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FormalEmailDecorator.java" afterPath="$PROJECT_DIR$/src/FormalEmailDecorator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/IEmail.java" afterPath="$PROJECT_DIR$/src/IEmail.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SecureEmailDecorator.java" afterPath="$PROJECT_DIR$/src/SecureEmailDecorator.java" />
     </list>
     <ignored path="HomeAutomation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,18 +34,18 @@
       <file leaf-file-name="AppDriver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/AppDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+            <state relative-caret-position="204">
+              <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IEmail.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="IEmail.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IEmail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="85">
+              <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -63,24 +54,22 @@
       <file leaf-file-name="Email.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Email.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+            <state relative-caret-position="442">
+              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#658#659#0" expanded="true" />
-                <element signature="e#689#690#0" expanded="true" />
-                <element signature="e#751#752#0" expanded="true" />
-                <element signature="e#791#792#0" expanded="true" />
+                <element signature="e#907#908#0" expanded="true" />
+                <element signature="e#938#939#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmailSender.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="EmailSender.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/EmailSender.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+            <state relative-caret-position="68">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="54" />
               <folding />
             </state>
           </provider>
@@ -89,17 +78,15 @@
       <file leaf-file-name="EmailDecorator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/EmailDecorator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            <state relative-caret-position="374">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
                 <element signature="e#167#168#0" expanded="true" />
                 <element signature="e#201#202#0" expanded="true" />
                 <element signature="e#249#250#0" expanded="true" />
                 <element signature="e#295#296#0" expanded="true" />
-                <element signature="e#330#331#0" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#521#522#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#391#392#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -211,13 +198,13 @@
         <option value="$PROJECT_DIR$/src/SecurityProductFacade.java" />
         <option value="$PROJECT_DIR$/src/SecurityFacade.java" />
         <option value="$PROJECT_DIR$/src/EmailValidator.java" />
-        <option value="$PROJECT_DIR$/src/Email.java" />
         <option value="$PROJECT_DIR$/src/FormalEmailDecorator.java" />
-        <option value="$PROJECT_DIR$/src/EmailDecorator.java" />
         <option value="$PROJECT_DIR$/src/ColleagueEmailDecorator.java" />
         <option value="$PROJECT_DIR$/src/SecureEmailDecorator.java" />
+        <option value="$PROJECT_DIR$/src/EmailDecorator.java" />
         <option value="$PROJECT_DIR$/src/AppDriver.java" />
         <option value="$PROJECT_DIR$/src/EmailSender.java" />
+        <option value="$PROJECT_DIR$/src/Email.java" />
         <option value="$PROJECT_DIR$/src/IEmail.java" />
       </list>
     </option>
@@ -312,6 +299,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="dp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HomeAutomation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1004,12 +1005,12 @@
       <workItem from="1479813288014" duration="745000" />
       <workItem from="1479819805115" duration="2473000" />
       <workItem from="1479839189406" duration="3206000" />
-      <workItem from="1479892780525" duration="2987000" />
+      <workItem from="1479892780525" duration="3904000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47042000" />
+    <option name="totallyTimeSpent" value="47959000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1466,6 +1467,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Email.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#907#908#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/FormalEmailDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1479,57 +1508,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Email.java">
+    <entry file="file://$PROJECT_DIR$/src/EmailDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+        <state relative-caret-position="374">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#658#659#0" expanded="true" />
-            <element signature="e#689#690#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
-            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#391#392#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EmailSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="65" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EmailDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-          <folding>
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#521#522#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IEmail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+        <state relative-caret-position="68">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="54" />
           <folding />
         </state>
       </provider>
