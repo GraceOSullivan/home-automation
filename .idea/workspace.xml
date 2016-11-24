@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AnalysisUIOptions">
-    <option name="SCOPE_TYPE" value="3" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="404fe23d-27ce-44e8-905c-4c6cf5ba8f21" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/AppDriver.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/AppDriver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/EmailSender.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/EmailSender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/Email$EmailBuilder.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/Email$EmailBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/Email.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/Email.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/EmailDecorator.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/EmailDecorator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/IEmail.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/IEmail.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Alarm.java" afterPath="$PROJECT_DIR$/src/Alarm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppDriver.java" afterPath="$PROJECT_DIR$/src/AppDriver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/CameraFactory.java" afterPath="$PROJECT_DIR$/src/CameraFactory.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Email.java" afterPath="$PROJECT_DIR$/src/Email.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EmailDecorator.java" afterPath="$PROJECT_DIR$/src/EmailDecorator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EmailSender.java" afterPath="$PROJECT_DIR$/src/EmailSender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SecureEmailDecorator.java" afterPath="$PROJECT_DIR$/src/SecureEmailDecorator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SensorFactory.java" afterPath="$PROJECT_DIR$/src/SensorFactory.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/IEmail.java" afterPath="$PROJECT_DIR$/src/IEmail.java" />
     </list>
     <ignored path="HomeAutomation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,12 +41,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecurityProduct.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SecurityProduct.java">
+      <file leaf-file-name="IEmail.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IEmail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+            <state relative-caret-position="0">
+              <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Email.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Email.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="149">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -70,6 +76,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="EmailDecorator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/EmailDecorator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="SecurityProductFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SecurityProductFactory.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,31 +96,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecurityProductType.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SecurityProductType.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SecurityProductType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sensor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sensor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SensorFacade.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SensorFacade.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="100" selection-start-line="8" selection-start-column="100" selection-end-line="8" selection-end-column="100" />
+            <state relative-caret-position="85">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -203,16 +199,16 @@
         <option value="$PROJECT_DIR$/src/EmailValidator.java" />
         <option value="$PROJECT_DIR$/src/FormalEmailDecorator.java" />
         <option value="$PROJECT_DIR$/src/ColleagueEmailDecorator.java" />
-        <option value="$PROJECT_DIR$/src/IEmail.java" />
         <option value="$PROJECT_DIR$/src/Alarm.java" />
         <option value="$PROJECT_DIR$/src/CameraFactory.java" />
-        <option value="$PROJECT_DIR$/src/Email.java" />
-        <option value="$PROJECT_DIR$/src/EmailDecorator.java" />
         <option value="$PROJECT_DIR$/src/EmailSender.java" />
         <option value="$PROJECT_DIR$/src/SecureEmailDecorator.java" />
         <option value="$PROJECT_DIR$/src/SensorFactory.java" />
         <option value="$PROJECT_DIR$/src/AppDriver.java" />
         <option value="$PROJECT_DIR$/src/SecurityProductType.java" />
+        <option value="$PROJECT_DIR$/src/IEmail.java" />
+        <option value="$PROJECT_DIR$/src/Email.java" />
+        <option value="$PROJECT_DIR$/src/EmailDecorator.java" />
       </list>
     </option>
   </component>
@@ -1013,12 +1009,12 @@
       <workItem from="1479819805115" duration="2473000" />
       <workItem from="1479839189406" duration="3206000" />
       <workItem from="1479892780525" duration="3904000" />
-      <workItem from="1479999512960" duration="2355000" />
+      <workItem from="1479999512960" duration="2551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50314000" />
+    <option name="totallyTimeSpent" value="50510000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1037,7 +1033,9 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13859275" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32628062" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850778" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1047,9 +1045,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3273495" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32850778" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1355,20 +1351,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Email.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#915#916#0" expanded="true" />
-            <element signature="e#946#947#0" expanded="true" />
-            <element signature="e#1641#1642#0" expanded="true" />
-            <element signature="e#1687#1688#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ColleagueEmailDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1377,14 +1359,6 @@
             <element signature="e#103#104#0" expanded="true" />
             <element signature="e#139#140#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/EmailDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1404,14 +1378,6 @@
             <element signature="e#97#98#0" expanded="true" />
             <element signature="e#133#134#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IEmail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1471,25 +1437,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecurityProductFacade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
-          <folding>
-            <element signature="e#955#956#0" expanded="true" />
-            <element signature="e#1003#1004#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecurityProductFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Sensor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1540,8 +1487,53 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SecurityProductType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecurityProductFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="10" selection-start-line="0" selection-start-column="10" selection-end-line="0" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecurityProductFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="29" column="59" selection-start-line="29" selection-start-column="59" selection-end-line="29" selection-end-column="59" />
+          <folding>
+            <element signature="e#955#956#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Email.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EmailDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
           <folding />
         </state>
       </provider>

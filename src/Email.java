@@ -15,14 +15,6 @@ class Email implements IEmail {
     }
 
     @Override
-    public String getDetails() {
-        return "From: " + from +
-                "\nTo: " + to +
-                "\nSubject: " + subject +
-                "\nContents: " + contents;
-    }
-
-    @Override
     public String getCustomisedDetails(String customisedContents) {
         return "From: " + from +
                 "\nTo: " + to +

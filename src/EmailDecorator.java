@@ -10,11 +10,6 @@ abstract class EmailDecorator implements IEmail {
     }
 
     @Override
-    public String getDetails() {
-        return getEmail().getDetails();
-    }
-
-    @Override
     public String getContents() {
         return getEmail().getContents();
     }
