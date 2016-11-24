@@ -14,28 +14,27 @@ class SecureEmailDecorator extends EmailDecorator {
     }
 
     public String customiseEmail(String contents) {
-        byte[] encrypted = null;
         try {
             String key = "Bar12345Bar12345"; // 128 bit key
 
-            // Create key and cipher
-            Key aesKey = new SecretKeySpec(key.getBytes(), "AES");
+            // Create cipher & key
             Cipher cipher = Cipher.getInstance("AES");
+            Key aesKey = new SecretKeySpec(key.getBytes(), "AES");
 
-            // customiseEmail the text
             cipher.init(Cipher.ENCRYPT_MODE, aesKey);
-            encrypted = cipher.doFinal(contents.getBytes());
+            byte[] encrypted = cipher.doFinal(contents.getBytes());
 
-            // decrypt the text
+            return new String(encrypted);
+
+            // decryption
             //cipher.init(Cipher.DECRYPT_MODE, aesKey);
             //String decrypted = new String(cipher.doFinal(encrypted));
             //System.err.println(decrypted);
         } catch (NoSuchAlgorithmException | NoSuchPaddingException | InvalidKeyException | IllegalBlockSizeException |
                 BadPaddingException ex) {
             ex.printStackTrace();
+            return null;
         }
-
-        return new String(encrypted);
     }
 }
 

@@ -2,7 +2,6 @@ class AppDriver extends Number {
 
 
     public static void main(String[] args) {
-        /*
         Thermostat thermostat = new Thermostat();
         thermostat.displayCurrentTemperature();
         thermostat.regulateTemperatureIfNeeded();
@@ -22,8 +21,8 @@ class AppDriver extends Number {
         });
 
         securityFacade.turnOffSensorsAndCameras();
-*/
-        EmailSender sender = new EmailSender();
+
+        EmailSender emailSender = new EmailSender();
 
         Email myEmail = new Email.EmailBuilder()
                 .from("dan@mail.com")
@@ -33,14 +32,9 @@ class AppDriver extends Number {
                 .build();
 
 
-        sender.sendAsFormalEmail(myEmail);
-
-        sender.sendAsFriendlyEmail(myEmail);
-
-        sender.sendAsSecureEmail(myEmail);
-
-
-
+        emailSender.sendAsFormalEmail(myEmail);
+        emailSender.sendAsFriendlyEmail(myEmail);
+        emailSender.sendAsSecureEmail(myEmail);
     }
 
     private static void checkIfProductWasTriggered(SecurityProduct securityProduct) {

@@ -1,4 +1,4 @@
-public class SensorFactory implements SecurityProductFactory {
+class SensorFactory implements SecurityProductFactory {
     public SecurityProduct createProduct(SecurityProductType securityProductType) {
         switch (securityProductType) {
             case BEAM:

@@ -7,7 +7,7 @@ class Email implements IEmail {
     private final String subject;
     private String contents;
 
-    Email(EmailBuilder builder) {
+    private Email(EmailBuilder builder) {
         this.from = builder.from;
         this.to = builder.to;
         this.subject = builder.subject;
@@ -66,8 +66,8 @@ class Email implements IEmail {
         }
 
         boolean validate(String email) {
-            Pattern VALID_EMAIL_ADDRESS_REGEX = Pattern.compile("^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$", Pattern.CASE_INSENSITIVE);
-            Matcher matcher = VALID_EMAIL_ADDRESS_REGEX .matcher(email);
+            final Pattern VALID_EMAIL_ADDRESS_REGEX = Pattern.compile("^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$", Pattern.CASE_INSENSITIVE);
+            Matcher matcher = VALID_EMAIL_ADDRESS_REGEX.matcher(email);
             return matcher.find();
         }
     }

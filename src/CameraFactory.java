@@ -1,4 +1,4 @@
-public class CameraFactory implements SecurityProductFactory {
+class CameraFactory implements SecurityProductFactory {
     public SecurityProduct createProduct(SecurityProductType securityProductType) {
         switch (securityProductType) {
             case BOX:

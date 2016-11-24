@@ -1,5 +1,5 @@
 class EmailSender {
-    EmailDecorator emailDecorator;
+    private EmailDecorator emailDecorator;
 
     void sendAsFormalEmail(IEmail email) {
         System.out.println("Sending formal email...");

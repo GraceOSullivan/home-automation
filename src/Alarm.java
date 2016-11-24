@@ -15,7 +15,7 @@ class Alarm extends SecurityProduct implements Observer {
                 soundAlarmCounter++;
             } while (soundAlarmCounter < 5);
         } catch (InterruptedException ex) {
-            System.out.println("Fatal error: Thread interrupted.");
+            System.out.println("Alarm interrupted.");
         }
     }
 

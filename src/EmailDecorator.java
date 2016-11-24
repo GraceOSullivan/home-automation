@@ -1,7 +1,7 @@
 abstract class EmailDecorator implements IEmail {
     private IEmail email;
 
-    IEmail getEmail() {
+    private IEmail getEmail() {
         return this.email;
     }
 
