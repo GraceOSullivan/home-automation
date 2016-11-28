@@ -2,8 +2,8 @@ import java.util.Observable;
 import java.util.Observer;
 
 class Alarm extends SecurityProduct implements Observer {
-    Alarm(SecurityProductType securityProductType) {
-        setSecurityProductType(securityProductType);
+    Alarm() {
+        setSecurityProductType(SecurityProductType.UNIVERSAL);
     }
 
     void turnOn() {

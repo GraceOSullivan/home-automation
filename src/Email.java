@@ -5,7 +5,7 @@ class Email implements IEmail {
     private final String from;
     private final String to;
     private final String subject;
-    private String contents;
+    private final String contents;
 
     private Email(EmailBuilder builder) {
         this.from = builder.from;

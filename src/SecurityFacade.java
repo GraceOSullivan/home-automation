@@ -6,12 +6,17 @@ class SecurityFacade {
     private final SecurityProductFacade sensorFacade = new SensorFacade();
     private final SecurityProductFacade cameraFacade = new CameraFacade();
 
-    void turnOnSensorsAndCameras() {
-        sensorFacade.turnOn();
-        cameraFacade.turnOn();
+    SecurityFacade() {
+        addAlarmObserversToSecurityProducts();
     }
 
-    void turnOffSensorsAndCameras() {
+    void turnOnSecurity() {
+        sensorFacade.turnOn();
+        cameraFacade.turnOn();
+
+    }
+
+    void turnOffSecurity() {
         sensorFacade.turnOff();
         cameraFacade.turnOff();
     }
@@ -22,4 +27,14 @@ class SecurityFacade {
 
         return Stream.concat(sensorList.stream(), cameraList.stream()).collect(Collectors.toList());
     }
+
+    private void addAlarmObserversToSecurityProducts() {
+        Alarm alarm = new Alarm();
+        List<SecurityProduct> securityProductList = getSecurityProductsList();
+        for (SecurityProduct securityProduct : securityProductList) {
+            securityProduct.addObserver(alarm);
+        }
+    }
+
+
 }

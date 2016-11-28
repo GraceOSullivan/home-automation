@@ -7,22 +7,17 @@ class AppDriver extends Number {
         thermostat.regulateTemperatureIfNeeded();
         thermostat.displayCurrentTemperature();
 
+
         SecurityFacade securityFacade = new SecurityFacade();
-        securityFacade.turnOnSensorsAndCameras();
+        securityFacade.turnOnSecurity();
 
         System.out.println("=== Checking for intruders ===");
 
-        Alarm alarm = new Alarm(SecurityProductType.UNIVERSAL);
-
         // for-each loop in a functional manner
-        securityFacade.getSecurityProductsList().stream().filter(securityProduct -> securityProduct != null).forEach(securityProduct -> {
-            securityProduct.addObserver(alarm);
-            checkIfProductWasTriggered(securityProduct);
-        });
+        securityFacade.getSecurityProductsList().stream().filter(securityProduct -> securityProduct != null).forEach(AppDriver::checkIfProductWasTriggered);
 
-        securityFacade.turnOffSensorsAndCameras();
+        securityFacade.turnOffSecurity();
 
-        EmailSender emailSender = new EmailSender();
 
         Email myEmail = new Email.EmailBuilder()
                 .from("dan@mail.com")
@@ -31,7 +26,7 @@ class AppDriver extends Number {
                 .contents("I have a new number as follows: 086-1234567.")
                 .build();
 
-
+        EmailSender emailSender = new EmailSender();
         emailSender.sendAsFormalEmail(myEmail);
         emailSender.sendAsFriendlyEmail(myEmail);
         emailSender.sendAsSecureEmail(myEmail);
