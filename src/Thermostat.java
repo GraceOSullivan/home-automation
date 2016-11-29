@@ -23,6 +23,6 @@ class Thermostat extends Number {
         else
             context = new Context(new KeepTemperature());
 
-        setTemperature(context.executeStrategy(temperature));
+        this.temperature = context.executeStrategy(temperature);
     }
 }

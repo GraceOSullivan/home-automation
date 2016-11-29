@@ -2,25 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="404fe23d-27ce-44e8-905c-4c6cf5ba8f21" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Printer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/Alarm.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/Alarm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/AppDriver.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/AppDriver.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/Camera.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/Camera.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/EmailSender.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/EmailSender.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/SecurityProductType.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/SecurityProductType.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/Sensor.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/Sensor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/Temperature.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/Temperature.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/Thermostat.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/Thermostat.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Humidity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Hygrometer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/Printer.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/Printer.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Alarm.java" afterPath="$PROJECT_DIR$/src/Alarm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/AppDriver.java" afterPath="$PROJECT_DIR$/src/AppDriver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Camera.java" afterPath="$PROJECT_DIR$/src/Camera.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ColleagueEmailDecorator.java" afterPath="$PROJECT_DIR$/src/ColleagueEmailDecorator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/EmailSender.java" afterPath="$PROJECT_DIR$/src/EmailSender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FormalEmailDecorator.java" afterPath="$PROJECT_DIR$/src/FormalEmailDecorator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/SecurityProductType.java" afterPath="$PROJECT_DIR$/src/SecurityProductType.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sensor.java" afterPath="$PROJECT_DIR$/src/Sensor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Temperature.java" afterPath="$PROJECT_DIR$/src/Temperature.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Printer.java" afterPath="$PROJECT_DIR$/src/Printer.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Thermostat.java" afterPath="$PROJECT_DIR$/src/Thermostat.java" />
     </list>
     <ignored path="HomeAutomation.iws" />
@@ -43,13 +29,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Alarm.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Alarm.java">
+      <file leaf-file-name="Temperature.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Temperature.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+            <state relative-caret-position="34">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#125#126#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Humidity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Humidity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+              <folding>
+                <element signature="e#113#114#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#233#234#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Thermostat.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Thermostat.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="391">
+              <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
+              <folding>
+                <element signature="e#202#203#0" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hygrometer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Hygrometer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding>
+                <element signature="e#81#82#0" expanded="true" />
+                <element signature="e#139#140#0" expanded="true" />
+                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Context.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Context.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <folding>
+                <element signature="e#94#95#0" expanded="true" />
+                <element signature="e#137#138#0" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -80,13 +127,11 @@
         <option value="$PROJECT_DIR$/src/thermostat/Main.java" />
         <option value="$PROJECT_DIR$/src/thermostat/Temperature.java" />
         <option value="$PROJECT_DIR$/src/thermostat/Thermostat.java" />
-        <option value="$PROJECT_DIR$/src/Humidity.java" />
         <option value="$PROJECT_DIR$/src/GenerateRandomDouble.java" />
         <option value="$PROJECT_DIR$/src/DecreaseTemperature.java" />
         <option value="$PROJECT_DIR$/src/Double.java" />
         <option value="$PROJECT_DIR$/src/RandomNumber.java" />
         <option value="$PROJECT_DIR$/src/IncreaseTemperature.java" />
-        <option value="$PROJECT_DIR$/src/Hygrometer.java" />
         <option value="$PROJECT_DIR$/src/KeepTemperature.java" />
         <option value="$PROJECT_DIR$/src/Door.java" />
         <option value="$PROJECT_DIR$/src/CeilingSensor.java" />
@@ -102,7 +147,6 @@
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/AlarmFactory.java" />
         <option value="$PROJECT_DIR$/src/AlarmType.java" />
-        <option value="$PROJECT_DIR$/src/Context.java" />
         <option value="$PROJECT_DIR$/src/RegulateTemperature.java" />
         <option value="$PROJECT_DIR$/src/SecurityProductFactory.java" />
         <option value="$PROJECT_DIR$/src/Number.java" />
@@ -114,7 +158,6 @@
         <option value="$PROJECT_DIR$/src/EmailDecorator.java" />
         <option value="$PROJECT_DIR$/src/Email.java" />
         <option value="$PROJECT_DIR$/src/SecurityFacade.java" />
-        <option value="$PROJECT_DIR$/src/Printer.java" />
         <option value="$PROJECT_DIR$/src/AppDriver.java" />
         <option value="$PROJECT_DIR$/src/Alarm.java" />
         <option value="$PROJECT_DIR$/src/Camera.java" />
@@ -122,12 +165,16 @@
         <option value="$PROJECT_DIR$/src/EmailSender.java" />
         <option value="$PROJECT_DIR$/src/FormalEmailDecorator.java" />
         <option value="$PROJECT_DIR$/src/Temperature.java" />
-        <option value="$PROJECT_DIR$/src/Thermostat.java" />
         <option value="$PROJECT_DIR$/src/SecurityProduct.java" />
         <option value="$PROJECT_DIR$/src/SensorFacade.java" />
         <option value="$PROJECT_DIR$/src/SensorFactory.java" />
         <option value="$PROJECT_DIR$/src/Sensor.java" />
         <option value="$PROJECT_DIR$/src/SecurityProductType.java" />
+        <option value="$PROJECT_DIR$/src/Printer.java" />
+        <option value="$PROJECT_DIR$/src/Context.java" />
+        <option value="$PROJECT_DIR$/src/Humidity.java" />
+        <option value="$PROJECT_DIR$/src/Hygrometer.java" />
+        <option value="$PROJECT_DIR$/src/Thermostat.java" />
       </list>
     </option>
   </component>
@@ -741,12 +788,12 @@
       <workItem from="1479892780525" duration="3904000" />
       <workItem from="1479999512960" duration="2551000" />
       <workItem from="1480326183491" duration="1968000" />
-      <workItem from="1480428317341" duration="2393000" />
+      <workItem from="1480428317341" duration="4580000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54871000" />
+    <option name="totallyTimeSpent" value="57058000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1176" extended-state="6" />
@@ -793,7 +840,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="26" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -876,7 +923,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Humidity.java" />
     <entry file="uml://JAVA/Context">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -984,7 +1030,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/DecreaseTemperature.java" />
-    <entry file="file://$PROJECT_DIR$/src/Hygrometer.java" />
     <entry file="file://$PROJECT_DIR$/src/ContactSensor.java" />
     <entry file="file://$PROJECT_DIR$/src/PIRSensor.java" />
     <entry file="file://$PROJECT_DIR$/src/SmokeSensor.java" />
@@ -1376,14 +1421,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Email.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1451,17 +1488,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Printer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-          <folding>
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#537#538#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/RegulateTemperature.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1478,37 +1504,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Thermostat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-          <folding>
-            <element signature="e#84#85#0" expanded="true" />
-            <element signature="e#147#148#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Temperature.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/SecurityProduct.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="15" column="51" selection-start-line="15" selection-start-column="51" selection-end-line="15" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SensorFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
           <folding />
         </state>
       </provider>
@@ -1528,14 +1527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="93" selection-start-line="5" selection-start-column="93" selection-end-line="5" selection-end-column="93" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SecurityProductType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1576,6 +1567,96 @@
           <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SensorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Printer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+          <folding>
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SecurityProductType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding>
+            <element signature="e#94#95#0" expanded="true" />
+            <element signature="e#137#138#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Temperature.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding>
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Humidity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="39" selection-start-line="7" selection-start-column="39" selection-end-line="7" selection-end-column="39" />
+          <folding>
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#185#186#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Thermostat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="25" column="64" selection-start-line="25" selection-start-column="64" selection-end-line="25" selection-end-column="64" />
+          <folding>
+            <element signature="e#202#203#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Hygrometer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding>
+            <element signature="e#81#82#0" expanded="true" />
+            <element signature="e#139#140#0" expanded="true" />
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
           </folding>
         </state>
       </provider>
