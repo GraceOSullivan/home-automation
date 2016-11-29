@@ -1,7 +1,7 @@
 class Thermostat extends Number {
     private double temperature;
 
-    public Thermostat() {
+    Thermostat() {
         temperature = generateRandomDouble(-10.0, 30.0);
     }
 
@@ -9,11 +9,11 @@ class Thermostat extends Number {
         this.temperature = temperature;
     }
 
-    public void displayCurrentTemperature() {
-        System.out.println("Temperature: " + formatToTwoDecimalPlaces(temperature) + "°C");
+    void displayCurrentTemperature() {
+        Printer.getInstance().print("Temperature: " + formatToTwoDecimalPlaces(temperature) + "°C");
     }
 
-    public void regulateTemperatureIfNeeded() {
+    void regulateTemperatureIfNeeded() {
         final double TOO_HOT = 20.0;
         final double TO0_COLD = 10.0;
 

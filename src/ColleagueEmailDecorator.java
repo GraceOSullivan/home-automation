@@ -6,7 +6,7 @@ class ColleagueEmailDecorator extends EmailDecorator {
 
     @Override
     public String customiseEmail(String contents) {
-        return  "What's up bro?\n" + contents + "\nYours best mate,\nDan.";
+        return "What's up bro?\n" + contents + "\nYours best mate,\nDan.";
     }
 
 }

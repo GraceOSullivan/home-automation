@@ -6,7 +6,7 @@ class FormalEmailDecorator extends EmailDecorator {
 
     @Override
     String customiseEmail(String contents) {
-        return  "Dear Sir/Madam,\n" + contents + "\nYours Sincerely,\nDaniel.";
+        return "Dear Sir/Madam,\n" + contents + "\nYours Sincerely,\nDaniel.";
     }
 
 }

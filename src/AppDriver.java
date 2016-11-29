@@ -11,7 +11,7 @@ class AppDriver extends Number {
         SecurityFacade securityFacade = new SecurityFacade();
         securityFacade.turnOnSecurity();
 
-        System.out.println("=== Checking for intruders ===");
+        Printer.getInstance().print("=== Checking for intruders ===");
 
         // for-each loop in a functional manner
         securityFacade.getSecurityProductsList().stream().filter(securityProduct -> securityProduct != null).forEach(AppDriver::checkIfProductWasTriggered);

@@ -2,10 +2,10 @@ interface Temperature {
     double regulateTemperature(double temperature);
 
     default void displayRegulatingTemperature() {
-        System.out.println("Regulating Temperature...");
+        Printer.getInstance().print("Regulating Temperature...");
     }
 
     default void displayKeepingTemperatureSame(){
-        System.out.println("Keeping the temperature the same...");
+        Printer.getInstance().print("Keeping the temperature the same...");
     }
 }
