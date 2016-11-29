@@ -1,16 +1,9 @@
 package regulation;
 
-class RegulateHumidity implements Humidity {
-    public double regulateTemperature(double currentTemperature) {
-        displayRegulatingHumidity();
-
-        return 35.0;
-    }
-
+class RegulateHumidity implements Factor {
     @Override
-    public double regulateHumidity(double humidity) {
-        displayRegulatingHumidity();
-
+    public double regulateFactor(double factor) {
+        displayRegulatingFactor();
         return 35.0;
     }
 }

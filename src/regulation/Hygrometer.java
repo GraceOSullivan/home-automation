@@ -1,29 +1,30 @@
 package regulation;
 
 import misc.Printer;
-import misc.Number;
 
-public class Hygrometer extends Number {
-    private double humidity;
-
+public class Hygrometer extends Instrument {
     public Hygrometer() {
-        humidity = generateRandomDouble(0.0, 90.0);
+        setLowerBoundary(20.0);
+        setUpperBoundary(70.0);
+        setFactor(generateRandomDouble(0.0, 90.0));
     }
 
-    public void displayCurrentHumidity() {
-        Printer.getInstance().print("Humidity: " + formatToTwoDecimalPlaces(humidity) + "%");
+    @Override
+    public void displayCurrentFactorStat() {
+        Printer.getInstance().print("Humidity: " + formatToTwoDecimalPlaces(getFactor()) + "%");
     }
 
-    public void regulateHumidityIfNeeded() {
-        final double TOO_ARID = 20.0;
-        final double TO0_HUMID = 70.0;
-
-        HumidityContext humidityContext;
-        if (humidity >= TOO_ARID || humidity <= TO0_HUMID)
-            humidityContext = new HumidityContext(new RegulateHumidity());
+    @Override
+    Context determineContext(double lowerBoundary, double upperBoundary) {
+        if (getFactor() >= lowerBoundary || getFactor() <= upperBoundary)
+            return new Context(new RegulateHumidity());
         else
-           humidityContext = new HumidityContext(new KeepHumidity());
+            return new Context(new KeepFactorUnchanged());
+    }
 
-        this.humidity = humidityContext.executeStrategy(humidity);
+    @Override
+    public void regulateFactorIfNeeded() {
+        Context context = determineContext(getLowerBoundary(), getUpperBoundary());
+        setFactor(context.executeStrategy(getFactor()));
     }
 }

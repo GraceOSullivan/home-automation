@@ -1,7 +1,13 @@
 package regulation;
 
-/**
- * Created by t00171696 on 29/11/2016.
- */
-public class Context {
+class Context {
+    private final Factor factor;
+
+    Context(Factor factor) {
+        this.factor = factor;
+    }
+
+    double executeStrategy(double factor) {
+        return this.factor.regulateFactor(factor);
+    }
 }

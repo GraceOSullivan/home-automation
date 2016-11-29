@@ -1,7 +1,15 @@
 package regulation;
 
-/**
- * Created by t00171696 on 29/11/2016.
- */
-public interface Factor {
+import misc.Printer;
+
+interface Factor {
+    double regulateFactor(double factor);
+
+    default void displayRegulatingFactor() {
+        Printer.getInstance().print("Regulating...");
+    }
+
+    default void displayFactorUnchanged() {
+        Printer.getInstance().print("Keeping this the same...");
+    }
 }

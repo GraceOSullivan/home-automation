@@ -10,14 +10,14 @@ import security.SecurityProduct;
 class AppDriver extends Number {
     public static void main(String[] args) {
         Thermostat thermostat = new Thermostat();
-        thermostat.displayCurrentTemperature();
-        thermostat.regulateTemperatureIfNeeded();
-        thermostat.displayCurrentTemperature();
+        thermostat.displayCurrentFactorStat();
+        thermostat.regulateFactorIfNeeded();
+        thermostat.displayCurrentFactorStat();
 
         Hygrometer hygrometer = new Hygrometer();
-        hygrometer.displayCurrentHumidity();
-        hygrometer.regulateHumidityIfNeeded();
-        hygrometer.displayCurrentHumidity();
+        hygrometer.displayCurrentFactorStat();
+        hygrometer.regulateFactorIfNeeded();
+        hygrometer.displayCurrentFactorStat();
 
         SecurityFacade securityFacade = new SecurityFacade();
         securityFacade.turnOnSecurity();

@@ -1,29 +1,30 @@
 package regulation;
 
 import misc.Printer;
-import misc.Number;
 
-public class Thermostat extends Number {
-    private double temperature;
-
+public class Thermostat extends Instrument {
     public Thermostat() {
-        temperature = generateRandomDouble(-10.0, 30.0);
+        setLowerBoundary(10.0);
+        setUpperBoundary(20.0);
+        setFactor(generateRandomDouble(-10.0, 30.0));
     }
 
-    public void displayCurrentTemperature() {
-        Printer.getInstance().print("Temperature: " + formatToTwoDecimalPlaces(temperature) + "°C");
+    @Override
+    public void displayCurrentFactorStat() {
+        Printer.getInstance().print("Temperature: " + formatToTwoDecimalPlaces(getFactor()) + "°C");
     }
 
-    public void regulateTemperatureIfNeeded() {
-        final double TOO_HOT = 20.0;
-        final double TO0_COLD = 10.0;
-
-        TemperatureContext temperatureContext;
-        if (temperature >= TOO_HOT || temperature <= TO0_COLD)
-            temperatureContext = new TemperatureContext(new RegulateTemperature());
+    @Override
+    Context determineContext(double lowerBoundary, double upperBoundary) {
+        if (getFactor() >= lowerBoundary || getFactor() <= upperBoundary)
+            return new Context(new RegulateTemperature());
         else
-            temperatureContext = new TemperatureContext(new KeepTemperature());
+            return new Context(new KeepFactorUnchanged());
+    }
 
-        this.temperature = temperatureContext.executeStrategy(temperature);
+    @Override
+    public void regulateFactorIfNeeded() {
+        Context context = determineContext(getLowerBoundary(), getUpperBoundary());
+        setFactor(context.executeStrategy(getFactor()));
     }
 }
