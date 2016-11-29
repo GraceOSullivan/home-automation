@@ -3,7 +3,7 @@ package regulation;
 import misc.Number;
 
 abstract class Instrument extends Number {
-    private double factor;
+    private double factorStat;
     private double lowerBoundary;
     private double upperBoundary;
 
@@ -23,12 +23,12 @@ abstract class Instrument extends Number {
         this.upperBoundary = upperBoundary;
     }
 
-    void setFactor(double factor) {
-        this.factor = factor;
+    void setFactorStat(double factorStat) {
+        this.factorStat = factorStat;
     }
 
-    double getFactor() {
-        return this.factor;
+    double getFactorStat() {
+        return this.factorStat;
     }
 
     abstract void displayCurrentFactorStat();
