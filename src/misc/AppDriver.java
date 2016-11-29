@@ -1,5 +1,6 @@
 package misc;
 
+import regulation.Hygrometer;
 import regulation.Thermostat;
 import security.SecurityFacade;
 import email.Email;
@@ -7,14 +8,16 @@ import email.EmailSender;
 import security.SecurityProduct;
 
 class AppDriver extends Number {
-
-
     public static void main(String[] args) {
         Thermostat thermostat = new Thermostat();
         thermostat.displayCurrentTemperature();
         thermostat.regulateTemperatureIfNeeded();
         thermostat.displayCurrentTemperature();
 
+        Hygrometer hygrometer = new Hygrometer();
+        hygrometer.displayCurrentHumidity();
+        hygrometer.regulateHumidityIfNeeded();
+        hygrometer.displayCurrentHumidity();
 
         SecurityFacade securityFacade = new SecurityFacade();
         securityFacade.turnOnSecurity();

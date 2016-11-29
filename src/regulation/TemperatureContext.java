@@ -1,11 +1,9 @@
 package regulation;
 
-import regulation.Temperature;
-
-class Context {
+class TemperatureContext {
     private final Temperature temperature;
 
-    Context(Temperature strategy) {
+    TemperatureContext(Temperature strategy) {
         this.temperature = strategy;
     }
 

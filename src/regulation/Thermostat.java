@@ -10,10 +10,6 @@ public class Thermostat extends Number {
         temperature = generateRandomDouble(-10.0, 30.0);
     }
 
-    private void setTemperature(double temperature) {
-        this.temperature = temperature;
-    }
-
     public void displayCurrentTemperature() {
         Printer.getInstance().print("Temperature: " + formatToTwoDecimalPlaces(temperature) + "°C");
     }
@@ -22,12 +18,12 @@ public class Thermostat extends Number {
         final double TOO_HOT = 20.0;
         final double TO0_COLD = 10.0;
 
-        Context context;
+        TemperatureContext temperatureContext;
         if (temperature >= TOO_HOT || temperature <= TO0_COLD)
-            context = new Context(new RegulateTemperature());
+            temperatureContext = new TemperatureContext(new RegulateTemperature());
         else
-            context = new Context(new KeepTemperature());
+            temperatureContext = new TemperatureContext(new KeepTemperature());
 
-        this.temperature = context.executeStrategy(temperature);
+        this.temperature = temperatureContext.executeStrategy(temperature);
     }
 }

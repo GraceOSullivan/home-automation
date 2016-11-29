@@ -9,7 +9,7 @@ interface Temperature {
         Printer.getInstance().print("Regulating temperature...");
     }
 
-    default void displayKeepingTemperatureSame(){
+    default void displayKeepingTemperatureSame() {
         Printer.getInstance().print("Keeping the temperature the same...");
     }
 }

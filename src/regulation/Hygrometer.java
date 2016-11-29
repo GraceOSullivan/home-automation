@@ -6,28 +6,24 @@ import misc.Number;
 public class Hygrometer extends Number {
     private double humidity;
 
-    Hygrometer() {
+    public Hygrometer() {
         humidity = generateRandomDouble(0.0, 90.0);
     }
 
-    private void setHumidity(double humidity) {
-        this.humidity = humidity;
+    public void displayCurrentHumidity() {
+        Printer.getInstance().print("Humidity: " + formatToTwoDecimalPlaces(humidity) + "%");
     }
 
-    void displayCurrentHumidity() {
-        Printer.getInstance().print("regulation.Humidity: " + formatToTwoDecimalPlaces(humidity) + "%");
-    }
-
-    void regulateHumidityIfNeeded() {
+    public void regulateHumidityIfNeeded() {
         final double TOO_ARID = 20.0;
         final double TO0_HUMID = 70.0;
 
-        Context context;
-        //if (humidity >= TOO_ARID || humidity <= TO0_HUMID)
-           // context = new Context(new RegulateHumidity());
-       // else
-           // context = new Context(new KeepHumidity());
+        HumidityContext humidityContext;
+        if (humidity >= TOO_ARID || humidity <= TO0_HUMID)
+            humidityContext = new HumidityContext(new RegulateHumidity());
+        else
+           humidityContext = new HumidityContext(new KeepHumidity());
 
-       // this.humidity = context.executeStrategy(humidity);
+        this.humidity = humidityContext.executeStrategy(humidity);
     }
 }
