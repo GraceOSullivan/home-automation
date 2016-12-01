@@ -7,6 +7,7 @@ public class Hygrometer extends Instrument {
         setLowerBoundary(20.0);
         setUpperBoundary(70.0);
         setFactorStat(generateRandomDouble(0.0, 90.0));
+        setPerfectFactorStat(35.0);
     }
 
     @Override
@@ -15,16 +16,10 @@ public class Hygrometer extends Instrument {
     }
 
     @Override
-    Context determineContext(double lowerBoundary, double upperBoundary) {
-        if (getFactorStat() >= lowerBoundary || getFactorStat() <= upperBoundary)
-            return new Context(new RegulateHumidity());
+    Context determineContext() {
+        if (getFactorStat() >= getLowerBoundary() || getFactorStat() <= getUpperBoundary())
+            return new Context(new RegulateFactor());
         else
             return new Context(new KeepFactorUnchanged());
-    }
-
-    @Override
-    public void regulateFactorIfNeeded() {
-        Context context = determineContext(getLowerBoundary(), getUpperBoundary());
-        setFactorStat(context.executeStrategy(getFactorStat()));
     }
 }

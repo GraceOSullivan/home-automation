@@ -3,7 +3,7 @@ package regulation;
 import misc.Printer;
 
 interface Factor {
-    double regulateFactor(double factor);
+    double regulateFactor(Instrument instrument);
 
     default void displayRegulatingFactor() {
         Printer.getInstance().print("Regulating...");

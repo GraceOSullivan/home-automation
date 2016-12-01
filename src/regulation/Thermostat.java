@@ -7,6 +7,7 @@ public class Thermostat extends Instrument {
         setLowerBoundary(10.0);
         setUpperBoundary(20.0);
         setFactorStat(generateRandomDouble(-10.0, 30.0));
+        setPerfectFactorStat(15.0);
     }
 
     @Override
@@ -15,16 +16,11 @@ public class Thermostat extends Instrument {
     }
 
     @Override
-    Context determineContext(double lowerBoundary, double upperBoundary) {
-        if (getFactorStat() >= lowerBoundary || getFactorStat() <= upperBoundary)
-            return new Context(new RegulateTemperature());
+    Context determineContext() {
+        if (getFactorStat() >= getLowerBoundary() || getFactorStat() <= getUpperBoundary())
+            return new Context(new RegulateFactor());
         else
             return new Context(new KeepFactorUnchanged());
     }
 
-    @Override
-    public void regulateFactorIfNeeded() {
-        Context context = determineContext(getLowerBoundary(), getUpperBoundary());
-        setFactorStat(context.executeStrategy(getFactorStat()));
-    }
 }

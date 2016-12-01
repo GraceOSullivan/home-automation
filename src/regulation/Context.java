@@ -7,7 +7,7 @@ class Context {
         this.factor = factor;
     }
 
-    double executeStrategy(double factor) {
-        return this.factor.regulateFactor(factor);
+    double executeStrategy(Instrument instrument) {
+        return this.factor.regulateFactor(instrument);
     }
 }

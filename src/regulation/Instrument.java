@@ -7,6 +7,16 @@ abstract class Instrument extends Number {
     private double lowerBoundary;
     private double upperBoundary;
 
+    double getPerfectFactorStat() {
+        return perfectFactorStat;
+    }
+
+    void setPerfectFactorStat(double perfectFactorStat) {
+        this.perfectFactorStat = perfectFactorStat;
+    }
+
+    private double perfectFactorStat;
+
     double getLowerBoundary() {
         return lowerBoundary;
     }
@@ -32,6 +42,11 @@ abstract class Instrument extends Number {
     }
 
     abstract void displayCurrentFactorStat();
-    abstract void regulateFactorIfNeeded();
-    abstract Context determineContext(double lowerBoundary, double upperBoundary);
+
+    public void regulateFactorIfNeeded() {
+        Context context = determineContext();
+        setFactorStat(context.executeStrategy(this));
+    }
+
+    abstract Context determineContext();
 }

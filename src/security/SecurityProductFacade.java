@@ -16,17 +16,17 @@ abstract class SecurityProductFacade {
         this.securityProductFactory = securityProductFactory;
     }
 
+    void populateIndividualSecurityProductsList(SecurityProduct... securityProducts) {
+        securityProductsList = new ArrayList<>();
+        securityProductsList.addAll(Arrays.asList(securityProducts));
+    }
+
     void turnOn() {
         securityProductsList.forEach(SecurityProduct::turnOn);
     }
 
     void turnOff() {
         securityProductsList.forEach(SecurityProduct::turnOff);
-    }
-
-    void populateIndividualSecurityProductsList(SecurityProduct... securityProducts) {
-        securityProductsList = new ArrayList<>();
-        securityProductsList.addAll(Arrays.asList(securityProducts));
     }
 
     List<SecurityProduct> getIndividualSecurityProductsList() {
