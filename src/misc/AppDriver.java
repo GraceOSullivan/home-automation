@@ -1,52 +1,9 @@
 package misc;
 
-import regulation.Hygrometer;
-import regulation.Thermostat;
-import security.SecurityFacade;
-import email.Email;
-import email.EmailSender;
-import security.SecurityProduct;
-
-class AppDriver extends Number {
+class AppDriver {
     public static void main(String[] args) {
-        Thermostat thermostat = new Thermostat();
-        thermostat.displayCurrentFactorStat();
-        thermostat.regulateFactorIfNeeded();
-        thermostat.displayCurrentFactorStat();
-
-        Hygrometer hygrometer = new Hygrometer();
-        hygrometer.displayCurrentFactorStat();
-        hygrometer.regulateFactorIfNeeded();
-        hygrometer.displayCurrentFactorStat();
-
-        SecurityFacade securityFacade = new SecurityFacade();
-        securityFacade.turnOnSecurity();
-
-        Printer.getInstance().print("=== Checking for intruders ===");
-
-        // for-each loop in a functional manner
-        securityFacade.getSecurityProductsList().stream().filter(securityProduct -> securityProduct != null).forEach(AppDriver::checkIfProductWasTriggered);
-
-        securityFacade.turnOffSecurity();
-
-
-        Email myEmail = new Email.EmailBuilder()
-                .from("dan@mail.com")
-                .to("you")
-                .subject("Notification")
-                .contents("I have a new number as follows: 086-1234567.")
-                .build();
-
-        EmailSender emailSender = new EmailSender();
-        emailSender.sendAsFormalEmail(myEmail);
-        emailSender.sendAsFriendlyEmail(myEmail);
-        emailSender.sendAsSecureEmail(myEmail);
+        new Simulator().simulate();
     }
 
-    private static void checkIfProductWasTriggered(SecurityProduct securityProduct) {
-        int randomNumber = generateRandomInt(1, 25);
-        if (randomNumber == 13) {
-            securityProduct.setWasTriggered(true);
-        }
-    }
+
 }
