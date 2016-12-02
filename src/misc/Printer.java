@@ -1,6 +1,9 @@
 package misc;
 
-public class Printer {
+import org.omg.CORBA.PRIVATE_MEMBER;
+
+public enum Printer {
+    INSTANCE;
     private static Printer instance = null;
 
     private Printer() {
@@ -10,7 +13,7 @@ public class Printer {
         if (instance == null) {
             synchronized (Printer.class) {
                 if (instance == null) {
-                    instance = new Printer();
+                    instance = Printer.INSTANCE;
                 }
             }
         }
