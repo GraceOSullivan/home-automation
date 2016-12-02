@@ -2,8 +2,7 @@ package misc;
 
 import email.Email;
 import email.EmailSender;
-import regulation.Hygrometer;
-import regulation.Thermostat;
+import regulation.*;
 import security.SecurityFacade;
 import security.SecurityProduct;
 
@@ -37,18 +36,20 @@ class Simulator extends Number {
         securityFacade.turnOffSecurity();
     }
 
-    private static void simulateHygrometer() {
-        Hygrometer hygrometer = new Hygrometer();
-        hygrometer.displayCurrentFactorStat();
-        hygrometer.regulateFactorIfNeeded();
-        hygrometer.displayCurrentFactorStat();
+    private Instrument instrument;
+
+    private void simulateHygrometer() {
+        instrument = new Hygrometer();
+        instrument.displayCurrentFactorStat();
+        instrument.regulateFactorIfNeeded();
+        instrument.displayCurrentFactorStat();
     }
 
-    private static void simulateThermostat() {
-        Thermostat thermostat = new Thermostat();
-        thermostat.displayCurrentFactorStat();
-        thermostat.regulateFactorIfNeeded();
-        thermostat.displayCurrentFactorStat();
+    private void simulateThermostat() {
+        instrument = new Thermostat();
+        instrument.displayCurrentFactorStat();
+        instrument.regulateFactorIfNeeded();
+        instrument.displayCurrentFactorStat();
     }
 
     private static void checkIfProductWasTriggered(SecurityProduct securityProduct) {

@@ -1,12 +1,10 @@
 package misc;
 
-import org.omg.CORBA.PRIVATE_MEMBER;
-
 public enum Printer {
     INSTANCE;
     private static Printer instance = null;
 
-    private Printer() {
+    Printer() {
     }
 
     public static Printer getInstance() {

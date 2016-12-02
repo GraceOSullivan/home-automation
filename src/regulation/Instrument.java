@@ -2,7 +2,7 @@ package regulation;
 
 import misc.Number;
 
-abstract class Instrument extends Number {
+public abstract class Instrument extends Number {
     private double factorStat;
     private double lowerBoundary;
     private double upperBoundary;
@@ -41,7 +41,7 @@ abstract class Instrument extends Number {
         return this.factorStat;
     }
 
-    abstract void displayCurrentFactorStat();
+    public abstract void displayCurrentFactorStat();
 
     public void regulateFactorIfNeeded() {
         Context context = determineContext();
