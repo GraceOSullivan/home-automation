@@ -4,8 +4,8 @@ import misc.Printer;
 
 public class Hygrometer extends Instrument {
     public Hygrometer() {
-        setLowerBoundary(25.0);
-        setUpperBoundary(40.0);
+        setLowerBoundary(XMLReader.getInstance().getHygrometerLowerBoundary());
+        setUpperBoundary(XMLReader.getInstance().getHygrometerUpperBoundary());
         setFactorStat(generateRandomDouble(0.0, 90.0));
         setPerfectFactorStat(35.0);
     }
@@ -13,13 +13,5 @@ public class Hygrometer extends Instrument {
     @Override
     public void displayCurrentFactorStat() {
         Printer.getInstance().print("Humidity: " + formatToTwoDecimalPlaces(getFactorStat()) + "%");
-    }
-
-    @Override
-    Context determineContext() {
-        if (getFactorStat() <= getLowerBoundary() || getFactorStat() >= getUpperBoundary())
-            return new Context(new RegulateFactor());
-        else
-            return new Context(new KeepFactorUnchanged());
     }
 }

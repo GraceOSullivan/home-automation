@@ -17,7 +17,7 @@ public abstract class Instrument extends Number {
 
     private double perfectFactorStat;
 
-    double getLowerBoundary() {
+    private double getLowerBoundary() {
         return lowerBoundary;
     }
 
@@ -25,7 +25,7 @@ public abstract class Instrument extends Number {
         this.lowerBoundary = lowerBoundary;
     }
 
-    double getUpperBoundary() {
+    private double getUpperBoundary() {
         return upperBoundary;
     }
 
@@ -48,5 +48,10 @@ public abstract class Instrument extends Number {
         setFactorStat(context.executeStrategy(this));
     }
 
-    abstract Context determineContext();
+    private Context determineContext() {
+        if (getFactorStat() <= getLowerBoundary() || getFactorStat() >= getUpperBoundary())
+            return new Context(new RegulateFactor());
+        else
+            return new Context(new KeepFactorUnchanged());
+    }
 }

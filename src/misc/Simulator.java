@@ -6,6 +6,8 @@ import regulation.*;
 import security.SecurityFacade;
 import security.SecurityProduct;
 
+import java.util.Scanner;
+
 class Simulator extends Number {
     void simulate() {
         simulateThermostat();
@@ -15,11 +17,31 @@ class Simulator extends Number {
     }
 
     private static void simulateEmail() {
+        Scanner in = new Scanner(System.in);
+
+        Printer.getInstance().print("Email address (your own):");
+        String sender = in.next();
+
+        Printer.getInstance().print("Email address (recipient):");
+        String recipient = in.next();
+
+        Printer.getInstance().print("Email subject:");
+        String subject = in.next();
+
+        Printer.getInstance().print("Email contents (\"/q\" on it's own line to stop writing):");
+        // http://stackoverflow.com/questions/27055069/geting-a-multiline-text-with-scanner-class-in-java
+        String TERMINATOR_STRING = "/q";
+        StringBuilder contents = new StringBuilder();
+        String strLine;
+        while (!(strLine = in.nextLine()).equals(TERMINATOR_STRING)) {
+            contents.append(strLine).append("\n");
+        }
+
         Email myEmail = new Email.EmailBuilder()
-                .from("dan@mail.com")
-                .to("you")
-                .subject("Notification")
-                .contents("I have a new number as follows: 086-1234567.")
+                .from(sender)
+                .to(recipient)
+                .subject(subject)
+                .contents(contents.toString())
                 .build();
 
         EmailSender emailSender = new EmailSender();

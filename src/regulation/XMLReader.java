@@ -10,21 +10,39 @@ import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
 
+import misc.Printer;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 import org.xml.sax.SAXException;
 
-public class XMLReader {
-    private NodeList nodeList;
+public enum XMLReader {
+    INSTANCE;
 
-    public XMLReader() throws ParserConfigurationException, IOException, SAXException {
-        Document doc = createDocument("values.xml");
-        nodeList = doc.getElementsByTagName("boundaries");
+    private static XMLReader instance = null;
+    private static NodeList nodeList;
+
+    XMLReader() {
     }
 
-    public double getThermostatUpperBoundary() throws ParserConfigurationException, IOException, SAXException {
+    public static XMLReader getInstance() {
+        if (instance == null) {
+            synchronized (XMLReader.class) {
+                if (instance == null) {
+                    Document doc = createDocument();
+                    if (doc != null)
+                        nodeList = doc.getElementsByTagName("boundaries");
+                    else
+                        Printer.getInstance().print("XML Document is invalid");
+                    instance = XMLReader.INSTANCE;
+                }
+            }
+        }
+        return instance;
+    }
+
+    public double getThermostatUpperBoundary() {
         if (nodeList.item(0).getNodeType() == Node.ELEMENT_NODE) {
             Element element = (Element) nodeList.item(0);
             return getComponent(element, "thermostatUpper");
@@ -32,7 +50,7 @@ public class XMLReader {
         return 0.0;
     }
 
-    public double getThermostatLowerBoundary() throws ParserConfigurationException, IOException, SAXException {
+    public double getThermostatLowerBoundary() {
         if (nodeList.item(0).getNodeType() == Node.ELEMENT_NODE) {
             Element element = (Element) nodeList.item(0);
             return getComponent(element, "thermostatLower");
@@ -40,7 +58,7 @@ public class XMLReader {
         return 0.0;
     }
 
-    public double getHygrometerUpperBoundary() throws ParserConfigurationException, IOException, SAXException {
+    public double getHygrometerUpperBoundary() {
         if (nodeList.item(0).getNodeType() == Node.ELEMENT_NODE) {
             Element element = (Element) nodeList.item(0);
             return getComponent(element, "hygrometerUpper");
@@ -48,7 +66,7 @@ public class XMLReader {
         return 0.0;
     }
 
-    public double getHygrometerLowerBoundary() throws ParserConfigurationException, IOException, SAXException {
+    public double getHygrometerLowerBoundary() {
         if (nodeList.item(0).getNodeType() == Node.ELEMENT_NODE) {
             Element element = (Element) nodeList.item(0);
             return getComponent(element, "hygrometerLower");
@@ -64,12 +82,17 @@ public class XMLReader {
         return Double.parseDouble(componentText);
     }
 
-    private Document createDocument(String fileName) throws ParserConfigurationException, SAXException, IOException {
-        InputStream inputStream = new FileInputStream(fileName);
-        DocumentBuilderFactory docBuilderFactory = DocumentBuilderFactory.newInstance();
-        DocumentBuilder docBuilder = docBuilderFactory.newDocumentBuilder();
-        Document doc = docBuilder.parse(inputStream);
-        doc.getDocumentElement().normalize();
-        return doc;
+    private static Document createDocument() {
+        try {
+            InputStream inputStream = new FileInputStream("values.xml");
+            DocumentBuilderFactory docBuilderFactory = DocumentBuilderFactory.newInstance();
+            DocumentBuilder docBuilder = docBuilderFactory.newDocumentBuilder();
+            Document doc = docBuilder.parse(inputStream);
+            doc.getDocumentElement().normalize();
+            return doc;
+        } catch (ParserConfigurationException | SAXException | IOException ex) {
+            ex.printStackTrace();
+        }
+        return null;
     }
 }

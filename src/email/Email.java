@@ -36,12 +36,12 @@ public class Email implements IEmail {
         private String contents;
 
         public EmailBuilder from(String from) {
-            this.from = validate(from) ? from : "Invalid email.Email";
+            this.from = validate(from) ? from : "Invalid email";
             return this;
         }
 
         public EmailBuilder to(String to) {
-            this.to = validate(to) ? to : "Invalid email.Email";
+            this.to = validate(to) ? to : "Invalid email";
             return this;
         }
 
@@ -59,7 +59,7 @@ public class Email implements IEmail {
             return new Email(this);
         }
 
-        boolean validate(String email) {
+        private boolean validate(String email) {
             final Pattern VALID_EMAIL_ADDRESS_REGEX = Pattern.compile("^[A-Z0-9._%+-]+@[A-Z0-9.-]+\\.[A-Z]{2,6}$", Pattern.CASE_INSENSITIVE);
             Matcher matcher = VALID_EMAIL_ADDRESS_REGEX.matcher(email);
             return matcher.find();
