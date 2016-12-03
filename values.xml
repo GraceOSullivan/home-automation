@@ -1,0 +1,6 @@
+<boundaries>
+	<thermostatUpper>20.0</thermostatUpper>
+    <thermostatLower>10.0</thermostatLower>
+	<hygrometerUpper>40.0</hygrometerUpper>
+	<hygrometerLower>25.0</hygrometerLower>
+</boundaries>
