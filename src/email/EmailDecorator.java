@@ -3,6 +3,10 @@ package email;
 abstract class EmailDecorator implements IEmail {
     private IEmail email;
 
+    EmailDecorator(IEmail email) {
+        setEmail(email);
+    }
+
     private IEmail getEmail() {
         return this.email;
     }
@@ -10,6 +14,8 @@ abstract class EmailDecorator implements IEmail {
     void setEmail(IEmail email) {
         this.email = email;
     }
+
+    abstract String customiseEmail(String contents);
 
     @Override
     public String getContents() {
@@ -21,5 +27,5 @@ abstract class EmailDecorator implements IEmail {
         return getEmail().getCustomisedDetails(customiseEmail(getContents()));
     }
 
-    abstract String customiseEmail(String contents);
+
 }

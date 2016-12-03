@@ -4,10 +4,10 @@ import misc.Printer;
 
 public class Thermostat extends Instrument {
     public Thermostat() {
-        setLowerBoundary(XMLReader.getInstance().getThermostatLowerBoundary());
-        setUpperBoundary(XMLReader.getInstance().getThermostatUpperBoundary());
-        setFactorStat(generateRandomDouble(-10.0, 30.0));
-        setPerfectFactorStat(15.0);
+        setLowerBoundary(XMLReader.getInstance().getValue("thermostatUpper"));
+        setUpperBoundary(XMLReader.getInstance().getValue("thermostatPerfect"));
+        setFactorStat(generateRandomDouble(-10.0, 35.0));
+        setPerfectFactorStat(XMLReader.getInstance().getValue("thermostatLower"));
     }
 
     @Override

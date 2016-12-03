@@ -12,7 +12,7 @@ import java.security.NoSuchAlgorithmException;
 class SecureEmailDecorator extends EmailDecorator {
 
     SecureEmailDecorator(IEmail email) {
-        setEmail(email);
+        super(email);
     }
 
     public String customiseEmail(String contents) {

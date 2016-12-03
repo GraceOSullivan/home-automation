@@ -2,8 +2,8 @@ package email;
 
 class ColleagueEmailDecorator extends EmailDecorator {
 
-    ColleagueEmailDecorator(IEmail basicEmail) {
-        setEmail(basicEmail);
+    ColleagueEmailDecorator(IEmail email) {
+        super(email);
     }
 
     @Override

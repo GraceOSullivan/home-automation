@@ -2,8 +2,8 @@ package email;
 
 class FormalEmailDecorator extends EmailDecorator {
 
-    FormalEmailDecorator(IEmail basicEmail) {
-        setEmail(basicEmail);
+    FormalEmailDecorator(IEmail email) {
+        super(email);
     }
 
     @Override

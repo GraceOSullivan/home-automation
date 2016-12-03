@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <boundaries>
 	<thermostatUpper>20.0</thermostatUpper>
+	<thermostatPerfect>15.0</thermostatPerfect>
 	<thermostatLower>10.0</thermostatLower>
-	<hygrometerUpper>40.0</hygrometerUpper>
+
+	<hygrometerUpper>45.0</hygrometerUpper>
+	<hygrometerPerfect>35.0</hygrometerPerfect>
 	<hygrometerLower>25.0</hygrometerLower>
 </boundaries>

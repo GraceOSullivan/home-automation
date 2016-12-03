@@ -4,10 +4,10 @@ import misc.Printer;
 
 public class Hygrometer extends Instrument {
     public Hygrometer() {
-        setLowerBoundary(XMLReader.getInstance().getHygrometerLowerBoundary());
-        setUpperBoundary(XMLReader.getInstance().getHygrometerUpperBoundary());
+        setLowerBoundary(XMLReader.getInstance().getValue("hygrometerUpper"));
+        setUpperBoundary(XMLReader.getInstance().getValue("hygrometerLower"));
         setFactorStat(generateRandomDouble(0.0, 90.0));
-        setPerfectFactorStat(35.0);
+        setPerfectFactorStat(XMLReader.getInstance().getValue("hygrometerPerfect"));
     }
 
     @Override
