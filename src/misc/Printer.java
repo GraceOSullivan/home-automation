@@ -18,7 +18,7 @@ public enum Printer {
         return instance;
     }
 
-    public void print(Object text) {
+    public void print(String text) {
         System.out.println(text);
     }
 }

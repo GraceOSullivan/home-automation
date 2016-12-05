@@ -1,6 +1,6 @@
 package regulation;
 
-// Skeleton for this code was gotten from: https://gist.github.com/NicMcPhee/7131454
+// Skeleton for the XML reading code was gotten from: https://gist.github.com/NicMcPhee/7131454
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -56,14 +56,6 @@ enum XMLReader {
         return null;
     }
 
-    private double getComponent(Element element, final String component) {
-        NodeList elements = element.getElementsByTagName(component);
-        Element firstElement = (Element) elements.item(0);
-        NodeList children = firstElement.getChildNodes();
-        String componentText = children.item(0).getNodeValue();
-        return Double.parseDouble(componentText);
-    }
-
     public double getValue(String component) {
         if (nodeList.item(0).getNodeType() == Node.ELEMENT_NODE) {
             Element element = (Element) nodeList.item(0);
@@ -72,7 +64,11 @@ enum XMLReader {
         return 0.0;
     }
 
-
-
-
+    private double getComponent(Element element, final String component) {
+        NodeList elements = element.getElementsByTagName(component);
+        Element firstElement = (Element) elements.item(0);
+        NodeList children = firstElement.getChildNodes();
+        String componentText = children.item(0).getNodeValue();
+        return Double.parseDouble(componentText);
+    }
 }

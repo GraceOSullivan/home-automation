@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <boundaries>
 	<thermostatUpper>20.0</thermostatUpper>
 	<thermostatPerfect>15.0</thermostatPerfect>

@@ -2,15 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="404fe23d-27ce-44e8-905c-4c6cf5ba8f21" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/email/ColleagueEmailDecorator.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/email/ColleagueEmailDecorator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/email/Email$EmailBuilder.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/email/Email$EmailBuilder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/email/Email.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/email/Email.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/email/EmailDecorator.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/email/EmailDecorator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/email/EmailSender.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/email/EmailSender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/email/FormalEmailDecorator.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/email/FormalEmailDecorator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/email/SecureEmailDecorator.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/email/SecureEmailDecorator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/misc/Printer.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/misc/Printer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/misc/Simulator.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/misc/Simulator.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/regulation/Factor.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/regulation/Factor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/regulation/Hygrometer.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/regulation/Hygrometer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/regulation/Thermostat.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/regulation/Thermostat.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/security/Alarm.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/security/Alarm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/security/Camera.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/security/Camera.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/security/Sensor.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/security/Sensor.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/email/ColleagueEmailDecorator.java" afterPath="$PROJECT_DIR$/src/email/ColleagueEmailDecorator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/email/Email.java" afterPath="$PROJECT_DIR$/src/email/Email.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/email/EmailDecorator.java" afterPath="$PROJECT_DIR$/src/email/EmailDecorator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/email/EmailSender.java" afterPath="$PROJECT_DIR$/src/email/EmailSender.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/email/FormalEmailDecorator.java" afterPath="$PROJECT_DIR$/src/email/FormalEmailDecorator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/email/SecureEmailDecorator.java" afterPath="$PROJECT_DIR$/src/email/SecureEmailDecorator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/AppDriver.java" afterPath="$PROJECT_DIR$/src/misc/AppDriver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/regulation/Hygrometer.java" afterPath="$PROJECT_DIR$/src/regulation/Hygrometer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/Printer.java" afterPath="$PROJECT_DIR$/src/misc/Printer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/Simulator.java" afterPath="$PROJECT_DIR$/src/misc/Simulator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/regulation/Thermostat.java" afterPath="$PROJECT_DIR$/src/regulation/Thermostat.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/regulation/XMLReader.java" afterPath="$PROJECT_DIR$/src/regulation/XMLReader.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/values.xml" afterPath="$PROJECT_DIR$/values.xml" />
@@ -35,11 +47,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="XMLReader.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/regulation/XMLReader.java">
+      <file leaf-file-name="Simulator.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/misc/Simulator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="58" column="47" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
+            <state relative-caret-position="55">
+              <caret line="58" column="64" selection-start-line="58" selection-start-column="64" selection-end-line="58" selection-end-column="64" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,8 +62,8 @@
       <file leaf-file-name="AppDriver.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/misc/AppDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="153">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -59,404 +71,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Printer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/misc/Printer.java">
+      <file leaf-file-name="Email.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/email/Email.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecurityFacade.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/security/SecurityFacade.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="289">
+              <caret line="46" column="63" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#722#723#0" expanded="true" />
+                <element signature="e#749#750#0" expanded="true" />
+                <element signature="e#778#779#0" expanded="true" />
+                <element signature="e#803#804#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JAVA/regulation.XMLReader" pinned="false" current-in-tab="true">
-        <entry file="uml://JAVA/regulation.XMLReader">
-          <provider selected="true" editor-type-id="UmlEditorProvider">
-            <state>
-              <ID>JAVA</ID>
-              <OriginalElement>regulation.XMLReader</OriginalElement>
-              <nodes>
-                <node x="52.77400362318838" y="80.0">java.util.Observer</node>
-                <node x="721.8170289855072" y="320.0">regulation.Factor</node>
-                <node x="1446.591938405797" y="400.0">email.Email</node>
-                <node x="532.875" y="400.0">regulation.KeepFactorUnchanged</node>
-                <node x="934.875" y="400.0">misc.Number</node>
-                <node x="801.875" y="400.0">regulation.RegulateFactor</node>
-                <node x="86.0" y="320.0">security.Sensor</node>
-                <node x="706.875" y="400.0">regulation.Context</node>
-                <node x="1311.591938405797" y="400.0">email.EmailDecorator</node>
-                <node x="344.96693840579695" y="80.0">java.lang.Enum</node>
-                <node x="816.6657608695654" y="650.0">misc.Simulator</node>
-                <node x="398.87499999999994" y="400.0">security.CameraFactory</node>
-                <node x="1299.4157608695652" y="560.0">email.EmailSender</node>
-                <node x="228.66576086956525" y="160.0">regulation.XMLReader</node>
-                <node x="192.21693840579695" y="240.0">security.SecurityProduct</node>
-                <node x="446.87499999999994" y="320.0">security.Camera</node>
-                <node x="632.8170289855072" y="560.0">regulation.Hygrometer</node>
-                <node x="371.87499999999994" y="480.0">security.CameraFacade</node>
-                <node x="122.91576086956525" y="480.0">security.SensorFacade</node>
-                <node x="181.91576086956525" y="560.0">security.SecurityFacade</node>
-                <node x="1175.875" y="480.0">email.ColleagueEmailDecorator</node>
-                <node x="506.66576086956525" y="160.0">misc.Printer</node>
-                <node x="750.8170289855072" y="560.0">regulation.Thermostat</node>
-                <node x="1364.841938405797" y="320.0">email.IEmail</node>
-                <node x="409.35733695652175" y="0.0">java.io.Serializable</node>
-                <node x="0.0" y="320.0">security.Alarm</node>
-                <node x="754.9157608695652" y="480.0">regulation.Instrument</node>
-                <node x="1363.875" y="480.0">email.SecureEmailDecorator</node>
-                <node x="342.66576086956525" y="160.0">security.SecurityProductType</node>
-                <node x="95.41576086956525" y="400.0">security.SensorFactory</node>
-                <node x="290.3573369565217" y="0.0">java.lang.Comparable</node>
-                <node x="1003.875" y="480.0">email.FormalEmailDecorator</node>
-                <node x="815.6657608695654" y="730.0">misc.AppDriver</node>
-                <node x="115.66576086956525" y="160.0">java.util.Observable</node>
-                <node x="223.87499999999994" y="400.0">security.SecurityProductFacade</node>
-                <node x="178.37499999999994" y="320.0">security.SecurityProductFactory</node>
-              </nodes>
-              <notes />
-              <edges>
-                <edge source="regulation.Hygrometer" target="regulation.Instrument">
-                  <point x="0.0" y="-15.0" />
-                  <point x="681.8170289855072" y="540.0" />
-                  <point x="770.2490942028986" y="540.0" />
-                  <point x="-30.66666666666667" y="15.0" />
-                </edge>
-                <edge source="email.EmailDecorator" target="email.IEmail">
-                  <point x="28.75" y="-15.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="email.FormalEmailDecorator" target="email.EmailDecorator">
-                  <point x="0.0" y="-15.0" />
-                  <point x="1079.875" y="450.0" />
-                  <point x="1325.966938405797" y="450.0" />
-                  <point x="-43.125" y="15.0" />
-                </edge>
-                <edge source="regulation.Context" target="regulation.Factor">
-                  <point x="0.0" y="-15.0" />
-                  <point x="744.375" y="380.0" />
-                  <point x="755.3170289855072" y="380.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="email.Email" target="email.IEmail">
-                  <point x="0.0" y="-15.0" />
-                  <point x="1478.091938405797" y="380.0" />
-                  <point x="1419.841938405797" y="380.0" />
-                  <point x="22.0" y="15.0" />
-                </edge>
-                <edge source="email.EmailSender" target="email.EmailDecorator">
-                  <point x="37.125" y="-15.0" />
-                  <point x="1386.0407608695652" y="540.0" />
-                  <point x="1524.375" y="540.0" />
-                  <point x="1524.375" y="450.0" />
-                  <point x="1412.216938405797" y="450.0" />
-                  <point x="43.125" y="15.0" />
-                </edge>
-                <edge source="email.ColleagueEmailDecorator" target="email.EmailDecorator">
-                  <point x="0.0" y="-15.0" />
-                  <point x="1259.875" y="460.0" />
-                  <point x="1354.716938405797" y="460.0" />
-                  <point x="-14.375" y="15.0" />
-                </edge>
-                <edge source="misc.Simulator" target="security.SecurityFacade">
-                  <point x="-35.41666666666666" y="-15.0" />
-                  <point x="823.7490942028987" y="630.0" />
-                  <point x="238.41576086956525" y="630.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="security.SensorFactory" target="security.SecurityProductFactory">
-                  <point x="27.0" y="-15.0" />
-                  <point x="176.41576086956525" y="380.0" />
-                  <point x="204.54166666666663" y="380.0" />
-                  <point x="-52.33333333333334" y="15.0" />
-                </edge>
-                <edge source="security.SecurityFacade" target="security.CameraFacade">
-                  <point x="42.375" y="-15.0" />
-                  <point x="280.79076086956525" y="540.0" />
-                  <point x="427.87499999999994" y="540.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="security.SecurityFacade" target="security.Alarm">
-                  <point x="-42.375" y="-15.0" />
-                  <point x="196.04076086956525" y="540.0" />
-                  <point x="33.0" y="540.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="security.CameraFacade" target="security.SecurityProductFacade">
-                  <point x="-28.0" y="-15.0" />
-                  <point x="399.87499999999994" y="460.0" />
-                  <point x="353.0416666666666" y="460.0" />
-                  <point x="51.66666666666663" y="15.0" />
-                </edge>
-                <edge source="email.SecureEmailDecorator" target="email.EmailDecorator">
-                  <point x="0.0" y="-15.0" />
-                  <point x="1438.875" y="460.0" />
-                  <point x="1383.466938405797" y="460.0" />
-                  <point x="14.375" y="15.0" />
-                </edge>
-                <edge source="security.Alarm" target="java.util.Observer">
-                  <point x="-16.5" y="-15.0" />
-                  <point x="16.5" y="140.0" />
-                  <point x="73.02400362318838" y="140.0" />
-                  <point x="-20.25" y="15.0" />
-                </edge>
-                <edge source="regulation.Instrument" target="regulation.Context">
-                  <point x="-11.5" y="-15.0" />
-                  <point x="789.4157608695652" y="450.0" />
-                  <point x="744.375" y="450.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="java.lang.Enum" target="java.lang.Comparable">
-                  <point x="-16.25" y="-15.0" />
-                  <point x="361.21693840579695" y="55.0" />
-                  <point x="339.8573369565217" y="55.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="misc.Simulator" target="regulation.Thermostat">
-                  <point x="-7.083333333333314" y="-15.0" />
-                  <point x="852.082427536232" y="610.0" />
-                  <point x="798.3170289855072" y="610.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="security.SecurityProductFacade" target="security.SecurityProduct">
-                  <point x="38.75" y="-15.0" />
-                  <point x="340.12499999999994" y="380.0" />
-                  <point x="345.87499999999994" y="380.0" />
-                  <point x="345.87499999999994" y="300.0" />
-                  <point x="265.96693840579695" y="300.0" />
-                  <point x="14.75" y="15.0" />
-                </edge>
-                <edge source="regulation.Instrument" target="regulation.KeepFactorUnchanged">
-                  <point x="-34.5" y="-15.0" />
-                  <point x="766.4157608695652" y="460.0" />
-                  <point x="609.875" y="460.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="regulation.Instrument" target="regulation.RegulateFactor">
-                  <point x="11.5" y="-15.0" />
-                  <point x="812.4157608695652" y="450.0" />
-                  <point x="858.375" y="450.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="misc.Simulator" target="regulation.Hygrometer">
-                  <point x="-21.25" y="-15.0" />
-                  <point x="837.9157608695654" y="620.0" />
-                  <point x="681.8170289855072" y="620.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="misc.Simulator" target="regulation.Instrument">
-                  <point x="7.083333333333343" y="-15.0" />
-                  <point x="866.2490942028987" y="610.0" />
-                  <point x="888.1657608695654" y="610.0" />
-                  <point x="888.1657608695654" y="540.0" />
-                  <point x="831.582427536232" y="540.0" />
-                  <point x="30.666666666666686" y="15.0" />
-                </edge>
-                <edge source="security.Camera" target="security.SecurityProduct">
-                  <point x="0.0" y="-15.0" />
-                  <point x="484.37499999999994" y="290.0" />
-                  <point x="295.46693840579695" y="290.0" />
-                  <point x="44.25" y="15.0" />
-                </edge>
-                <edge source="security.SecurityProduct" target="java.util.Observable">
-                  <point x="-29.5" y="-15.0" />
-                  <point x="221.71693840579695" y="215.0" />
-                  <point x="162.16576086956525" y="215.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="security.Alarm" target="security.SecurityProduct">
-                  <point x="16.5" y="-15.0" />
-                  <point x="49.5" y="290.0" />
-                  <point x="206.96693840579695" y="290.0" />
-                  <point x="-44.25" y="15.0" />
-                </edge>
-                <edge source="security.SensorFacade" target="security.SensorFactory">
-                  <point x="-26.5" y="-15.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="regulation.RegulateFactor" target="regulation.Factor">
-                  <point x="0.0" y="-15.0" />
-                  <point x="858.375" y="380.0" />
-                  <point x="777.6503623188406" y="380.0" />
-                  <point x="22.333333333333314" y="15.0" />
-                </edge>
-                <edge source="misc.Simulator" target="misc.Number">
-                  <point x="21.25000000000003" y="-15.0" />
-                  <point x="880.4157608695654" y="620.0" />
-                  <point x="993.375" y="620.0" />
-                  <point x="19.5" y="15.0" />
-                </edge>
-                <edge source="security.SensorFactory" target="security.Sensor">
-                  <point x="-27.0" y="-15.0" />
-                  <point x="122.41576086956525" y="380.0" />
-                  <point x="120.5" y="380.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="security.SecurityFacade" target="security.SecurityProductFacade">
-                  <point x="14.125" y="-15.0" />
-                  <point x="252.54076086956525" y="530.0" />
-                  <point x="301.37499999999994" y="530.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="email.EmailSender" target="email.SecureEmailDecorator">
-                  <point x="12.375" y="-15.0" />
-                  <point x="1361.2907608695652" y="530.0" />
-                  <point x="1438.875" y="530.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="security.SecurityProductFacade" target="security.SecurityProductFactory">
-                  <point x="-38.75" y="-15.0" />
-                  <point x="262.62499999999994" y="380.0" />
-                  <point x="256.87499999999994" y="380.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="regulation.Thermostat" target="regulation.Instrument">
-                  <point x="0.0" y="-15.0" />
-                  <point x="798.3170289855072" y="540.0" />
-                  <point x="800.9157608695652" y="540.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="java.lang.Enum" target="java.io.Serializable">
-                  <point x="16.25" y="-15.0" />
-                  <point x="393.71693840579695" y="55.0" />
-                  <point x="455.35733695652175" y="55.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="security.CameraFacade" target="security.CameraFactory">
-                  <point x="28.0" y="-15.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="misc.Simulator" target="email.EmailSender">
-                  <point x="35.41666666666666" y="-15.0" />
-                  <point x="894.582427536232" y="630.0" />
-                  <point x="1348.9157608695652" y="630.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="regulation.Instrument" target="misc.Number">
-                  <point x="34.5" y="-15.0" />
-                  <point x="835.4157608695652" y="460.0" />
-                  <point x="954.375" y="460.0" />
-                  <point x="-19.5" y="15.0" />
-                </edge>
-                <edge source="security.CameraFactory" target="security.SecurityProductFactory">
-                  <point x="-28.5" y="-15.0" />
-                  <point x="427.37499999999994" y="370.0" />
-                  <point x="309.20833333333326" y="370.0" />
-                  <point x="52.33333333333334" y="15.0" />
-                </edge>
-                <edge source="security.SecurityFacade" target="security.SensorFacade">
-                  <point x="-14.125" y="-15.0" />
-                  <point x="224.29076086956525" y="530.0" />
-                  <point x="175.91576086956525" y="530.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="email.EmailSender" target="email.ColleagueEmailDecorator">
-                  <point x="-12.375" y="-15.0" />
-                  <point x="1336.5407608695652" y="530.0" />
-                  <point x="1259.875" y="530.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="security.Sensor" target="security.SecurityProduct">
-                  <point x="0.0" y="-15.0" />
-                  <point x="120.5" y="300.0" />
-                  <point x="236.46693840579695" y="300.0" />
-                  <point x="-14.75" y="15.0" />
-                </edge>
-                <edge source="security.SensorFacade" target="security.SecurityProductFacade">
-                  <point x="26.5" y="-15.0" />
-                  <point x="202.41576086956525" y="460.0" />
-                  <point x="249.70833333333326" y="460.0" />
-                  <point x="-51.666666666666686" y="15.0" />
-                </edge>
-                <edge source="misc.Printer" target="java.lang.Enum">
-                  <point x="0.0" y="-15.0" />
-                  <point x="541.1657608695652" y="130.0" />
-                  <point x="399.13360507246364" y="130.0" />
-                  <point x="21.666666666666686" y="15.0" />
-                </edge>
-                <edge source="regulation.XMLReader" target="java.lang.Enum">
-                  <point x="0.0" y="-15.0" />
-                  <point x="275.66576086956525" y="140.0" />
-                  <point x="355.80027173913027" y="140.0" />
-                  <point x="-21.666666666666657" y="15.0" />
-                </edge>
-                <edge source="misc.AppDriver" target="misc.Simulator">
-                  <point x="0.0" y="-15.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="security.CameraFactory" target="security.Camera">
-                  <point x="28.5" y="-15.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="security.SecurityProduct" target="security.SecurityProductType">
-                  <point x="29.5" y="-15.0" />
-                  <point x="280.71693840579695" y="215.0" />
-                  <point x="414.66576086956525" y="215.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="java.util.Observable" target="java.util.Observer">
-                  <point x="0.0" y="-15.0" />
-                  <point x="162.16576086956525" y="140.0" />
-                  <point x="113.52400362318838" y="140.0" />
-                  <point x="20.25" y="15.0" />
-                </edge>
-                <edge source="regulation.KeepFactorUnchanged" target="regulation.Factor">
-                  <point x="0.0" y="-15.0" />
-                  <point x="609.875" y="380.0" />
-                  <point x="732.983695652174" y="380.0" />
-                  <point x="-22.333333333333314" y="15.0" />
-                </edge>
-                <edge source="email.EmailSender" target="email.FormalEmailDecorator">
-                  <point x="-37.125" y="-15.0" />
-                  <point x="1311.7907608695652" y="540.0" />
-                  <point x="1079.875" y="540.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-                <edge source="security.SecurityProductType" target="java.lang.Enum">
-                  <point x="0.0" y="-15.0" />
-                  <point x="414.66576086956525" y="140.0" />
-                  <point x="377.46693840579695" y="140.0" />
-                  <point x="0.0" y="15.0" />
-                </edge>
-              </edges>
-              <settings layout="Hierarchic Group" zoom="0.8756410256410254" x="511.557833089312" y="509.63543191800886" />
-              <SelectedNodes />
-              <Categories />
-              <SCOPE>All</SCOPE>
-              <VISIBILITY>private</VISIBILITY>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Simulator.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/misc/Simulator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Number.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/misc/Number.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -483,13 +109,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SecurityProductType.java" />
-        <option value="$PROJECT_DIR$/src/Context.java" />
-        <option value="$PROJECT_DIR$/src/Hygrometer.java" />
-        <option value="$PROJECT_DIR$/src/Thermostat.java" />
-        <option value="$PROJECT_DIR$/src/Humidity.java" />
         <option value="$PROJECT_DIR$/src/Temperature.java" />
-        <option value="$PROJECT_DIR$/src/email/IEmail.java" />
         <option value="$PROJECT_DIR$/src/email/Printer.java" />
         <option value="$PROJECT_DIR$/src/Printer.java" />
         <option value="$PROJECT_DIR$/src/security/CameraFactory.java" />
@@ -518,22 +138,28 @@
         <option value="$PROJECT_DIR$/src/email/EmailSenderTemplate.java" />
         <option value="$PROJECT_DIR$/src/email/FormalEmailSender.java" />
         <option value="$PROJECT_DIR$/src/regulation/XMLReaderSingleton.java" />
-        <option value="$PROJECT_DIR$/src/misc/Printer.java" />
-        <option value="$PROJECT_DIR$/src/email/Email.java" />
         <option value="$PROJECT_DIR$/src/regulation/Instrument.java" />
         <option value="$PROJECT_DIR$/src/misc/Number.java" />
-        <option value="$PROJECT_DIR$/src/misc/Simulator.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/values.xml" />
         <option value="$PROJECT_DIR$/src/regulation/Hygrometer.java" />
-        <option value="$PROJECT_DIR$/src/regulation/Thermostat.java" />
-        <option value="$PROJECT_DIR$/src/regulation/XMLReader.java" />
-        <option value="$PROJECT_DIR$/src/email/EmailDecorator.java" />
-        <option value="$PROJECT_DIR$/src/email/SecureEmailDecorator.java" />
         <option value="$PROJECT_DIR$/src/email/FormalEmailDecorator.java" />
         <option value="$PROJECT_DIR$/src/email/ColleagueEmailDecorator.java" />
         <option value="$PROJECT_DIR$/src/email/EmailSender.java" />
         <option value="$PROJECT_DIR$/src/misc/AppDriver.java" />
+        <option value="$PROJECT_DIR$/src/email/SecureEmailDecorator.java" />
+        <option value="$PROJECT_DIR$/src/security/Specialization.java" />
+        <option value="$PROJECT_DIR$/src/security/Realization.java" />
+        <option value="$PROJECT_DIR$/src/security/Generalization.java" />
+        <option value="$PROJECT_DIR$/src/email/Specialization.java" />
+        <option value="$PROJECT_DIR$/src/email/Generalization.java" />
+        <option value="$PROJECT_DIR$/values.xml" />
+        <option value="$PROJECT_DIR$/src/regulation/XMLReader.java" />
+        <option value="$PROJECT_DIR$/src/email/EmailDecorator.java" />
+        <option value="$PROJECT_DIR$/src/email/IEmail.java" />
+        <option value="$PROJECT_DIR$/src/misc/Printer.java" />
+        <option value="$PROJECT_DIR$/src/regulation/Thermostat.java" />
+        <option value="$PROJECT_DIR$/src/email/Email.java" />
+        <option value="$PROJECT_DIR$/src/misc/Simulator.java" />
       </list>
     </option>
   </component>
@@ -553,8 +179,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -616,9 +242,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -711,6 +334,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -916,6 +542,26 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HomeAutomation" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
     <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
       <option name="BCName" value="" />
       <option name="IOSSimulatorSdkPath" value="" />
@@ -1081,6 +727,52 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HomeAutomation" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HomeAutomation" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HomeAutomation" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -1151,6 +843,19 @@
       <listeners />
       <method />
     </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="HomeAutomation" />
+      <method />
+    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -1171,6 +876,116 @@
       <method />
     </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HomeAutomation" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HomeAutomation" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HomeAutomation" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HomeAutomation" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="HomeAutomation" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
     <list size="2">
@@ -1220,15 +1035,16 @@
       <workItem from="1480670812316" duration="3487000" />
       <workItem from="1480790316435" duration="5561000" />
       <workItem from="1480796414260" duration="6113000" />
+      <workItem from="1480929133194" duration="6133000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87341000" />
+    <option name="totallyTimeSpent" value="93474000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1238,12 +1054,12 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31625834" sideWeight="0.5063966" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2717949" sideWeight="0.4936034" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25389755" sideWeight="0.4936034" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20045386" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32478634" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20042644" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32405347" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32739422" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1272,7 +1088,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="32" />
+      <option name="time" value="38" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1286,329 +1102,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/EmailValidator.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/function/Predicate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/Alarm">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>Alarm</OriginalElement>
-          <nodes>
-            <node x="1075.5753205128206" y="80.0">java.util.Observer</node>
-            <node x="1170.9503205128206" y="240.0">SecurityProduct</node>
-            <node x="242.45032051282055" y="320.0">IEmail</node>
-            <node x="747.9503205128206" y="400.0">Temperature</node>
-            <node x="172.0" y="480.0">ColleagueEmailDecorator</node>
-            <node x="163.70032051282055" y="400.0">Email</node>
-            <node x="892.0" y="480.0">KeepTemperature</node>
-            <node x="724.0" y="480.0">RegulateTemperature</node>
-            <node x="1175.875" y="320.0">SecurityProductFactory</node>
-            <node x="246.70032051282055" y="400.0">EmailDecorator</node>
-            <node x="1266.7003205128206" y="80.0">java.lang.Enum</node>
-            <node x="531.0" y="480.0">Number</node>
-            <node x="1123.8536324786326" y="480.0">SensorFacade</node>
-            <node x="616.8327991452991" y="640.0">AppDriver</node>
-            <node x="1372.3536324786326" y="480.0">CameraFacade</node>
-            <node x="1447.3536324786326" y="320.0">Camera</node>
-            <node x="629.0" y="480.0">Context</node>
-            <node x="1224.3536324786326" y="400.0">SecurityProductFacade</node>
-            <node x="1227.2003205128206" y="160.0">SecurityProductType</node>
-            <node x="677.7206196581196" y="560.0">Thermostat</node>
-            <node x="1399.3536324786326" y="400.0">CameraFactory</node>
-            <node x="245.77029914529908" y="560.0">EmailSender</node>
-            <node x="361.0" y="480.0">SecureEmailDecorator</node>
-            <node x="1218.0641025641025" y="0.0">java.io.Serializable</node>
-            <node x="1182.8536324786326" y="560.0">SecurityFacade</node>
-            <node x="997.5" y="320.0">Alarm</node>
-            <node x="0.0" y="480.0">FormalEmailDecorator</node>
-            <node x="1096.3536324786326" y="400.0">SensorFactory</node>
-            <node x="1330.0641025641025" y="0.0">java.lang.Comparable</node>
-            <node x="1114.2003205128206" y="160.0">java.util.Observable</node>
-            <node x="1083.5" y="320.0">Sensor</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="SecurityFacade" target="SecurityProductFacade">
-              <point x="14.125" y="-15.0" />
-              <point x="1253.4786324786326" y="530.0" />
-              <point x="1301.8536324786326" y="530.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="CameraFactory" target="Camera">
-              <point x="28.5" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="Context" target="Temperature">
-              <point x="0.0" y="-15.0" />
-              <point x="666.5" y="460.0" />
-              <point x="764.9503205128206" y="460.0" />
-              <point x="-34.0" y="15.0" />
-            </edge>
-            <edge source="AppDriver" target="SecurityFacade">
-              <point x="32.625" y="-15.0" />
-              <point x="692.9577991452991" y="620.0" />
-              <point x="1239.3536324786326" y="620.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="EmailSender" target="FormalEmailDecorator">
-              <point x="-37.125" y="-15.0" />
-              <point x="258.1452991452991" y="540.0" />
-              <point x="76.0" y="540.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="AppDriver" target="Number">
-              <point x="-10.875" y="-15.0" />
-              <point x="649.4577991452991" y="610.0" />
-              <point x="550.5" y="610.0" />
-              <point x="-19.5" y="15.0" />
-            </edge>
-            <edge source="SecurityProduct" target="SecurityProductType">
-              <point x="29.5" y="-15.0" />
-              <point x="1259.4503205128206" y="215.0" />
-              <point x="1299.2003205128206" y="215.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="KeepTemperature" target="Temperature">
-              <point x="0.0" y="-15.0" />
-              <point x="956.0" y="460.0" />
-              <point x="832.9503205128206" y="460.0" />
-              <point x="34.0" y="15.0" />
-            </edge>
-            <edge source="SecurityProductFacade" target="SecurityProductFactory">
-              <point x="-38.75" y="-15.0" />
-              <point x="1263.1036324786326" y="380.0" />
-              <point x="1254.375" y="380.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="SecurityFacade" target="CameraFacade">
-              <point x="42.375" y="-15.0" />
-              <point x="1281.7286324786326" y="540.0" />
-              <point x="1428.3536324786326" y="540.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="AppDriver" target="Thermostat">
-              <point x="10.875" y="-15.0" />
-              <point x="671.2077991452991" y="610.0" />
-              <point x="725.2206196581196" y="610.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="SecurityProductFacade" target="SecurityProduct">
-              <point x="38.75" y="-15.0" />
-              <point x="1340.6036324786326" y="380.0" />
-              <point x="1346.3536324786326" y="380.0" />
-              <point x="1346.3536324786326" y="300.0" />
-              <point x="1244.7003205128206" y="300.0" />
-              <point x="14.75" y="15.0" />
-            </edge>
-            <edge source="Thermostat" target="KeepTemperature">
-              <point x="35.625" y="-15.0" />
-              <point x="760.8456196581196" y="540.0" />
-              <point x="956.0" y="540.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.lang.Enum" target="java.io.Serializable">
-              <point x="-16.25" y="-15.0" />
-              <point x="1282.9503205128206" y="55.0" />
-              <point x="1264.0641025641025" y="55.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="EmailSender" target="EmailDecorator">
-              <point x="12.375" y="-15.0" />
-              <point x="307.6452991452991" y="530.0" />
-              <point x="350.5" y="530.0" />
-              <point x="350.5" y="460.0" />
-              <point x="318.57532051282055" y="460.0" />
-              <point x="14.375" y="15.0" />
-            </edge>
-            <edge source="Thermostat" target="RegulateTemperature">
-              <point x="11.875" y="-15.0" />
-              <point x="737.0956196581196" y="530.0" />
-              <point x="798.0" y="530.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="CameraFacade" target="CameraFactory">
-              <point x="28.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="SecurityFacade" target="Alarm">
-              <point x="-42.375" y="-15.0" />
-              <point x="1196.9786324786326" y="540.0" />
-              <point x="1030.5" y="540.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="SecurityProductType" target="java.lang.Enum">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="SecurityProduct" target="java.util.Observable">
-              <point x="-29.5" y="-15.0" />
-              <point x="1200.4503205128206" y="215.0" />
-              <point x="1160.7003205128206" y="215.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="Alarm" target="java.util.Observer">
-              <point x="-16.5" y="-15.0" />
-              <point x="1014.0" y="135.0" />
-              <point x="1095.8253205128206" y="135.0" />
-              <point x="-20.25" y="15.0" />
-            </edge>
-            <edge source="Sensor" target="SecurityProduct">
-              <point x="0.0" y="-15.0" />
-              <point x="1118.0" y="300.0" />
-              <point x="1215.2003205128206" y="300.0" />
-              <point x="-14.75" y="15.0" />
-            </edge>
-            <edge source="Alarm" target="SecurityProduct">
-              <point x="16.5" y="-15.0" />
-              <point x="1047.0" y="290.0" />
-              <point x="1185.7003205128206" y="290.0" />
-              <point x="-44.25" y="15.0" />
-            </edge>
-            <edge source="SensorFactory" target="SecurityProductFactory">
-              <point x="27.0" y="-15.0" />
-              <point x="1177.3536324786326" y="380.0" />
-              <point x="1202.0416666666667" y="380.0" />
-              <point x="-52.33333333333326" y="15.0" />
-            </edge>
-            <edge source="RegulateTemperature" target="Temperature">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="CameraFacade" target="SecurityProductFacade">
-              <point x="-28.0" y="-15.0" />
-              <point x="1400.3536324786326" y="460.0" />
-              <point x="1353.5202991452993" y="460.0" />
-              <point x="51.66666666666674" y="15.0" />
-            </edge>
-            <edge source="java.lang.Enum" target="java.lang.Comparable">
-              <point x="16.25" y="-15.0" />
-              <point x="1315.4503205128206" y="55.0" />
-              <point x="1379.5641025641025" y="55.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="AppDriver" target="EmailSender">
-              <point x="-32.625" y="-15.0" />
-              <point x="627.7077991452991" y="620.0" />
-              <point x="295.2702991452991" y="620.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="Thermostat" target="Context">
-              <point x="-11.875" y="-15.0" />
-              <point x="713.3456196581196" y="530.0" />
-              <point x="666.5" y="530.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="Email" target="IEmail">
-              <point x="0.0" y="-15.0" />
-              <point x="195.20032051282055" y="380.0" />
-              <point x="253.45032051282055" y="380.0" />
-              <point x="-22.0" y="15.0" />
-            </edge>
-            <edge source="CameraFactory" target="SecurityProductFactory">
-              <point x="-28.5" y="-15.0" />
-              <point x="1427.8536324786326" y="370.0" />
-              <point x="1306.7083333333333" y="370.0" />
-              <point x="52.33333333333326" y="15.0" />
-            </edge>
-            <edge source="Camera" target="SecurityProduct">
-              <point x="0.0" y="-15.0" />
-              <point x="1484.8536324786326" y="290.0" />
-              <point x="1274.2003205128206" y="290.0" />
-              <point x="44.25" y="15.0" />
-            </edge>
-            <edge source="Thermostat" target="Number">
-              <point x="-35.625" y="-15.0" />
-              <point x="689.5956196581196" y="540.0" />
-              <point x="589.5" y="540.0" />
-              <point x="19.5" y="15.0" />
-            </edge>
-            <edge source="java.util.Observable" target="java.util.Observer">
-              <point x="0.0" y="-15.0" />
-              <point x="1160.7003205128206" y="135.0" />
-              <point x="1136.3253205128206" y="135.0" />
-              <point x="20.25" y="15.0" />
-            </edge>
-            <edge source="EmailSender" target="ColleagueEmailDecorator">
-              <point x="-12.375" y="-15.0" />
-              <point x="282.8952991452991" y="530.0" />
-              <point x="256.0" y="530.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="EmailDecorator" target="IEmail">
-              <point x="28.75" y="-15.0" />
-              <point x="332.95032051282055" y="380.0" />
-              <point x="297.45032051282055" y="380.0" />
-              <point x="22.0" y="15.0" />
-            </edge>
-            <edge source="SensorFacade" target="SensorFactory">
-              <point x="-26.5" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="FormalEmailDecorator" target="EmailDecorator">
-              <point x="0.0" y="-15.0" />
-              <point x="76.0" y="450.0" />
-              <point x="261.07532051282055" y="450.0" />
-              <point x="-43.125" y="15.0" />
-            </edge>
-            <edge source="SecurityFacade" target="SensorFacade">
-              <point x="-14.125" y="-15.0" />
-              <point x="1225.2286324786326" y="530.0" />
-              <point x="1176.8536324786326" y="530.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="ColleagueEmailDecorator" target="EmailDecorator">
-              <point x="0.0" y="-15.0" />
-              <point x="256.0" y="460.0" />
-              <point x="289.82532051282055" y="460.0" />
-              <point x="-14.375" y="15.0" />
-            </edge>
-            <edge source="SensorFacade" target="SecurityProductFacade">
-              <point x="26.5" y="-15.0" />
-              <point x="1203.3536324786326" y="460.0" />
-              <point x="1250.1869658119658" y="460.0" />
-              <point x="-51.66666666666674" y="15.0" />
-            </edge>
-            <edge source="SensorFactory" target="Sensor">
-              <point x="-27.0" y="-15.0" />
-              <point x="1123.3536324786326" y="380.0" />
-              <point x="1118.0" y="380.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="SecureEmailDecorator" target="EmailDecorator">
-              <point x="0.0" y="-15.0" />
-              <point x="436.0" y="450.0" />
-              <point x="347.32532051282055" y="450.0" />
-              <point x="43.125" y="15.0" />
-            </edge>
-            <edge source="EmailSender" target="SecureEmailDecorator">
-              <point x="37.125" y="-15.0" />
-              <point x="332.3952991452991" y="540.0" />
-              <point x="436.0" y="540.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.8072463768115942" x="762.0" y="335.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/security/CameraFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/security/Sensor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -1711,7 +1204,7 @@
         <state relative-caret-position="102">
           <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1732,17 +1225,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/security/SecurityProductFacade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="e#974#975#0" expanded="true" />
-            <element signature="e#1022#1023#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/security/SensorFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1760,23 +1242,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/regulation/RegulateHumidity.java" />
-    <entry file="file://$PROJECT_DIR$/src/regulation/KeepFactorUnchanged.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/email/EmailSenderTemplate.java" />
-    <entry file="file://$PROJECT_DIR$/src/regulation/RegulateFactor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/com/sun/org/apache/xerces/internal/parsers/DOMParser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
@@ -1795,71 +1261,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="118">
           <caret line="495" column="16" selection-start-line="495" selection-start-column="16" selection-end-line="495" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/regulation/XMLReaderSingleton.java" />
-    <entry file="file://$PROJECT_DIR$/src/regulation/Context.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
-          <folding>
-            <element signature="e#187#188#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/regulation/Factor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/regulation/Instrument.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-          <folding>
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/regulation/Thermostat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/regulation/Hygrometer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="80" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/values.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1925,7 +1334,7 @@
               <point x="0.0" y="0.0" />
             </edge>
           </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="260.5" y="135.0" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="261.0" y="135.0" />
           <SelectedNodes>
             <node>email.ColleagueEmailDecorator</node>
           </SelectedNodes>
@@ -1935,25 +1344,243 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/email/EmailDecorator.java">
+    <entry file="file://$PROJECT_DIR$/src/misc/Number.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="85">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/regulation.XMLReader">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>regulation.XMLReader</OriginalElement>
+          <nodes>
+            <node x="" y="">java.util.Observer</node>
+            <node x="" y="">regulation.Factor</node>
+            <node x="" y="">email.Email</node>
+            <node x="" y="">regulation.KeepFactorUnchanged</node>
+            <node x="" y="">misc.Number</node>
+            <node x="" y="">regulation.RegulateFactor</node>
+            <node x="" y="">security.Sensor</node>
+            <node x="" y="">regulation.Context</node>
+            <node x="" y="">email.EmailDecorator</node>
+            <node x="" y="">java.lang.Enum</node>
+            <node x="" y="">misc.Simulator</node>
+            <node x="" y="">email.EmailSender</node>
+            <node x="" y="">security.CameraFactory</node>
+            <node x="" y="">regulation.XMLReader</node>
+            <node x="" y="">security.SecurityProduct</node>
+            <node x="" y="">security.Camera</node>
+            <node x="" y="">regulation.Hygrometer</node>
+            <node x="" y="">security.CameraFacade</node>
+            <node x="" y="">security.SensorFacade</node>
+            <node x="" y="">email.ColleagueEmailDecorator</node>
+            <node x="" y="">security.SecurityFacade</node>
+            <node x="" y="">misc.Printer</node>
+            <node x="" y="">regulation.Thermostat</node>
+            <node x="" y="">email.IEmail</node>
+            <node x="" y="">java.io.Serializable</node>
+            <node x="" y="">security.Alarm</node>
+            <node x="" y="">regulation.Instrument</node>
+            <node x="" y="">email.SecureEmailDecorator</node>
+            <node x="" y="">security.SecurityProductType</node>
+            <node x="" y="">security.SensorFactory</node>
+            <node x="" y="">java.lang.Comparable</node>
+            <node x="" y="">email.FormalEmailDecorator</node>
+            <node x="" y="">misc.AppDriver</node>
+            <node x="" y="">java.util.Observable</node>
+            <node x="" y="">security.SecurityProductFacade</node>
+            <node x="" y="">security.SecurityProductFactory</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8756410256410254" x="1094.4304538799415" y="717.2767203513911" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/security/SecurityFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding>
-            <element signature="e#126#127#0" expanded="true" />
-            <element signature="e#157#158#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/security/SecurityProductFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="40" selection-start-line="7" selection-start-column="40" selection-end-line="7" selection-end-column="40" />
+          <folding>
+            <element signature="e#306#307#0" expanded="false" />
+            <element signature="e#356#357#0" expanded="false" />
+            <element signature="e#748#749#0" expanded="false" />
+            <element signature="e#817#818#0" expanded="false" />
+            <element signature="e#839#840#0" expanded="false" />
+            <element signature="e#909#910#0" expanded="false" />
+            <element signature="e#974#975#0" expanded="false" />
+            <element signature="e#1022#1023#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/email/Specialization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/email/Realization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/email/Generalization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/email/ColleagueEmailDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="51" selection-start-line="9" selection-start-column="51" selection-end-line="9" selection-end-column="51" />
+          <folding>
+            <element signature="e#114#115#0" expanded="false" />
+            <element signature="e#142#143#0" expanded="false" />
+            <element signature="e#290#291#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/email/IEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/regulation/Instrument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <folding>
+            <element signature="e#463#464#0" expanded="false" />
+            <element signature="e#499#500#0" expanded="false" />
+            <element signature="e#641#642#0" expanded="false" />
+            <element signature="e#677#678#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/regulation/KeepFactorUnchanged.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/regulation/Factor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/regulation/Context.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="48" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="48" />
+          <folding>
+            <element signature="e#187#188#0" expanded="false" />
+            <element signature="e#248#249#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/regulation/XMLReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/Printer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <folding>
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/regulation/Hygrometer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/values.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="11" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/regulation/RegulateFactor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/regulation/Thermostat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="80" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/email/SecureEmailDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="200">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-            <element signature="e#452#453#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1969,68 +1596,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/email/ColleagueEmailDecorator.java">
+    <entry file="file://$PROJECT_DIR$/src/email/EmailSender.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#114#115#0" expanded="true" />
-            <element signature="e#142#143#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="21" column="57" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/email/EmailSender.java">
+    <entry file="file://$PROJECT_DIR$/src/email/EmailDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-          <folding>
-            <element signature="e#882#883#0" expanded="true" />
-            <element signature="e#970#971#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/email/Email.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-220">
-          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
+        <state relative-caret-position="289">
+          <caret line="46" column="63" selection-start-line="46" selection-start-column="48" selection-end-line="46" selection-end-column="63" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/email/IEmail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/Number.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/regulation/XMLReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="58" column="47" selection-start-line="58" selection-start-column="47" selection-end-line="58" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#722#723#0" expanded="true" />
+            <element signature="e#749#750#0" expanded="true" />
+            <element signature="e#778#779#0" expanded="true" />
+            <element signature="e#803#804#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/misc/AppDriver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -2039,385 +1638,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/misc/Simulator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+        <state relative-caret-position="55">
+          <caret line="58" column="64" selection-start-line="58" selection-start-column="64" selection-end-line="58" selection-end-column="64" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/security/SecurityFacade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/Printer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/regulation.XMLReader">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>regulation.XMLReader</OriginalElement>
-          <nodes>
-            <node x="52.77400362318838" y="80.0">java.util.Observer</node>
-            <node x="721.8170289855072" y="320.0">regulation.Factor</node>
-            <node x="1446.591938405797" y="400.0">email.Email</node>
-            <node x="532.875" y="400.0">regulation.KeepFactorUnchanged</node>
-            <node x="934.875" y="400.0">misc.Number</node>
-            <node x="801.875" y="400.0">regulation.RegulateFactor</node>
-            <node x="86.0" y="320.0">security.Sensor</node>
-            <node x="706.875" y="400.0">regulation.Context</node>
-            <node x="1311.591938405797" y="400.0">email.EmailDecorator</node>
-            <node x="344.96693840579695" y="80.0">java.lang.Enum</node>
-            <node x="816.6657608695654" y="650.0">misc.Simulator</node>
-            <node x="398.87499999999994" y="400.0">security.CameraFactory</node>
-            <node x="1299.4157608695652" y="560.0">email.EmailSender</node>
-            <node x="228.66576086956525" y="160.0">regulation.XMLReader</node>
-            <node x="192.21693840579695" y="240.0">security.SecurityProduct</node>
-            <node x="446.87499999999994" y="320.0">security.Camera</node>
-            <node x="632.8170289855072" y="560.0">regulation.Hygrometer</node>
-            <node x="371.87499999999994" y="480.0">security.CameraFacade</node>
-            <node x="122.91576086956525" y="480.0">security.SensorFacade</node>
-            <node x="181.91576086956525" y="560.0">security.SecurityFacade</node>
-            <node x="1175.875" y="480.0">email.ColleagueEmailDecorator</node>
-            <node x="506.66576086956525" y="160.0">misc.Printer</node>
-            <node x="750.8170289855072" y="560.0">regulation.Thermostat</node>
-            <node x="1364.841938405797" y="320.0">email.IEmail</node>
-            <node x="409.35733695652175" y="0.0">java.io.Serializable</node>
-            <node x="0.0" y="320.0">security.Alarm</node>
-            <node x="754.9157608695652" y="480.0">regulation.Instrument</node>
-            <node x="1363.875" y="480.0">email.SecureEmailDecorator</node>
-            <node x="342.66576086956525" y="160.0">security.SecurityProductType</node>
-            <node x="95.41576086956525" y="400.0">security.SensorFactory</node>
-            <node x="290.3573369565217" y="0.0">java.lang.Comparable</node>
-            <node x="1003.875" y="480.0">email.FormalEmailDecorator</node>
-            <node x="815.6657608695654" y="730.0">misc.AppDriver</node>
-            <node x="115.66576086956525" y="160.0">java.util.Observable</node>
-            <node x="223.87499999999994" y="400.0">security.SecurityProductFacade</node>
-            <node x="178.37499999999994" y="320.0">security.SecurityProductFactory</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="regulation.Hygrometer" target="regulation.Instrument">
-              <point x="0.0" y="-15.0" />
-              <point x="681.8170289855072" y="540.0" />
-              <point x="770.2490942028986" y="540.0" />
-              <point x="-30.66666666666667" y="15.0" />
-            </edge>
-            <edge source="email.EmailDecorator" target="email.IEmail">
-              <point x="28.75" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="email.FormalEmailDecorator" target="email.EmailDecorator">
-              <point x="0.0" y="-15.0" />
-              <point x="1079.875" y="450.0" />
-              <point x="1325.966938405797" y="450.0" />
-              <point x="-43.125" y="15.0" />
-            </edge>
-            <edge source="regulation.Context" target="regulation.Factor">
-              <point x="0.0" y="-15.0" />
-              <point x="744.375" y="380.0" />
-              <point x="755.3170289855072" y="380.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="email.Email" target="email.IEmail">
-              <point x="0.0" y="-15.0" />
-              <point x="1478.091938405797" y="380.0" />
-              <point x="1419.841938405797" y="380.0" />
-              <point x="22.0" y="15.0" />
-            </edge>
-            <edge source="email.EmailSender" target="email.EmailDecorator">
-              <point x="37.125" y="-15.0" />
-              <point x="1386.0407608695652" y="540.0" />
-              <point x="1524.375" y="540.0" />
-              <point x="1524.375" y="450.0" />
-              <point x="1412.216938405797" y="450.0" />
-              <point x="43.125" y="15.0" />
-            </edge>
-            <edge source="email.ColleagueEmailDecorator" target="email.EmailDecorator">
-              <point x="0.0" y="-15.0" />
-              <point x="1259.875" y="460.0" />
-              <point x="1354.716938405797" y="460.0" />
-              <point x="-14.375" y="15.0" />
-            </edge>
-            <edge source="misc.Simulator" target="security.SecurityFacade">
-              <point x="-35.41666666666666" y="-15.0" />
-              <point x="823.7490942028987" y="630.0" />
-              <point x="238.41576086956525" y="630.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="security.SensorFactory" target="security.SecurityProductFactory">
-              <point x="27.0" y="-15.0" />
-              <point x="176.41576086956525" y="380.0" />
-              <point x="204.54166666666663" y="380.0" />
-              <point x="-52.33333333333334" y="15.0" />
-            </edge>
-            <edge source="security.SecurityFacade" target="security.CameraFacade">
-              <point x="42.375" y="-15.0" />
-              <point x="280.79076086956525" y="540.0" />
-              <point x="427.87499999999994" y="540.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="security.SecurityFacade" target="security.Alarm">
-              <point x="-42.375" y="-15.0" />
-              <point x="196.04076086956525" y="540.0" />
-              <point x="33.0" y="540.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="security.CameraFacade" target="security.SecurityProductFacade">
-              <point x="-28.0" y="-15.0" />
-              <point x="399.87499999999994" y="460.0" />
-              <point x="353.0416666666666" y="460.0" />
-              <point x="51.66666666666663" y="15.0" />
-            </edge>
-            <edge source="email.SecureEmailDecorator" target="email.EmailDecorator">
-              <point x="0.0" y="-15.0" />
-              <point x="1438.875" y="460.0" />
-              <point x="1383.466938405797" y="460.0" />
-              <point x="14.375" y="15.0" />
-            </edge>
-            <edge source="security.Alarm" target="java.util.Observer">
-              <point x="-16.5" y="-15.0" />
-              <point x="16.5" y="140.0" />
-              <point x="73.02400362318838" y="140.0" />
-              <point x="-20.25" y="15.0" />
-            </edge>
-            <edge source="regulation.Instrument" target="regulation.Context">
-              <point x="-11.5" y="-15.0" />
-              <point x="789.4157608695652" y="450.0" />
-              <point x="744.375" y="450.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.lang.Enum" target="java.lang.Comparable">
-              <point x="-16.25" y="-15.0" />
-              <point x="361.21693840579695" y="55.0" />
-              <point x="339.8573369565217" y="55.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="misc.Simulator" target="regulation.Thermostat">
-              <point x="-7.083333333333314" y="-15.0" />
-              <point x="852.082427536232" y="610.0" />
-              <point x="798.3170289855072" y="610.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="security.SecurityProductFacade" target="security.SecurityProduct">
-              <point x="38.75" y="-15.0" />
-              <point x="340.12499999999994" y="380.0" />
-              <point x="345.87499999999994" y="380.0" />
-              <point x="345.87499999999994" y="300.0" />
-              <point x="265.96693840579695" y="300.0" />
-              <point x="14.75" y="15.0" />
-            </edge>
-            <edge source="regulation.Instrument" target="regulation.KeepFactorUnchanged">
-              <point x="-34.5" y="-15.0" />
-              <point x="766.4157608695652" y="460.0" />
-              <point x="609.875" y="460.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="regulation.Instrument" target="regulation.RegulateFactor">
-              <point x="11.5" y="-15.0" />
-              <point x="812.4157608695652" y="450.0" />
-              <point x="858.375" y="450.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="misc.Simulator" target="regulation.Hygrometer">
-              <point x="-21.25" y="-15.0" />
-              <point x="837.9157608695654" y="620.0" />
-              <point x="681.8170289855072" y="620.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="misc.Simulator" target="regulation.Instrument">
-              <point x="7.083333333333343" y="-15.0" />
-              <point x="866.2490942028987" y="610.0" />
-              <point x="888.1657608695654" y="610.0" />
-              <point x="888.1657608695654" y="540.0" />
-              <point x="831.582427536232" y="540.0" />
-              <point x="30.666666666666686" y="15.0" />
-            </edge>
-            <edge source="security.Camera" target="security.SecurityProduct">
-              <point x="0.0" y="-15.0" />
-              <point x="484.37499999999994" y="290.0" />
-              <point x="295.46693840579695" y="290.0" />
-              <point x="44.25" y="15.0" />
-            </edge>
-            <edge source="security.SecurityProduct" target="java.util.Observable">
-              <point x="-29.5" y="-15.0" />
-              <point x="221.71693840579695" y="215.0" />
-              <point x="162.16576086956525" y="215.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="security.Alarm" target="security.SecurityProduct">
-              <point x="16.5" y="-15.0" />
-              <point x="49.5" y="290.0" />
-              <point x="206.96693840579695" y="290.0" />
-              <point x="-44.25" y="15.0" />
-            </edge>
-            <edge source="security.SensorFacade" target="security.SensorFactory">
-              <point x="-26.5" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="regulation.RegulateFactor" target="regulation.Factor">
-              <point x="0.0" y="-15.0" />
-              <point x="858.375" y="380.0" />
-              <point x="777.6503623188406" y="380.0" />
-              <point x="22.333333333333314" y="15.0" />
-            </edge>
-            <edge source="misc.Simulator" target="misc.Number">
-              <point x="21.25000000000003" y="-15.0" />
-              <point x="880.4157608695654" y="620.0" />
-              <point x="993.375" y="620.0" />
-              <point x="19.5" y="15.0" />
-            </edge>
-            <edge source="security.SensorFactory" target="security.Sensor">
-              <point x="-27.0" y="-15.0" />
-              <point x="122.41576086956525" y="380.0" />
-              <point x="120.5" y="380.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="security.SecurityFacade" target="security.SecurityProductFacade">
-              <point x="14.125" y="-15.0" />
-              <point x="252.54076086956525" y="530.0" />
-              <point x="301.37499999999994" y="530.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="email.EmailSender" target="email.SecureEmailDecorator">
-              <point x="12.375" y="-15.0" />
-              <point x="1361.2907608695652" y="530.0" />
-              <point x="1438.875" y="530.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="security.SecurityProductFacade" target="security.SecurityProductFactory">
-              <point x="-38.75" y="-15.0" />
-              <point x="262.62499999999994" y="380.0" />
-              <point x="256.87499999999994" y="380.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="regulation.Thermostat" target="regulation.Instrument">
-              <point x="0.0" y="-15.0" />
-              <point x="798.3170289855072" y="540.0" />
-              <point x="800.9157608695652" y="540.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.lang.Enum" target="java.io.Serializable">
-              <point x="16.25" y="-15.0" />
-              <point x="393.71693840579695" y="55.0" />
-              <point x="455.35733695652175" y="55.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="security.CameraFacade" target="security.CameraFactory">
-              <point x="28.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="misc.Simulator" target="email.EmailSender">
-              <point x="35.41666666666666" y="-15.0" />
-              <point x="894.582427536232" y="630.0" />
-              <point x="1348.9157608695652" y="630.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="regulation.Instrument" target="misc.Number">
-              <point x="34.5" y="-15.0" />
-              <point x="835.4157608695652" y="460.0" />
-              <point x="954.375" y="460.0" />
-              <point x="-19.5" y="15.0" />
-            </edge>
-            <edge source="security.CameraFactory" target="security.SecurityProductFactory">
-              <point x="-28.5" y="-15.0" />
-              <point x="427.37499999999994" y="370.0" />
-              <point x="309.20833333333326" y="370.0" />
-              <point x="52.33333333333334" y="15.0" />
-            </edge>
-            <edge source="security.SecurityFacade" target="security.SensorFacade">
-              <point x="-14.125" y="-15.0" />
-              <point x="224.29076086956525" y="530.0" />
-              <point x="175.91576086956525" y="530.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="email.EmailSender" target="email.ColleagueEmailDecorator">
-              <point x="-12.375" y="-15.0" />
-              <point x="1336.5407608695652" y="530.0" />
-              <point x="1259.875" y="530.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="security.Sensor" target="security.SecurityProduct">
-              <point x="0.0" y="-15.0" />
-              <point x="120.5" y="300.0" />
-              <point x="236.46693840579695" y="300.0" />
-              <point x="-14.75" y="15.0" />
-            </edge>
-            <edge source="security.SensorFacade" target="security.SecurityProductFacade">
-              <point x="26.5" y="-15.0" />
-              <point x="202.41576086956525" y="460.0" />
-              <point x="249.70833333333326" y="460.0" />
-              <point x="-51.666666666666686" y="15.0" />
-            </edge>
-            <edge source="misc.Printer" target="java.lang.Enum">
-              <point x="0.0" y="-15.0" />
-              <point x="541.1657608695652" y="130.0" />
-              <point x="399.13360507246364" y="130.0" />
-              <point x="21.666666666666686" y="15.0" />
-            </edge>
-            <edge source="regulation.XMLReader" target="java.lang.Enum">
-              <point x="0.0" y="-15.0" />
-              <point x="275.66576086956525" y="140.0" />
-              <point x="355.80027173913027" y="140.0" />
-              <point x="-21.666666666666657" y="15.0" />
-            </edge>
-            <edge source="misc.AppDriver" target="misc.Simulator">
-              <point x="0.0" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="security.CameraFactory" target="security.Camera">
-              <point x="28.5" y="-15.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="security.SecurityProduct" target="security.SecurityProductType">
-              <point x="29.5" y="-15.0" />
-              <point x="280.71693840579695" y="215.0" />
-              <point x="414.66576086956525" y="215.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="java.util.Observable" target="java.util.Observer">
-              <point x="0.0" y="-15.0" />
-              <point x="162.16576086956525" y="140.0" />
-              <point x="113.52400362318838" y="140.0" />
-              <point x="20.25" y="15.0" />
-            </edge>
-            <edge source="regulation.KeepFactorUnchanged" target="regulation.Factor">
-              <point x="0.0" y="-15.0" />
-              <point x="609.875" y="380.0" />
-              <point x="732.983695652174" y="380.0" />
-              <point x="-22.333333333333314" y="15.0" />
-            </edge>
-            <edge source="email.EmailSender" target="email.FormalEmailDecorator">
-              <point x="-37.125" y="-15.0" />
-              <point x="1311.7907608695652" y="540.0" />
-              <point x="1079.875" y="540.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-            <edge source="security.SecurityProductType" target="java.lang.Enum">
-              <point x="0.0" y="-15.0" />
-              <point x="414.66576086956525" y="140.0" />
-              <point x="377.46693840579695" y="140.0" />
-              <point x="0.0" y="15.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="0.8756410256410254" x="511.557833089312" y="509.63543191800886" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
         </state>
       </provider>
     </entry>

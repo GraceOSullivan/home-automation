@@ -11,7 +11,7 @@ abstract class EmailDecorator implements IEmail {
         return this.email;
     }
 
-    void setEmail(IEmail email) {
+    private void setEmail(IEmail email) {
         this.email = email;
     }
 

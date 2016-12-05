@@ -12,7 +12,7 @@ class Simulator extends Number {
     void simulate() {
         simulateThermostat();
         simulateHygrometer();
-        simulateSecurity();
+        //simulateSecurity();
         simulateEmail();
     }
 
@@ -44,10 +44,44 @@ class Simulator extends Number {
                 .contents(contents.toString())
                 .build();
 
+        myEmail = validateEmailAddresses(in, sender, recipient, subject, contents, myEmail);
+
         EmailSender emailSender = new EmailSender();
         emailSender.sendAsFormalEmail(myEmail);
         emailSender.sendAsFriendlyEmail(myEmail);
         emailSender.sendAsSecureEmail(myEmail);
+    }
+
+    private static Email validateEmailAddresses(Scanner in, String sender, String recipient, String subject, StringBuilder contents, Email myEmail) {
+        if (myEmail.getFrom().equals("Invalid email") || myEmail.getTo().equals("Invalid email")) {
+            while (myEmail.getFrom().equals("Invalid email") || myEmail.getTo().equals("Invalid email")) {
+                Printer.getInstance().print("Unable to send email...");
+                if (myEmail.getFrom().equals("Invalid email")) {
+                    while (myEmail.getFrom().equals("Invalid email")) {
+                        Printer.getInstance().print("Invalid email address (sender). Try again:");
+                        sender = in.next();
+                        myEmail = new Email.EmailBuilder()
+                                .from(sender)
+                                .to(recipient)
+                                .subject(subject)
+                                .contents(contents.toString())
+                                .build();
+                    }
+                } else {
+                    while (myEmail.getTo().equals("Invalid email")) {
+                        Printer.getInstance().print("Invalid email address (recipient). Try again:");
+                        recipient = in.next();
+                        myEmail = new Email.EmailBuilder()
+                                .from(sender)
+                                .to(recipient)
+                                .subject(subject)
+                                .contents(contents.toString())
+                                .build();
+                    }
+                }
+            }
+        }
+        return myEmail;
     }
 
     private static void simulateSecurity() {

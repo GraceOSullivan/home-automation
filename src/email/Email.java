@@ -24,6 +24,14 @@ public class Email implements IEmail {
                 "\nContents: " + customisedContents;
     }
 
+    public String getFrom() {
+        return from;
+    }
+
+    public String getTo() {
+        return to;
+    }
+
     @Override
     public String getContents() {
         return contents;

@@ -15,6 +15,7 @@ class SecureEmailDecorator extends EmailDecorator {
         super(email);
     }
 
+    @Override
     public String customiseEmail(String contents) {
         try {
             String key = "Bar12345Bar12345"; // 128 bit key
