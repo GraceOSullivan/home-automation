@@ -2,7 +2,7 @@ package regulation;
 
 class KeepFactorUnchanged implements Factor {
     @Override
-    public double regulateFactor(Instrument instrument) {
+    public double regulateFactorIfNeeded(Instrument instrument) {
         displayFactorUnchanged();
         return instrument.getFactorStat();
     }

@@ -5,6 +5,7 @@ import java.util.Random;
 
 public abstract class Number {
     private static final Random random = new Random();
+
     static protected double generateRandomDouble(double min, double max){
         return min + (max - min) * random.nextDouble();
     }
@@ -16,6 +17,4 @@ public abstract class Number {
     protected String formatToTwoDecimalPlaces(double number) {
         return new DecimalFormat("#.00").format(number);
     }
-
-
 }

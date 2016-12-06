@@ -16,6 +16,37 @@ class Simulator extends Number {
         simulateEmail();
     }
 
+    private Instrument instrument;
+
+    private void simulateThermostat() {
+        instrument = new Thermostat();
+        instrument.displayCurrentFactorStat();
+        instrument.regulateFactorIfNeeded();
+        instrument.displayCurrentFactorStat();
+    }
+
+    private void simulateHygrometer() {
+        instrument = new Hygrometer();
+        instrument.displayCurrentFactorStat();
+        instrument.regulateFactorIfNeeded();
+        instrument.displayCurrentFactorStat();
+    }
+
+    private static void simulateSecurity() {
+        SecurityFacade securityFacade = new SecurityFacade();
+        securityFacade.turnOnSecurity();
+        Printer.getInstance().print("=== Checking for intruders ===");
+        securityFacade.getSecurityProductsList().stream().filter(securityProduct -> securityProduct != null).forEach(Simulator::checkIfProductWasTriggered);
+        securityFacade.turnOffSecurity();
+    }
+
+    private static void checkIfProductWasTriggered(SecurityProduct securityProduct) {
+        int randomNumber = generateRandomInt(1, 25);
+        if (randomNumber <= 2) {
+            securityProduct.setWasTriggered(true);
+        }
+    }
+
     private static void simulateEmail() {
         Scanner in = new Scanner(System.in);
 
@@ -44,7 +75,7 @@ class Simulator extends Number {
                 .contents(contents.toString())
                 .build();
 
-        myEmail = validateEmailAddresses(in, sender, recipient, subject, contents, myEmail);
+        myEmail = validateEmailAddressesWhileInvalid(in, sender, recipient, subject, contents, myEmail);
 
         EmailSender emailSender = new EmailSender();
         emailSender.sendAsFormalEmail(myEmail);
@@ -52,7 +83,7 @@ class Simulator extends Number {
         emailSender.sendAsSecureEmail(myEmail);
     }
 
-    private static Email validateEmailAddresses(Scanner in, String sender, String recipient, String subject, StringBuilder contents, Email myEmail) {
+    private static Email validateEmailAddressesWhileInvalid(Scanner in, String sender, String recipient, String subject, StringBuilder contents, Email myEmail) {
         if (myEmail.getSender().equals("Invalid email") || myEmail.getRecipient().equals("Invalid email")) {
             while (myEmail.getSender().equals("Invalid email") || myEmail.getRecipient().equals("Invalid email")) {
                 Printer.getInstance().print("Unable recipient send email...");
@@ -82,36 +113,5 @@ class Simulator extends Number {
             }
         }
         return myEmail;
-    }
-
-    private static void simulateSecurity() {
-        SecurityFacade securityFacade = new SecurityFacade();
-        securityFacade.turnOnSecurity();
-        Printer.getInstance().print("=== Checking for intruders ===");
-        securityFacade.getSecurityProductsList().stream().filter(securityProduct -> securityProduct != null).forEach(Simulator::checkIfProductWasTriggered);
-        securityFacade.turnOffSecurity();
-    }
-
-    private Instrument instrument;
-
-    private void simulateHygrometer() {
-        instrument = new Hygrometer();
-        instrument.displayCurrentFactorStat();
-        instrument.regulateFactorIfNeeded();
-        instrument.displayCurrentFactorStat();
-    }
-
-    private void simulateThermostat() {
-        instrument = new Thermostat();
-        instrument.displayCurrentFactorStat();
-        instrument.regulateFactorIfNeeded();
-        instrument.displayCurrentFactorStat();
-    }
-
-    private static void checkIfProductWasTriggered(SecurityProduct securityProduct) {
-        int randomNumber = generateRandomInt(1, 25);
-        if (randomNumber <= 2) {
-            securityProduct.setWasTriggered(true);
-        }
     }
 }

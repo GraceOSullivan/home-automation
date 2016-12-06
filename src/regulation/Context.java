@@ -8,6 +8,6 @@ class Context {
     }
 
     double executeStrategy(Instrument instrument) {
-        return this.factor.regulateFactor(instrument);
+        return this.factor.regulateFactorIfNeeded(instrument);
     }
 }
