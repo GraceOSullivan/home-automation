@@ -1,6 +1,15 @@
-package regulation;
+/***************************************************************************************
+ *    Skeleton for the source code for the reading of an XML source file was gotten from the following source:
+ *
+ *    Title: A simple example of reading and parsing an XML document in Java
+ *    Author: Nic MchPhee (Github Member)
+ *    Date: 24-October-2013
+ *    Code version: 1.0
+ *    Availability: https://gist.github.com/NicMcPhee/7131454
+ *
+ ***************************************************************************************/
 
-// Skeleton for the XML reading code was gotten from: https://gist.github.com/NicMcPhee/7131454
+package regulation;
 
 import java.io.FileInputStream;
 import java.io.IOException;

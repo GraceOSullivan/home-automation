@@ -60,7 +60,16 @@ class Simulator extends Number {
         String subject = in.next();
 
         Printer.getInstance().print("Email contents (\"/q\" on it's own line recipient stop writing):");
-        // http://stackoverflow.com/questions/27055069/geting-a-multiline-text-with-scanner-class-in-java
+        /***************************************************************************************
+         *    Skeleton for the continuous reading of user input source code was gotten from the following source:
+         *
+         *    Title: geting a multiline text with scanner class in java
+         *    Author: Yohanes Khosiawan (StackOverflow Member)
+         *    Date: 21-November-2014
+         *    Code version: 1.0
+         *    Availability: http://stackoverflow.com/questions/27055069/geting-a-multiline-text-with-scanner-class-in-java
+         *
+         ***************************************************************************************/
         String TERMINATOR_STRING = "/q";
         StringBuilder contents = new StringBuilder();
         String strLine;

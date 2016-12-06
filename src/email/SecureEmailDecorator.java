@@ -17,7 +17,16 @@ class SecureEmailDecorator extends EmailDecorator {
 
     @Override
     public String customiseEmail(String contents) {
-        // http://stackoverflow.com/questions/23561104/how-to-encrypt-and-decrypt-string-with-my-passphrase-in-java-pc-not-mobile-plat
+        /***************************************************************************************
+         *    Skeleton for the encryption source code was gotten from the following source:
+         *
+         *    Title: How to encrypt and decrypt String with my passphrase in Java
+         *    Author: Vignesh (StackOverflow Member)
+         *    Date: 02-June-2015
+         *    Code version: 1.0
+         *    Availability: http://stackoverflow.com/questions/23561104/how-to-encrypt-and-decrypt-string-with-my-passphrase-in-java-pc-not-mobile-plat
+         *
+         ***************************************************************************************/
         try {
             String key = "Bar12345Bar12345"; // 128 bit key
             Key aesKey = new SecretKeySpec(key.getBytes(), "AES");

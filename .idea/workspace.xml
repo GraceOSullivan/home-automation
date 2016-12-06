@@ -2,23 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="404fe23d-27ce-44e8-905c-4c6cf5ba8f21" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/email/ColleagueEmailDecorator.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/email/ColleagueEmailDecorator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/email/Email$EmailBuilder.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/email/Email$EmailBuilder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/email/Email.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/email/Email.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/email/EmailSender.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/email/EmailSender.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/email/FormalEmailDecorator.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/email/FormalEmailDecorator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/email/SecureEmailDecorator.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/email/SecureEmailDecorator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HomeAutomation/misc/Simulator.class" afterPath="$PROJECT_DIR$/out/production/HomeAutomation/misc/Simulator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/email/EmailSender.java" afterPath="$PROJECT_DIR$/src/email/EmailSender.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/email/Email.java" afterPath="$PROJECT_DIR$/src/email/Email.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/email/SecureEmailDecorator.java" afterPath="$PROJECT_DIR$/src/email/SecureEmailDecorator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/AppDriver.java" afterPath="$PROJECT_DIR$/src/misc/AppDriver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/Number.java" afterPath="$PROJECT_DIR$/src/misc/Number.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/Simulator.java" afterPath="$PROJECT_DIR$/src/misc/Simulator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/regulation/Context.java" afterPath="$PROJECT_DIR$/src/regulation/Context.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/regulation/Factor.java" afterPath="$PROJECT_DIR$/src/regulation/Factor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/regulation/KeepFactorUnchanged.java" afterPath="$PROJECT_DIR$/src/regulation/KeepFactorUnchanged.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/regulation/RegulateFactor.java" afterPath="$PROJECT_DIR$/src/regulation/RegulateFactor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/regulation/XMLReader.java" afterPath="$PROJECT_DIR$/src/regulation/XMLReader.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/security/SecurityFacade.java" afterPath="$PROJECT_DIR$/src/security/SecurityFacade.java" />
     </list>
     <ignored path="HomeAutomation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,41 +28,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Alarm.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/security/Alarm.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Camera.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/security/Camera.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CameraFacade.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/security/CameraFacade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecurityProductFacade.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/security/SecurityProductFacade.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state relative-caret-position="34">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -93,18 +51,78 @@
       <file leaf-file-name="SecurityFacade.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/security/SecurityFacade.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="578">
+              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SecurityProduct.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SecurityProduct.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/security/SecurityProduct.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+            <state relative-caret-position="68">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecurityProductFacade.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/security/SecurityProductFacade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecurityProductFactory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/security/SecurityProductFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SecurityProductType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/security/SecurityProductType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sensor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/security/Sensor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SensorFacade.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/security/SensorFacade.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SensorFactory.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/security/SensorFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -150,7 +168,6 @@
         <option value="$PROJECT_DIR$/src/security/SensorFacade.java" />
         <option value="$PROJECT_DIR$/src/security/SecurityProductType.java" />
         <option value="$PROJECT_DIR$/src/security/SecurityProductFacade.java" />
-        <option value="$PROJECT_DIR$/src/security/SecurityFacade.java" />
         <option value="$PROJECT_DIR$/src/regulation/RegulateHumidity.java" />
         <option value="$PROJECT_DIR$/src/regulation/KeepFactorUnchanged.java" />
         <option value="$PROJECT_DIR$/src/regulation/RegulateTemperature.java" />
@@ -167,22 +184,23 @@
         <option value="$PROJECT_DIR$/src/email/Specialization.java" />
         <option value="$PROJECT_DIR$/src/email/Generalization.java" />
         <option value="$PROJECT_DIR$/values.xml" />
-        <option value="$PROJECT_DIR$/src/regulation/XMLReader.java" />
         <option value="$PROJECT_DIR$/src/email/EmailDecorator.java" />
         <option value="$PROJECT_DIR$/src/email/IEmail.java" />
         <option value="$PROJECT_DIR$/src/regulation/Thermostat.java" />
-        <option value="$PROJECT_DIR$/src/email/Email.java" />
         <option value="$PROJECT_DIR$/src/email/ColleagueEmailDecorator.java" />
         <option value="$PROJECT_DIR$/src/email/FormalEmailDecorator.java" />
         <option value="C:/Program Files/Java/jdk1.8.0_102/jre/lib/jce.jar!/javax/crypto/Cipher.class" />
-        <option value="$PROJECT_DIR$/src/email/SecureEmailDecorator.java" />
         <option value="$PROJECT_DIR$/src/email/EmailSenderTemplate.java" />
         <option value="$PROJECT_DIR$/src/email/EmailSender.java" />
         <option value="$PROJECT_DIR$/src/misc/AppDriver.java" />
         <option value="$PROJECT_DIR$/src/misc/Number.java" />
         <option value="$PROJECT_DIR$/src/misc/Printer.java" />
-        <option value="$PROJECT_DIR$/src/misc/Simulator.java" />
         <option value="$PROJECT_DIR$/src/regulation/Factor.java" />
+        <option value="$PROJECT_DIR$/src/email/SecureEmailDecorator.java" />
+        <option value="$PROJECT_DIR$/src/email/Email.java" />
+        <option value="$PROJECT_DIR$/src/misc/Simulator.java" />
+        <option value="$PROJECT_DIR$/src/regulation/XMLReader.java" />
+        <option value="$PROJECT_DIR$/src/security/SecurityFacade.java" />
       </list>
     </option>
   </component>
@@ -1060,12 +1078,12 @@
       <workItem from="1480796414260" duration="6113000" />
       <workItem from="1480929133194" duration="6133000" />
       <workItem from="1481022894352" duration="892000" />
-      <workItem from="1481040524750" duration="2429000" />
+      <workItem from="1481040524750" duration="3469000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96795000" />
+    <option name="totallyTimeSpent" value="97835000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1127,7 +1145,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/regulation/Temperature.java" />
     <entry file="file://$PROJECT_DIR$/src/regulation/HumidityContext.java" />
     <entry file="file://$PROJECT_DIR$/src/regulation/TemperatureContext.java" />
     <entry file="file://$PROJECT_DIR$/src/regulation/KeepTemperature.java" />
@@ -1188,36 +1205,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1318">
           <caret line="133" column="13" selection-start-line="133" selection-start-column="4" selection-end-line="133" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/security/SecurityProductFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/security/SecurityProductType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/security/SensorFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/security/SensorFacade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1393,14 +1380,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/email/IEmail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_102/jre/lib/jce.jar!/javax/crypto/Cipher.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-713">
@@ -1409,13 +1388,64 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/email/SecureEmailDecorator.java">
+    <entry file="file://$PROJECT_DIR$/src/email/EmailSenderTemplate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="29" column="118" selection-start-line="29" selection-start-column="118" selection-end-line="29" selection-end-column="118" />
+        <state relative-caret-position="425">
+          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/email/ColleagueEmailDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/Simulator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="61" column="104" selection-start-line="61" selection-start-column="104" selection-end-line="61" selection-end-column="104" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/Printer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/Number.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding>
+            <element signature="e#466#467#0" expanded="true" />
+            <element signature="e#529#530#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/AppDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/email/IEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1423,6 +1453,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="51" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/email/EmailSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1437,112 +1475,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/email/Email.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="41" column="29" selection-start-line="41" selection-start-column="29" selection-end-line="41" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#871#872#0" expanded="true" />
-            <element signature="e#900#901#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/email/ColleagueEmailDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding>
-            <element signature="e#113#114#0" expanded="true" />
-            <element signature="e#141#142#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/email/EmailSenderTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/email/EmailSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#866#867#0" expanded="true" />
-            <element signature="e#931#932#0" expanded="true" />
-            <element signature="e#994#995#0" expanded="true" />
-            <element signature="e#1036#1037#0" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/AppDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="e#77#78#0" expanded="true" />
-            <element signature="e#119#120#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/Number.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-          <folding>
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#466#467#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/Printer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
-          <folding>
-            <element signature="e#434#435#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/misc/Simulator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        <state relative-caret-position="85">
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/regulation/Hygrometer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/regulation/Context.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
+        <state relative-caret-position="136">
           <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
           <folding>
-            <element signature="e#98#99#0" expanded="true" />
-            <element signature="e#134#135#0" expanded="true" />
             <element signature="e#187#188#0" expanded="true" />
             <element signature="e#256#257#0" expanded="true" />
           </folding>
@@ -1551,57 +1496,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/regulation/Factor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-          <folding>
-            <element signature="e#164#165#0" expanded="true" />
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
-            <element signature="e#340#341#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/regulation/KeepFactorUnchanged.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        <state relative-caret-position="102">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/regulation/RegulateFactor.java">
+    <entry file="file://$PROJECT_DIR$/src/regulation/Hygrometer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/regulation/Instrument.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-          <folding>
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/regulation/KeepFactorUnchanged.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/regulation/RegulateFactor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/regulation/Thermostat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="80" selection-start-line="9" selection-start-column="80" selection-end-line="9" selection-end-column="80" />
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/email/SecureEmailDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="19" column="8" selection-start-line="19" selection-start-column="8" selection-end-line="28" selection-end-column="97" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/regulation/XMLReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        <state relative-caret-position="204">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
+            <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
           </folding>
         </state>
@@ -1609,8 +1565,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/security/Alarm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        <state relative-caret-position="85">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1625,16 +1581,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/security/CameraFacade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="25" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/security/SecurityProductFacade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1649,16 +1597,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/security/SecurityFacade.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state relative-caret-position="578">
+          <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/security/SecurityProduct.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/security/SecurityProductFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/security/SecurityProductFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/security/SecurityProductType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="5" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/security/Sensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/security/SensorFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/security/SensorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding />
         </state>
       </provider>

@@ -1,6 +1,15 @@
-package email;
+/***************************************************************************************
+ *    Skeleton for the some of the code was gotten from the following source:
+ *
+ *    Title: Another builder pattern for Java
+ *    Author: Per Lundholm
+ *    Date: 09-October-2013
+ *    Code version: 1.0
+ *    Availability: http://blog.crisp.se/2013/10/09/perlundholm/another-builder-pattern-for-java
+ *
+ ***************************************************************************************/
 
-// skeleton of code gotten from: http://blog.crisp.se/2013/10/09/perlundholm/another-builder-pattern-for-java
+package email;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

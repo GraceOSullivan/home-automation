@@ -37,6 +37,4 @@ public class SecurityFacade {
             securityProduct.addObserver(alarm);
         }
     }
-
-
 }
