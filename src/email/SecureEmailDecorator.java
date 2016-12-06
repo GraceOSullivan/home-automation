@@ -10,11 +10,11 @@ import java.security.Key;
 import java.security.NoSuchAlgorithmException;
 
 class SecureEmailDecorator extends EmailDecorator {
-
     SecureEmailDecorator(IEmail email) {
         super(email);
     }
 
+    // http://stackoverflow.com/questions/23561104/how-to-encrypt-and-decrypt-string-with-my-passphrase-in-java-pc-not-mobile-plat
     @Override
     public String customiseEmail(String contents) {
         try {

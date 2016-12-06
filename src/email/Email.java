@@ -1,35 +1,37 @@
 package email;
 
+// skeleton of code gotten from: http://blog.crisp.se/2013/10/09/perlundholm/another-builder-pattern-for-java
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Email implements IEmail {
-    private final String from;
-    private final String to;
+    private final String sender;
+    private final String recipient;
     private final String subject;
     private final String contents;
 
     private Email(EmailBuilder builder) {
-        this.from = builder.from;
-        this.to = builder.to;
+        this.sender = builder.sender;
+        this.recipient = builder.recipient;
         this.subject = builder.subject;
         this.contents = builder.contents;
     }
 
     @Override
     public String getCustomisedDetails(String customisedContents) {
-        return "From: " + from +
-                "\nTo: " + to +
+        return "From: " + sender +
+                "\nTo: " + recipient +
                 "\nSubject: " + subject +
                 "\nContents: " + customisedContents;
     }
 
-    public String getFrom() {
-        return from;
+    public String getSender() {
+        return sender;
     }
 
-    public String getTo() {
-        return to;
+    public String getRecipient() {
+        return recipient;
     }
 
     @Override
@@ -38,18 +40,18 @@ public class Email implements IEmail {
     }
 
     public static class EmailBuilder {
-        private String from;
-        private String to;
+        private String sender;
+        private String recipient;
         private String subject;
         private String contents;
 
-        public EmailBuilder from(String from) {
-            this.from = validate(from) ? from : "Invalid email";
+        public EmailBuilder sender(String sender) {
+            this.sender = validate(sender) ? sender : "Invalid email";
             return this;
         }
 
-        public EmailBuilder to(String to) {
-            this.to = validate(to) ? to : "Invalid email";
+        public EmailBuilder recipient(String recipient) {
+            this.recipient = validate(recipient) ? recipient : "Invalid email";
             return this;
         }
 

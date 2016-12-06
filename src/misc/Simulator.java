@@ -12,7 +12,7 @@ class Simulator extends Number {
     void simulate() {
         simulateThermostat();
         simulateHygrometer();
-        //simulateSecurity();
+        simulateSecurity();
         simulateEmail();
     }
 
@@ -28,7 +28,7 @@ class Simulator extends Number {
         Printer.getInstance().print("Email subject:");
         String subject = in.next();
 
-        Printer.getInstance().print("Email contents (\"/q\" on it's own line to stop writing):");
+        Printer.getInstance().print("Email contents (\"/q\" on it's own line recipient stop writing):");
         // http://stackoverflow.com/questions/27055069/geting-a-multiline-text-with-scanner-class-in-java
         String TERMINATOR_STRING = "/q";
         StringBuilder contents = new StringBuilder();
@@ -38,8 +38,8 @@ class Simulator extends Number {
         }
 
         Email myEmail = new Email.EmailBuilder()
-                .from(sender)
-                .to(recipient)
+                .sender(sender)
+                .recipient(recipient)
                 .subject(subject)
                 .contents(contents.toString())
                 .build();
@@ -53,27 +53,27 @@ class Simulator extends Number {
     }
 
     private static Email validateEmailAddresses(Scanner in, String sender, String recipient, String subject, StringBuilder contents, Email myEmail) {
-        if (myEmail.getFrom().equals("Invalid email") || myEmail.getTo().equals("Invalid email")) {
-            while (myEmail.getFrom().equals("Invalid email") || myEmail.getTo().equals("Invalid email")) {
-                Printer.getInstance().print("Unable to send email...");
-                if (myEmail.getFrom().equals("Invalid email")) {
-                    while (myEmail.getFrom().equals("Invalid email")) {
+        if (myEmail.getSender().equals("Invalid email") || myEmail.getRecipient().equals("Invalid email")) {
+            while (myEmail.getSender().equals("Invalid email") || myEmail.getRecipient().equals("Invalid email")) {
+                Printer.getInstance().print("Unable recipient send email...");
+                if (myEmail.getSender().equals("Invalid email")) {
+                    while (myEmail.getSender().equals("Invalid email")) {
                         Printer.getInstance().print("Invalid email address (sender). Try again:");
                         sender = in.next();
                         myEmail = new Email.EmailBuilder()
-                                .from(sender)
-                                .to(recipient)
+                                .sender(sender)
+                                .recipient(recipient)
                                 .subject(subject)
                                 .contents(contents.toString())
                                 .build();
                     }
                 } else {
-                    while (myEmail.getTo().equals("Invalid email")) {
+                    while (myEmail.getRecipient().equals("Invalid email")) {
                         Printer.getInstance().print("Invalid email address (recipient). Try again:");
                         recipient = in.next();
                         myEmail = new Email.EmailBuilder()
-                                .from(sender)
-                                .to(recipient)
+                                .sender(sender)
+                                .recipient(recipient)
                                 .subject(subject)
                                 .contents(contents.toString())
                                 .build();

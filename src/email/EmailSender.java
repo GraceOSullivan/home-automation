@@ -17,7 +17,7 @@ public class EmailSender {
     }
 
     public void sendAsFriendlyEmail(IEmail email) {
-        Printer.getInstance().print("Sending email to a colleague...");
+        Printer.getInstance().print("Sending email recipient a colleague...");
         emailDecorator = new ColleagueEmailDecorator(email);
         Printer.getInstance().print(getDecoratedEmail());
     }
