@@ -1,9 +1,11 @@
 package regulation;
 
+import misc.Printer;
+
 class RegulateFactor implements Factor {
     @Override
     public double regulateFactorIfNeeded(Instrument instrument) {
-        displayRegulatingFactor();
+        Printer.getInstance().print("Regulating...");
         return instrument.getPerfectFactorStat();
     }
 }

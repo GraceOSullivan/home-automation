@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="404fe23d-27ce-44e8-905c-4c6cf5ba8f21" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/email/Email.java" afterPath="$PROJECT_DIR$/src/email/Email.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/email/SecureEmailDecorator.java" afterPath="$PROJECT_DIR$/src/email/SecureEmailDecorator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/misc/Simulator.java" afterPath="$PROJECT_DIR$/src/misc/Simulator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/regulation/XMLReader.java" afterPath="$PROJECT_DIR$/src/regulation/XMLReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/security/SecurityFacade.java" afterPath="$PROJECT_DIR$/src/security/SecurityFacade.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/regulation/KeepFactorUnchanged.java" afterPath="$PROJECT_DIR$/src/regulation/DontRegulateFactor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/regulation/Factor.java" afterPath="$PROJECT_DIR$/src/regulation/Factor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/regulation/Instrument.java" afterPath="$PROJECT_DIR$/src/regulation/Instrument.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/regulation/RegulateFactor.java" afterPath="$PROJECT_DIR$/src/regulation/RegulateFactor.java" />
     </list>
     <ignored path="HomeAutomation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,36 +28,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CameraFacade.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/security/CameraFacade.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CameraFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/security/CameraFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecurityFacade.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/security/SecurityFacade.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="38" column="5" selection-start-line="38" selection-start-column="5" selection-end-line="38" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SecurityProduct.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/security/SecurityProduct.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -118,11 +88,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SensorFactory.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SensorFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/security/SensorFactory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RegulateFactor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/regulation/RegulateFactor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DontRegulateFactor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/regulation/DontRegulateFactor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Factor.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/regulation/Factor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -150,7 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/email/Printer.java" />
         <option value="$PROJECT_DIR$/src/Printer.java" />
         <option value="$PROJECT_DIR$/src/security/CameraFactory.java" />
         <option value="$PROJECT_DIR$/src/security/Camera.java" />
@@ -171,7 +170,6 @@
         <option value="$PROJECT_DIR$/src/regulation/RegulateHumidity.java" />
         <option value="$PROJECT_DIR$/src/regulation/KeepFactorUnchanged.java" />
         <option value="$PROJECT_DIR$/src/regulation/RegulateTemperature.java" />
-        <option value="$PROJECT_DIR$/src/regulation/RegulateFactor.java" />
         <option value="$PROJECT_DIR$/src/regulation/Context.java" />
         <option value="$PROJECT_DIR$/src/email/FormalEmailSender.java" />
         <option value="$PROJECT_DIR$/src/regulation/XMLReaderSingleton.java" />
@@ -195,12 +193,14 @@
         <option value="$PROJECT_DIR$/src/misc/AppDriver.java" />
         <option value="$PROJECT_DIR$/src/misc/Number.java" />
         <option value="$PROJECT_DIR$/src/misc/Printer.java" />
-        <option value="$PROJECT_DIR$/src/regulation/Factor.java" />
         <option value="$PROJECT_DIR$/src/email/SecureEmailDecorator.java" />
         <option value="$PROJECT_DIR$/src/email/Email.java" />
         <option value="$PROJECT_DIR$/src/misc/Simulator.java" />
         <option value="$PROJECT_DIR$/src/regulation/XMLReader.java" />
         <option value="$PROJECT_DIR$/src/security/SecurityFacade.java" />
+        <option value="$PROJECT_DIR$/src/regulation/Factor.java" />
+        <option value="$PROJECT_DIR$/src/regulation/RegulateFactor.java" />
+        <option value="$PROJECT_DIR$/src/regulation/DontRegulateFactor.java" />
       </list>
     </option>
   </component>
@@ -1078,16 +1078,16 @@
       <workItem from="1480796414260" duration="6113000" />
       <workItem from="1480929133194" duration="6133000" />
       <workItem from="1481022894352" duration="892000" />
-      <workItem from="1481040524750" duration="3469000" />
+      <workItem from="1481040524750" duration="4978000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="97835000" />
+    <option name="totallyTimeSpent" value="99344000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1101,7 +1101,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20042644" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20042644" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32405347" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32739422" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1231,13 +1231,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/regulation/XMLReaderSingleton.java" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/email.ColleagueEmailDecorator">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1494,14 +1487,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/regulation/Factor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/regulation/Hygrometer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1514,22 +1499,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/regulation/KeepFactorUnchanged.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/regulation/RegulateFactor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
           <folding />
         </state>
       </provider>
@@ -1651,10 +1620,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="7" selection-start-line="0" selection-start-column="7" selection-end-line="0" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/regulation/DontRegulateFactor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/security/SensorFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/regulation/RegulateFactor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/regulation/Factor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>

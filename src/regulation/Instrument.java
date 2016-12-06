@@ -52,6 +52,6 @@ public abstract class Instrument extends Number {
         if (getFactorStat() <= getLowerBoundary() || getFactorStat() >= getUpperBoundary())
             return new Context(new RegulateFactor());
         else
-            return new Context(new KeepFactorUnchanged());
+            return new Context(new DontRegulateFactor());
     }
 }

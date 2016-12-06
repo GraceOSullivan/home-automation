@@ -1,9 +1,11 @@
 package regulation;
 
-class KeepFactorUnchanged implements Factor {
+import misc.Printer;
+
+class DontRegulateFactor implements Factor {
     @Override
     public double regulateFactorIfNeeded(Instrument instrument) {
-        displayFactorUnchanged();
+        Printer.getInstance().print("Keeping this the same...");
         return instrument.getFactorStat();
     }
 }
