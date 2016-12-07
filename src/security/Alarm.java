@@ -9,6 +9,7 @@ class Alarm extends SecurityProduct implements Observer {
         setSecurityProductType(SecurityProductType.UNIVERSAL);
     }
 
+    @Override
     void turnOn() {
         setSecurityProductState(SecurityProductState.ON);
         int soundAlarmCounter = 0;
@@ -23,10 +24,6 @@ class Alarm extends SecurityProduct implements Observer {
         }
     }
 
-    public void turnOff() {
-        setSecurityProductState(SecurityProductState.OFF);
-        printChangingState();
-    }
 
     @Override
     public void update(Observable o, Object arg) {

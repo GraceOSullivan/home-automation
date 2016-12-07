@@ -1,5 +1,5 @@
 package security;
 
-public enum SecurityProductState {
-    ON, OFF;
+enum SecurityProductState {
+    ON, OFF
 }

@@ -8,8 +8,20 @@ public abstract class SecurityProduct extends Observable {
     private SecurityProductType securityProductType;
     private SecurityProductState securityProductState;
 
-    abstract void turnOn();
-    abstract void turnOff();
+    void turnOn() {
+        setSecurityProductState(SecurityProductState.ON);
+        printChangingState();
+    }
+
+    void turnOff() {
+        setSecurityProductState(SecurityProductState.OFF);
+        printChangingState();
+    }
+
+    private void printChangingState() {
+        Printer.getInstance().print("Turning the " + getSecurityProductType().toString() + " " +
+                getClass().getSimpleName() + " " + getSecurityProductState() + "...");
+    }
 
     public void setWasTriggered(boolean wasTriggered) {
         if (wasTriggered) {
@@ -26,16 +38,12 @@ public abstract class SecurityProduct extends Observable {
         this.securityProductState = securityProductState;
     }
 
-    SecurityProductState getSecurityProductState() {
+    private SecurityProductState getSecurityProductState() {
         return this.securityProductState;
     }
 
-    SecurityProductType getSecurityProductType() {
+    private SecurityProductType getSecurityProductType() {
         return this.securityProductType;
-    }
-
-    void printChangingState() {
-        Printer.getInstance().print("Turning the " + getSecurityProductType().toString() + " " + getClass().getSimpleName() + " " + getSecurityProductState() + "...");
     }
 
     public String toString() {
