@@ -8,10 +8,12 @@ class Sensor extends SecurityProduct {
     }
 
     public void turnOn() {
-        Printer.getInstance().print("Turning the " + getSecurityProductType().toString() + " sensors on...");
+        setSecurityProductState(SecurityProductState.ON);
+        printChangingState();
     }
 
     public void turnOff() {
-        Printer.getInstance().print("Turning the " + getSecurityProductType().toString() + " sensors off...");
+        setSecurityProductState(SecurityProductState.OFF);
+        printChangingState();
     }
 }

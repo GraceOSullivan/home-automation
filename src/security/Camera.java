@@ -8,10 +8,12 @@ class Camera extends SecurityProduct {
     }
 
     public void turnOn() {
-        Printer.getInstance().print("Turning the " + getSecurityProductType().toString() + " cameras on...");
+        setSecurityProductState(SecurityProductState.ON);
+        printChangingState();
     }
 
     public void turnOff() {
-        Printer.getInstance().print("Turning the " + getSecurityProductType().toString() + " cameras off...");
+        setSecurityProductState(SecurityProductState.OFF);
+        printChangingState();
     }
 }

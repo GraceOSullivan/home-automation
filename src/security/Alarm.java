@@ -10,6 +10,7 @@ class Alarm extends SecurityProduct implements Observer {
     }
 
     void turnOn() {
+        setSecurityProductState(SecurityProductState.ON);
         int soundAlarmCounter = 0;
         try {
             do {
@@ -18,17 +19,18 @@ class Alarm extends SecurityProduct implements Observer {
                 soundAlarmCounter++;
             } while (soundAlarmCounter < 5);
         } catch (InterruptedException ex) {
-            Printer.getInstance().print("security.Alarm interrupted.");
+            Printer.getInstance().print("Alarm interrupted.");
         }
     }
 
     public void turnOff() {
-        Printer.getInstance().print("Turning the " + getSecurityProductType().toString() + " alarms off...");
+        setSecurityProductState(SecurityProductState.OFF);
+        printChangingState();
     }
 
     @Override
     public void update(Observable o, Object arg) {
-        Printer.getInstance().print(o.toString() + " security product triggered...");
+        Printer.getInstance().print(o.toString() + " triggered...");
         turnOn();
     }
 }
