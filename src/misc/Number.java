@@ -10,7 +10,7 @@ public abstract class Number {
         return min + (max - min) * random.nextDouble();
     }
 
-    static int generateRandomInt(int min, int max) {
+    public static int generateRandomInt(int min, int max) {
         return random.nextInt(max - min) + min;
     }
 

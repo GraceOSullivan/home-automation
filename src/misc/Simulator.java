@@ -36,7 +36,7 @@ class Simulator extends Number {
         SecurityFacade securityFacade = new SecurityFacade();
         securityFacade.turnOnSecurity();
         Printer.getInstance().print("=== Checking for intruders ===");
-        securityFacade.getSecurityProductsList().stream().filter(securityProduct -> securityProduct != null).forEach(Simulator::checkIfProductWasTriggered);
+        securityFacade.checkIfAnySecurityProductWasTriggered();
         securityFacade.turnOffSecurity();
     }
 

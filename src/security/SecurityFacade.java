@@ -1,10 +1,12 @@
 package security;
 
+import misc.Number;
+
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-public class SecurityFacade {
+public class SecurityFacade extends Number {
     private final SecurityProductFacade sensorFacade = new SensorFacade();
     private final SecurityProductFacade cameraFacade = new CameraFacade();
 
@@ -23,7 +25,7 @@ public class SecurityFacade {
         cameraFacade.turnOff();
     }
 
-    public List<SecurityProduct> getSecurityProductsList() {
+    List<SecurityProduct> getSecurityProductsList() {
         List<SecurityProduct> sensorList = sensorFacade.getIndividualSecurityProductsList();
         List<SecurityProduct> cameraList = cameraFacade.getIndividualSecurityProductsList();
 
@@ -35,6 +37,18 @@ public class SecurityFacade {
         List<SecurityProduct> securityProductList = getSecurityProductsList();
         for (SecurityProduct securityProduct : securityProductList) {
             securityProduct.addObserver(alarm);
+        }
+    }
+
+    public void checkIfAnySecurityProductWasTriggered() {
+        getSecurityProductsList().stream().filter(securityProduct -> securityProduct != null)
+                .forEach(SecurityFacade::checkIfProductWasTriggered);
+    }
+
+    private static void checkIfProductWasTriggered(SecurityProduct securityProduct) {
+        int randomNumber = generateRandomInt(1, 25);
+        if (randomNumber <= 2) {
+            securityProduct.setWasTriggered(true);
         }
     }
 }
