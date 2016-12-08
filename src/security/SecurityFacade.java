@@ -25,7 +25,7 @@ public class SecurityFacade extends Number {
         cameraFacade.turnOff();
     }
 
-    List<SecurityProduct> getSecurityProductsList() {
+    private List<SecurityProduct> getSecurityProductsList() {
         List<SecurityProduct> sensorList = sensorFacade.getIndividualSecurityProductsList();
         List<SecurityProduct> cameraList = cameraFacade.getIndividualSecurityProductsList();
 

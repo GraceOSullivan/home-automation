@@ -23,8 +23,9 @@ public abstract class SecurityProduct extends Observable {
                 getClass().getSimpleName() + " " + getSecurityProductState() + "...");
     }
 
-    public void setWasTriggered(boolean wasTriggered) {
+    void setWasTriggered(boolean wasTriggered) {
         if (wasTriggered) {
+            securityProductState = SecurityProductState.ON;
             setChanged();
             notifyObservers();
         }

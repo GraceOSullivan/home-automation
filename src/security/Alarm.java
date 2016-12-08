@@ -22,6 +22,7 @@ class Alarm extends SecurityProduct implements Observer {
         } catch (InterruptedException ex) {
             Printer.getInstance().print("Alarm interrupted.");
         }
+        setSecurityProductState(SecurityProductState.OFF);
     }
 
 
@@ -31,3 +32,4 @@ class Alarm extends SecurityProduct implements Observer {
         turnOn();
     }
 }
+

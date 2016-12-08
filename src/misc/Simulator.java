@@ -40,13 +40,6 @@ class Simulator extends Number {
         securityFacade.turnOffSecurity();
     }
 
-    private static void checkIfProductWasTriggered(SecurityProduct securityProduct) {
-        int randomNumber = generateRandomInt(1, 25);
-        if (randomNumber <= 2) {
-            securityProduct.setWasTriggered(true);
-        }
-    }
-
     private static void simulateEmail() {
         Scanner in = new Scanner(System.in);
 
