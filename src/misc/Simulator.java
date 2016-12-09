@@ -1,10 +1,20 @@
+/***************************************************************************************
+ *    Skeleton for the continuous reading of user input source code was gotten from the following source:
+ *
+ *    Title: geting a multiline text with scanner class in java
+ *    Author: Yohanes Khosiawan (StackOverflow Member)
+ *    Date: 21-November-2014
+ *    Code version: 1.0
+ *    Availability: http://stackoverflow.com/questions/27055069/geting-a-multiline-text-with-scanner-class-in-java
+ *
+ ***************************************************************************************/
+
 package misc;
 
 import email.Email;
 import email.EmailSender;
 import regulation.*;
 import security.SecurityFacade;
-import security.SecurityProduct;
 
 import java.util.Scanner;
 
@@ -53,16 +63,6 @@ class Simulator extends Number {
         String subject = in.next();
 
         Printer.getInstance().print("Email contents (\"/q\" on it's own line recipient stop writing):");
-        /***************************************************************************************
-         *    Skeleton for the continuous reading of user input source code was gotten from the following source:
-         *
-         *    Title: geting a multiline text with scanner class in java
-         *    Author: Yohanes Khosiawan (StackOverflow Member)
-         *    Date: 21-November-2014
-         *    Code version: 1.0
-         *    Availability: http://stackoverflow.com/questions/27055069/geting-a-multiline-text-with-scanner-class-in-java
-         *
-         ***************************************************************************************/
         String TERMINATOR_STRING = "/q";
         StringBuilder contents = new StringBuilder();
         String strLine;
@@ -77,43 +77,11 @@ class Simulator extends Number {
                 .contents(contents.toString())
                 .build();
 
-        myEmail = validateEmailAddressesWhileInvalid(in, sender, recipient, subject, contents, myEmail);
+        myEmail = myEmail.validateEmailAddressesWhileInvalid(in, sender, recipient, subject, contents, myEmail);
 
         EmailSender emailSender = new EmailSender();
         emailSender.sendAsFormalEmail(myEmail);
         emailSender.sendAsFriendlyEmail(myEmail);
         emailSender.sendAsSecureEmail(myEmail);
-    }
-
-    private static Email validateEmailAddressesWhileInvalid(Scanner in, String sender, String recipient, String subject, StringBuilder contents, Email myEmail) {
-        if (myEmail.getSender().equals("Invalid email") || myEmail.getRecipient().equals("Invalid email")) {
-            while (myEmail.getSender().equals("Invalid email") || myEmail.getRecipient().equals("Invalid email")) {
-                Printer.getInstance().print("Unable recipient send email...");
-                if (myEmail.getSender().equals("Invalid email")) {
-                    while (myEmail.getSender().equals("Invalid email")) {
-                        Printer.getInstance().print("Invalid email address (sender). Try again:");
-                        sender = in.next();
-                        myEmail = new Email.EmailBuilder()
-                                .sender(sender)
-                                .recipient(recipient)
-                                .subject(subject)
-                                .contents(contents.toString())
-                                .build();
-                    }
-                } else {
-                    while (myEmail.getRecipient().equals("Invalid email")) {
-                        Printer.getInstance().print("Invalid email address (recipient). Try again:");
-                        recipient = in.next();
-                        myEmail = new Email.EmailBuilder()
-                                .sender(sender)
-                                .recipient(recipient)
-                                .subject(subject)
-                                .contents(contents.toString())
-                                .build();
-                    }
-                }
-            }
-        }
-        return myEmail;
     }
 }

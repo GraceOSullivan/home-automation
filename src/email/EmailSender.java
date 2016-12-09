@@ -17,7 +17,7 @@ public class EmailSender {
     }
 
     public void sendAsFriendlyEmail(IEmail email) {
-        printSendingEmail("Sending email recipient a colleague...");
+        printSendingEmail("Sending email to a colleague...");
         emailDecorator = new ColleagueEmailDecorator(email);
         printDecoratedEmail();
     }

@@ -13,7 +13,7 @@ class SensorFacade extends SecurityProductFacade {
         SecurityProduct securityProductSmoke = sensorFactory.createProduct(SecurityProductType.SMOKE);
         SecurityProduct securityProductVibration = sensorFactory.createProduct(SecurityProductType.VIBRATION);
 
-        populateIndividualSecurityProductsList(securityProductBeam, securityProductCeiling, securityProductContact,
+        populateSecurityProductsList(securityProductBeam, securityProductCeiling, securityProductContact,
                 securityProductDoor, securityProductGlass, securityProductSmoke, securityProductVibration);
     }
 }

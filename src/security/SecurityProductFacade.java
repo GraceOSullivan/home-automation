@@ -16,7 +16,7 @@ abstract class SecurityProductFacade {
         this.securityProductFactory = securityProductFactory;
     }
 
-    void populateIndividualSecurityProductsList(SecurityProduct... securityProducts) {
+    void populateSecurityProductsList(SecurityProduct... securityProducts) {
         securityProductsList = new ArrayList<>();
         securityProductsList.addAll(Arrays.asList(securityProducts));
     }
@@ -29,7 +29,7 @@ abstract class SecurityProductFacade {
         securityProductsList.forEach(SecurityProduct::turnOff);
     }
 
-    List<SecurityProduct> getIndividualSecurityProductsList() {
+    List<SecurityProduct> getSecurityProductsList() {
         return this.securityProductsList;
     }
 }

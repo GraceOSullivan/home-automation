@@ -10,6 +10,6 @@ class CameraFacade extends SecurityProductFacade {
         SecurityProduct securityProductIP = cameraFactory.createProduct(SecurityProductType.IP);
         SecurityProduct securityProductThermal = cameraFactory.createProduct(SecurityProductType.THERMAL);
 
-        populateIndividualSecurityProductsList(securityProductBox, securityProductDome, securityProductIP, securityProductThermal);
+        populateSecurityProductsList(securityProductBox, securityProductDome, securityProductIP, securityProductThermal);
     }
 }

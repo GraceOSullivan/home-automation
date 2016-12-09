@@ -25,7 +25,6 @@ public abstract class SecurityProduct extends Observable {
 
     void setWasTriggered(boolean wasTriggered) {
         if (wasTriggered) {
-            securityProductState = SecurityProductState.ON;
             setChanged();
             notifyObservers();
         }

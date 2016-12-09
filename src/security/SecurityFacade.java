@@ -26,8 +26,8 @@ public class SecurityFacade extends Number {
     }
 
     private List<SecurityProduct> getSecurityProductsList() {
-        List<SecurityProduct> sensorList = sensorFacade.getIndividualSecurityProductsList();
-        List<SecurityProduct> cameraList = cameraFacade.getIndividualSecurityProductsList();
+        List<SecurityProduct> sensorList = sensorFacade.getSecurityProductsList();
+        List<SecurityProduct> cameraList = cameraFacade.getSecurityProductsList();
 
         return Stream.concat(sensorList.stream(), cameraList.stream()).collect(Collectors.toList());
     }

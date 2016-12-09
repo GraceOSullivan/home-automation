@@ -2,6 +2,7 @@ package misc;
 
 public enum Printer {
     INSTANCE;
+
     private static Printer instance = null;
 
     Printer() {

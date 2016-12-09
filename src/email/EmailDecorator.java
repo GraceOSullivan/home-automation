@@ -26,6 +26,4 @@ abstract class EmailDecorator implements IEmail {
     public String getCustomisedDetails(String customisedContents) {
         return getEmail().getCustomisedDetails(customiseEmail(getContents()));
     }
-
-
 }
