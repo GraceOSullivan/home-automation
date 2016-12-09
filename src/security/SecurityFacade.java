@@ -11,13 +11,12 @@ public class SecurityFacade extends Number {
     private final SecurityProductFacade cameraFacade = new CameraFacade();
 
     public SecurityFacade() {
-        addAlarmObserversToSecurityProducts();
+        addAlarmObserverToSecurityProducts();
     }
 
     public void turnOnSecurity() {
         sensorFacade.turnOn();
         cameraFacade.turnOn();
-
     }
 
     public void turnOffSecurity() {
@@ -32,7 +31,7 @@ public class SecurityFacade extends Number {
         return Stream.concat(sensorList.stream(), cameraList.stream()).collect(Collectors.toList());
     }
 
-    private void addAlarmObserversToSecurityProducts() {
+    private void addAlarmObserverToSecurityProducts() {
         Alarm alarm = new Alarm();
         List<SecurityProduct> securityProductList = getSecurityProductsList();
         for (SecurityProduct securityProduct : securityProductList) {
@@ -42,10 +41,10 @@ public class SecurityFacade extends Number {
 
     public void checkIfAnySecurityProductWasTriggered() {
         getSecurityProductsList().stream().filter(securityProduct -> securityProduct != null)
-                .forEach(SecurityFacade::checkIfProductWasTriggered);
+                .forEach(SecurityFacade::checkIfIndividualSecurityProductWasTriggered);
     }
 
-    private static void checkIfProductWasTriggered(SecurityProduct securityProduct) {
+    private static void checkIfIndividualSecurityProductWasTriggered(SecurityProduct securityProduct) {
         int randomNumber = generateRandomInt(1, 25);
         if (randomNumber <= 2) {
             securityProduct.setWasTriggered(true);

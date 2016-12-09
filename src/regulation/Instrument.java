@@ -3,9 +3,10 @@ package regulation;
 import misc.Number;
 
 public abstract class Instrument extends Number {
-    private double factorStat;
+    private double currentFactorStat;
     private double lowerBoundary;
     private double upperBoundary;
+    private double perfectFactorStat;
 
     double getPerfectFactorStat() {
         return perfectFactorStat;
@@ -14,8 +15,6 @@ public abstract class Instrument extends Number {
     void setPerfectFactorStat(double perfectFactorStat) {
         this.perfectFactorStat = perfectFactorStat;
     }
-
-    private double perfectFactorStat;
 
     private double getLowerBoundary() {
         return lowerBoundary;
@@ -33,23 +32,23 @@ public abstract class Instrument extends Number {
         this.upperBoundary = upperBoundary;
     }
 
-    void setFactorStat(double factorStat) {
-        this.factorStat = factorStat;
+    void setCurrentFactorStat(double currentFactorStat) {
+        this.currentFactorStat = currentFactorStat;
     }
 
-    double getFactorStat() {
-        return this.factorStat;
+    double getCurrentFactorStat() {
+        return this.currentFactorStat;
     }
 
     public abstract void displayCurrentFactorStat();
 
     public void regulateFactorIfNeeded() {
         Context context = determineContext();
-        setFactorStat(context.executeStrategy(this));
+        setCurrentFactorStat(context.executeStrategy(this));
     }
 
     private Context determineContext() {
-        if (getFactorStat() <= getLowerBoundary() || getFactorStat() >= getUpperBoundary())
+        if (getCurrentFactorStat() <= getLowerBoundary() || getCurrentFactorStat() >= getUpperBoundary())
             return new Context(new RegulateFactor());
         else
             return new Context(new DontRegulateFactor());

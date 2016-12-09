@@ -40,7 +40,8 @@ public class Email implements IEmail {
         return contents;
     }
 
-    public Email validateEmailAddressesWhileInvalid(Scanner in, String sender, String recipient, String subject, StringBuilder contents, Email myEmail) {
+    public Email validateEmailAddressesWhileInvalid(Scanner in, String sender, String recipient, String subject,
+                                                    StringBuilder contents, Email myEmail) {
         if (myEmail.sender.equals("Invalid email") || myEmail.recipient.equals("Invalid email")) {
             while (myEmail.sender.equals("Invalid email") || myEmail.recipient.equals("Invalid email")) {
                 Printer.getInstance().print("Unable to send email...");

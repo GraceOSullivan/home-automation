@@ -7,5 +7,5 @@ class RegulateFactor implements Factor {
     public double regulateFactorIfNeeded(Instrument instrument) {
         Printer.getInstance().print("Regulating...");
         return instrument.getPerfectFactorStat();
-    }
+}
 }
