@@ -1,2 +1,2 @@
 # home-automation
-This is my project for my design patterns module. It will use a number of different design patterns to mimic home automation (IoT).
+This project uses a number of Java design patterns to follow SOLID principles, code reuse and generic rules. Some functionality it provides is automatic email decoration and security notifications.
